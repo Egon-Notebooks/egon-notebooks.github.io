@@ -11,10 +11,16 @@ interface PackFiles {
   logseq: Record<string, string>
 }
 
+interface NodeFiles {
+  obsidian: string
+  logseq: string
+}
+
 interface RegistryClientProps {
   packs: Pack[]
   nodes: NodeMeta[]
   packFiles: Record<string, PackFiles>
+  nodeFiles: Record<string, NodeFiles>
 }
 
 type View = 'packs' | 'nodes'
@@ -22,7 +28,7 @@ type Tool = 'obsidian' | 'logseq'
 
 const TOOL_KEY = 'egon-preferred-tool'
 
-export default function RegistryClient({ packs, nodes, packFiles }: RegistryClientProps) {
+export default function RegistryClient({ packs, nodes, packFiles, nodeFiles }: RegistryClientProps) {
   const router = useRouter()
   const searchParams = useSearchParams()
 
@@ -149,9 +155,9 @@ export default function RegistryClient({ packs, nodes, packFiles }: RegistryClie
           <table style={{ width: '100%', borderCollapse: 'collapse' }}>
             <thead>
               <tr style={{ borderBottom: '2px solid var(--color-border)' }}>
-                {['Node', 'Description', 'Pack', 'Tags'].map((h, i) => (
+                {['Node', 'Description', 'Pack', 'Tags', ''].map((h, i) => (
                   <th
-                    key={h}
+                    key={i}
                     className={i === 1 ? 'node-desc-col' : i === 2 ? 'node-pack-col' : ''}
                     style={{
                       textAlign: 'left',
@@ -161,7 +167,7 @@ export default function RegistryClient({ packs, nodes, packFiles }: RegistryClie
                       letterSpacing: '0.06em',
                       textTransform: 'uppercase',
                       color: 'var(--color-ink-muted)',
-                      padding: i === 0 ? '0 1rem 0.75rem 0' : i === 3 ? '0 0 0.75rem 1rem' : '0 1rem 0.75rem',
+                      padding: i === 0 ? '0 1rem 0.75rem 0' : i === 4 ? '0 0 0.75rem 1rem' : '0 1rem 0.75rem',
                     }}
                   >
                     {h}
@@ -171,7 +177,13 @@ export default function RegistryClient({ packs, nodes, packFiles }: RegistryClie
             </thead>
             <tbody>
               {nodes.map(node => (
-                <NodeRow key={node.slug} node={node} />
+                <NodeRow
+                  key={node.slug}
+                  node={node}
+                  tool={tool}
+                  obsidianContent={nodeFiles[node.slug]?.obsidian ?? ''}
+                  logseqContent={nodeFiles[node.slug]?.logseq ?? ''}
+                />
               ))}
             </tbody>
           </table>

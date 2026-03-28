@@ -1,10 +1,14 @@
 import type { NodeMeta } from '@/lib/content'
+import NodeDownloadButton from './NodeDownloadButton'
 
 interface NodeRowProps {
   node: NodeMeta
+  tool: 'obsidian' | 'logseq'
+  obsidianContent: string
+  logseqContent: string
 }
 
-export default function NodeRow({ node }: NodeRowProps) {
+export default function NodeRow({ node, tool, obsidianContent, logseqContent }: NodeRowProps) {
   return (
     <tr
       style={{
@@ -50,7 +54,7 @@ export default function NodeRow({ node }: NodeRowProps) {
       </td>
       <td
         style={{
-          padding: '0.875rem 0 0.875rem 1rem',
+          padding: '0.875rem 1rem',
           verticalAlign: 'top',
         }}
       >
@@ -59,6 +63,14 @@ export default function NodeRow({ node }: NodeRowProps) {
             <span key={tag} className="tag">{tag}</span>
           ))}
         </div>
+      </td>
+      <td style={{ padding: '0.875rem 0 0.875rem 1rem', verticalAlign: 'middle' }}>
+        <NodeDownloadButton
+          slug={node.slug}
+          tool={tool}
+          obsidianContent={obsidianContent}
+          logseqContent={logseqContent}
+        />
       </td>
     </tr>
   )

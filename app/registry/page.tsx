@@ -1,6 +1,6 @@
 import type { Metadata } from 'next'
 import { Suspense } from 'react'
-import { getAllPacks, getAllNodes, getPackFiles } from '@/lib/content'
+import { getAllPacks, getAllNodes, getPackFiles, getNodeFile } from '@/lib/content'
 import { buildMetadata } from '@/lib/metadata'
 import RegistryClient from '@/components/RegistryClient'
 
@@ -17,6 +17,12 @@ export default function RegistryPage() {
     packs.map(p => [p.slug, {
       obsidian: getPackFiles(p, 'obsidian'),
       logseq: getPackFiles(p, 'logseq'),
+    }])
+  )
+  const nodeFiles = Object.fromEntries(
+    nodes.map(n => [n.slug, {
+      obsidian: getNodeFile(n.slug, 'obsidian'),
+      logseq: getNodeFile(n.slug, 'logseq'),
     }])
   )
 
@@ -53,7 +59,7 @@ export default function RegistryPage() {
 
         {/* Registry client (toolbar + grid/list) */}
         <Suspense fallback={null}>
-          <RegistryClient packs={packs} nodes={nodes} packFiles={packFiles} />
+          <RegistryClient packs={packs} nodes={nodes} packFiles={packFiles} nodeFiles={nodeFiles} />
         </Suspense>
       </div>
     </div>
