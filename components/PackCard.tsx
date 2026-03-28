@@ -1,13 +1,15 @@
 import type { Pack } from '@/lib/content'
-import Link from 'next/link'
+import DownloadButton from './DownloadButton'
 
 interface PackCardProps {
   pack: Pack
   tool: 'obsidian' | 'logseq'
+  obsidianFiles: Record<string, string>
+  logseqFiles: Record<string, string>
 }
 
-export default function PackCard({ pack, tool }: PackCardProps) {
-  const downloadPath = `/downloads/${tool}/${pack.slug}.zip`
+export default function PackCard({ pack, tool, obsidianFiles, logseqFiles }: PackCardProps) {
+  const files = tool === 'obsidian' ? obsidianFiles : logseqFiles
 
   return (
     <article
@@ -19,7 +21,6 @@ export default function PackCard({ pack, tool }: PackCardProps) {
         display: 'flex',
         flexDirection: 'column',
         boxShadow: '0 1px 3px rgba(28,25,23,0.06)',
-        transition: 'box-shadow 0.2s ease',
       }}
     >
       {/* Cover image placeholder */}
@@ -89,17 +90,7 @@ export default function PackCard({ pack, tool }: PackCardProps) {
 
         {/* Download button */}
         <div style={{ marginTop: 'auto', paddingTop: '0.5rem' }}>
-          <Link
-            href={downloadPath}
-            download
-            className="btn-primary"
-            style={{ width: '100%', justifyContent: 'center' }}
-          >
-            <svg width="14" height="14" viewBox="0 0 14 14" fill="none" stroke="currentColor" strokeWidth="1.5" aria-hidden="true">
-              <path d="M7 2v7M4 7l3 3 3-3M2 11h10" />
-            </svg>
-            Download for {tool === 'obsidian' ? 'Obsidian' : 'Logseq'}
-          </Link>
+          <DownloadButton packSlug={pack.slug} tool={tool} files={files} />
         </div>
       </div>
     </article>

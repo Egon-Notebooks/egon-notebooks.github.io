@@ -6,9 +6,15 @@ import type { Pack, NodeMeta } from '@/lib/content'
 import PackCard from './PackCard'
 import NodeRow from './NodeRow'
 
+interface PackFiles {
+  obsidian: Record<string, string>
+  logseq: Record<string, string>
+}
+
 interface RegistryClientProps {
   packs: Pack[]
   nodes: NodeMeta[]
+  packFiles: Record<string, PackFiles>
 }
 
 type View = 'packs' | 'nodes'
@@ -16,7 +22,7 @@ type Tool = 'obsidian' | 'logseq'
 
 const TOOL_KEY = 'egon-preferred-tool'
 
-export default function RegistryClient({ packs, nodes }: RegistryClientProps) {
+export default function RegistryClient({ packs, nodes, packFiles }: RegistryClientProps) {
   const router = useRouter()
   const searchParams = useSearchParams()
 
@@ -126,7 +132,13 @@ export default function RegistryClient({ packs, nodes }: RegistryClientProps) {
           }}
         >
           {packs.map(pack => (
-            <PackCard key={pack.slug} pack={pack} tool={tool} />
+            <PackCard
+                key={pack.slug}
+                pack={pack}
+                tool={tool}
+                obsidianFiles={packFiles[pack.slug]?.obsidian ?? {}}
+                logseqFiles={packFiles[pack.slug]?.logseq ?? {}}
+              />
           ))}
         </div>
       )}

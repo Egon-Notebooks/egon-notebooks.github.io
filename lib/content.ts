@@ -72,6 +72,60 @@ export function getNodeFirstLine(slug: string): string {
   return text.slice(0, cut > 0 ? cut : 97) + '…'
 }
 
+// Converts Logseq property:: syntax to YAML frontmatter for Obsidian
+function logseqToObsidian(content: string): string {
+  const lines = content.split('\n')
+  const frontmatterLines: string[] = []
+  let bodyStart = 0
+
+  for (let i = 0; i < lines.length; i++) {
+    const match = lines[i].match(/^(\w+)::\s*(.*)$/)
+    if (match) {
+      const [, key, value] = match
+      // Convert tags:: mental-health to tags: [mental-health]
+      if (key === 'tags') {
+        const tags = value.split(',').map(t => t.trim())
+        frontmatterLines.push(`${key}: [${tags.join(', ')}]`)
+      } else {
+        frontmatterLines.push(`${key}: ${value}`)
+      }
+      bodyStart = i + 1
+    } else if (lines[i].trim() === '' && frontmatterLines.length > 0) {
+      bodyStart = i + 1
+      break
+    } else {
+      break
+    }
+  }
+
+  const body = lines.slice(bodyStart).join('\n').trimStart()
+  if (frontmatterLines.length === 0) return content
+  return `---\n${frontmatterLines.join('\n')}\n---\n\n${body}`
+}
+
+// Returns file map ready for zipping: { 'path/in/zip': fileContent }
+export function getPackFiles(
+  pack: Pack,
+  tool: 'obsidian' | 'logseq'
+): Record<string, string> {
+  const files: Record<string, string> = {}
+  const nodesDir = path.join(process.cwd(), 'content/nodes')
+
+  for (const nodeSlug of pack.nodes) {
+    const filePath = path.join(nodesDir, `${nodeSlug}.md`)
+    if (!fs.existsSync(filePath)) continue
+    const raw = fs.readFileSync(filePath, 'utf-8')
+
+    if (tool === 'logseq') {
+      files[`pages/${nodeSlug}.md`] = raw
+    } else {
+      files[`${nodeSlug}.md`] = logseqToObsidian(raw)
+    }
+  }
+
+  return files
+}
+
 export function getAllNodes(): NodeMeta[] {
   const packs = getAllPacks()
   const nodes: NodeMeta[] = []

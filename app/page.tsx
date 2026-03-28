@@ -1,6 +1,6 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
-import { getAllPacks } from '@/lib/content'
+import { getAllPacks, getPackFiles } from '@/lib/content'
 import PackCard from '@/components/PackCard'
 
 export const metadata: Metadata = {
@@ -75,7 +75,7 @@ export default function HomePage() {
                 letterSpacing: '-0.01em',
               }}
             >
-              Structured knowledge<br />about the inner life.
+              Structured knowledge<br />about your inner life.
             </h1>
             <p
               style={{
@@ -255,7 +255,13 @@ export default function HomePage() {
             }}
           >
             {featuredPacks.map(pack => (
-              <PackCard key={pack.slug} pack={pack} tool="obsidian" />
+              <PackCard
+                key={pack.slug}
+                pack={pack}
+                tool="obsidian"
+                obsidianFiles={getPackFiles(pack, 'obsidian')}
+                logseqFiles={getPackFiles(pack, 'logseq')}
+              />
             ))}
           </div>
         </div>
