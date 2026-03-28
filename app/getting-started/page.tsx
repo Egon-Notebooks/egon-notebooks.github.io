@@ -1,6 +1,7 @@
 'use client'
 
 import { useState } from 'react'
+import Image from 'next/image'
 import Link from 'next/link'
 
 const OBSIDIAN_STEPS = [
@@ -293,6 +294,16 @@ export default function GettingStartedPage() {
           </div>
 
           <StepList steps={installTool === 'obsidian' ? OBSIDIAN_STEPS : LOGSEQ_STEPS} />
+
+          <div style={{ marginTop: '2rem', borderRadius: '4px', overflow: 'hidden', border: '1px solid var(--color-border)' }}>
+            <Image
+              src={installTool === 'obsidian' ? '/images/obsidian-base-graph.png' : '/images/logseq-base-graph.png'}
+              alt={installTool === 'obsidian' ? 'Egon Notebooks pack open in Obsidian graph view' : 'Egon Notebooks pack open in Logseq graph view'}
+              width={1200}
+              height={675}
+              style={{ width: '100%', height: 'auto', display: 'block' }}
+            />
+          </div>
         </section>
 
         {/* What's in a pack */}
