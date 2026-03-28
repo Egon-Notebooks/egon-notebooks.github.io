@@ -42,7 +42,7 @@ export default function Footer() {
               Egon Notebooks
             </p>
             <p style={{ fontSize: '0.8rem', color: 'var(--color-ink-muted)', maxWidth: '320px' }}>
-              Structured knowledge about the inner life. Yours to keep.
+              Structured knowledge about your inner life. Yours to keep.
             </p>
           </div>
 
