@@ -103,6 +103,14 @@ function logseqToObsidian(content: string): string {
   return `---\n${frontmatterLines.join('\n')}\n---\n\n${body}`
 }
 
+// Returns the content of a single node file for the given tool
+export function getNodeFile(slug: string, tool: 'obsidian' | 'logseq'): string {
+  const filePath = path.join(process.cwd(), 'content/nodes', `${slug}.md`)
+  if (!fs.existsSync(filePath)) return ''
+  const raw = fs.readFileSync(filePath, 'utf-8')
+  return tool === 'logseq' ? raw : logseqToObsidian(raw)
+}
+
 // Returns file map ready for zipping: { 'path/in/zip': fileContent }
 export function getPackFiles(
   pack: Pack,
