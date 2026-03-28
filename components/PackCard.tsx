@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import type { Pack } from '@/lib/content'
 import DownloadButton from './DownloadButton'
 
@@ -23,30 +24,15 @@ export default function PackCard({ pack, tool, obsidianFiles, logseqFiles }: Pac
         boxShadow: '0 1px 3px rgba(28,25,23,0.06)',
       }}
     >
-      {/* Cover image placeholder */}
-      <div
-        aria-hidden="true"
-        style={{
-          aspectRatio: '16/9',
-          backgroundColor: 'var(--color-accent-soft)',
-          display: 'flex',
-          alignItems: 'center',
-          justifyContent: 'center',
-          borderBottom: '1px solid var(--color-border)',
-        }}
-      >
-        <span
-          style={{
-            fontFamily: 'var(--font-display)',
-            fontSize: '0.8rem',
-            color: 'var(--color-accent)',
-            opacity: 0.5,
-            letterSpacing: '0.08em',
-            textTransform: 'uppercase',
-          }}
-        >
-          {pack.slug}
-        </span>
+      {/* Cover image */}
+      <div style={{ aspectRatio: '16/9', position: 'relative', borderBottom: '1px solid var(--color-border)' }}>
+        <Image
+          src={`/images/packs/${pack.slug}.webp`}
+          alt={pack.name}
+          fill
+          style={{ objectFit: 'cover' }}
+          sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+        />
       </div>
 
       {/* Card body */}
