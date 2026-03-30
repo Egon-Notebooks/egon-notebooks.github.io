@@ -59,6 +59,14 @@ export default function Footer() {
             >
               GitHub
             </Link>
+            <Link
+              href="https://huggingface.co/Egon-Notebooks"
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{ fontSize: '0.8rem', color: 'var(--color-ink-muted)' }}
+            >
+              HuggingFace
+            </Link>
             <Link href="/registry" style={{ fontSize: '0.8rem', color: 'var(--color-ink-muted)' }}>
               Registry
             </Link>
