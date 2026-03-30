@@ -31,6 +31,8 @@ const PACK_ORDER = [
   'thinking-patterns',
   'identity-and-self-worth',
   'navigating-change',
+  'personality',
+  'trauma-and-healing',
 ]
 
 export function getAllPacks(): Pack[] {
@@ -59,7 +61,7 @@ export function titleFromSlug(slug: string): string {
 }
 
 export function getNodeFirstLine(slug: string): string {
-  const filePath = path.join(process.cwd(), 'content/nodes', `${slug}.md`)
+  const filePath = path.join(process.cwd(), 'content/nodes/logseq', `${slug}.md`)
   if (!fs.existsSync(filePath)) return ''
   const content = fs.readFileSync(filePath, 'utf-8')
   const lines = content.split('\n')
@@ -72,43 +74,11 @@ export function getNodeFirstLine(slug: string): string {
   return text.slice(0, cut > 0 ? cut : 97) + '…'
 }
 
-// Converts Logseq property:: syntax to YAML frontmatter for Obsidian
-function logseqToObsidian(content: string): string {
-  const lines = content.split('\n')
-  const frontmatterLines: string[] = []
-  let bodyStart = 0
-
-  for (let i = 0; i < lines.length; i++) {
-    const match = lines[i].match(/^(\w+)::\s*(.*)$/)
-    if (match) {
-      const [, key, value] = match
-      // Convert tags:: mental-health to tags: [mental-health]
-      if (key === 'tags') {
-        const tags = value.split(',').map(t => t.trim())
-        frontmatterLines.push(`${key}: [${tags.join(', ')}]`)
-      } else {
-        frontmatterLines.push(`${key}: ${value}`)
-      }
-      bodyStart = i + 1
-    } else if (lines[i].trim() === '' && frontmatterLines.length > 0) {
-      bodyStart = i + 1
-      break
-    } else {
-      break
-    }
-  }
-
-  const body = lines.slice(bodyStart).join('\n').trimStart()
-  if (frontmatterLines.length === 0) return content
-  return `---\n${frontmatterLines.join('\n')}\n---\n\n${body}`
-}
-
 // Returns the content of a single node file for the given tool
 export function getNodeFile(slug: string, tool: 'obsidian' | 'logseq'): string {
-  const filePath = path.join(process.cwd(), 'content/nodes', `${slug}.md`)
+  const filePath = path.join(process.cwd(), `content/nodes/${tool}`, `${slug}.md`)
   if (!fs.existsSync(filePath)) return ''
-  const raw = fs.readFileSync(filePath, 'utf-8')
-  return tool === 'logseq' ? raw : logseqToObsidian(raw)
+  return fs.readFileSync(filePath, 'utf-8')
 }
 
 // Returns file map ready for zipping: { 'path/in/zip': fileContent }
@@ -117,18 +87,14 @@ export function getPackFiles(
   tool: 'obsidian' | 'logseq'
 ): Record<string, string> {
   const files: Record<string, string> = {}
-  const nodesDir = path.join(process.cwd(), 'content/nodes')
+  const nodesDir = path.join(process.cwd(), `content/nodes/${tool}`)
 
   for (const nodeSlug of pack.nodes) {
     const filePath = path.join(nodesDir, `${nodeSlug}.md`)
     if (!fs.existsSync(filePath)) continue
-    const raw = fs.readFileSync(filePath, 'utf-8')
-
-    if (tool === 'logseq') {
-      files[`pages/${nodeSlug}.md`] = raw
-    } else {
-      files[`${nodeSlug}.md`] = logseqToObsidian(raw)
-    }
+    const content = fs.readFileSync(filePath, 'utf-8')
+    const zipPath = tool === 'logseq' ? `pages/${nodeSlug}.md` : `${nodeSlug}.md`
+    files[zipPath] = content
   }
 
   return files

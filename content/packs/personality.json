@@ -1,0 +1,7 @@
+{
+  "slug": "personality",
+  "name": "Personality",
+  "description": "An introduction to personality psychology — what shapes who we are, how traits show up in daily life, and whether personality can change.",
+  "tags": ["personality", "self-knowledge"],
+  "nodes": ["what-is-personality","the-big-five-personality-traits","openness-to-experience","conscientiousness","extraversion-and-introversion","agreeableness","neuroticism-and-emotional-stability","personality-and-mental-health","can-personality-change","understanding-your-own-personality"]
+}
