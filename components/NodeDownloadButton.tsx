@@ -1,20 +1,20 @@
 'use client'
 
 interface NodeDownloadButtonProps {
-  slug: string
+  filename: string
   tool: 'obsidian' | 'logseq'
   obsidianContent: string
   logseqContent: string
 }
 
-export default function NodeDownloadButton({ slug, tool, obsidianContent, logseqContent }: NodeDownloadButtonProps) {
+export default function NodeDownloadButton({ filename, tool, obsidianContent, logseqContent }: NodeDownloadButtonProps) {
   const handleDownload = () => {
     const content = tool === 'obsidian' ? obsidianContent : logseqContent
     const blob = new Blob([content], { type: 'text/markdown' })
     const url = URL.createObjectURL(blob)
     const a = document.createElement('a')
     a.href = url
-    a.download = `${slug}.md`
+    a.download = filename
     document.body.appendChild(a)
     a.click()
     document.body.removeChild(a)
@@ -24,7 +24,7 @@ export default function NodeDownloadButton({ slug, tool, obsidianContent, logseq
   return (
     <button
       onClick={handleDownload}
-      title={`Download ${slug}.md`}
+      title={`Download ${filename}`}
       style={{
         background: 'none',
         border: '1px solid var(--color-border)',

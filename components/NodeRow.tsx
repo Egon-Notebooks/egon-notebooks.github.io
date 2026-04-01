@@ -54,7 +54,7 @@ export default function NodeRow({ node, tool, obsidianContent, logseqContent }: 
       </td>
       <td style={{ padding: '0.875rem 0 0.875rem 1rem', verticalAlign: 'middle' }}>
         <NodeDownloadButton
-          slug={node.slug}
+          filename={node.filename}
           tool={tool}
           obsidianContent={obsidianContent}
           logseqContent={logseqContent}

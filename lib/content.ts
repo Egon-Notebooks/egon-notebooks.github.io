@@ -11,6 +11,7 @@ export interface Pack {
 
 export interface NodeMeta {
   slug: string
+  filename: string
   title: string
   description: string
   pack: string
@@ -59,9 +60,21 @@ export function titleFromSlug(slug: string): string {
     .join(' ')
 }
 
+// Finds a node file by matching the slug against each filename in the directory.
+// Handles filenames like "Loneliness and connection.md" for slug "loneliness-and-connection".
+function resolveNodePath(dir: string, slug: string): string | null {
+  const entries = fs.readdirSync(dir)
+  for (const entry of entries) {
+    if (!entry.endsWith('.md')) continue
+    const entrySlug = entry.slice(0, -3).toLowerCase().replace(/ /g, '-')
+    if (entrySlug === slug) return path.join(dir, entry)
+  }
+  return null
+}
+
 export function getNodeFirstLine(slug: string): string {
-  const filePath = path.join(process.cwd(), 'content/nodes/logseq', `${slug}.md`)
-  if (!fs.existsSync(filePath)) return ''
+  const filePath = resolveNodePath(path.join(process.cwd(), 'content/nodes/logseq'), slug)
+  if (!filePath) return ''
   const content = fs.readFileSync(filePath, 'utf-8')
   const lines = content.split('\n')
   const bullet = lines.find(l => l.startsWith('- ') && !l.startsWith('- _'))
@@ -75,8 +88,8 @@ export function getNodeFirstLine(slug: string): string {
 
 // Returns the content of a single node file for the given tool
 export function getNodeFile(slug: string, tool: 'obsidian' | 'logseq'): string {
-  const filePath = path.join(process.cwd(), `content/nodes/${tool}`, `${slug}.md`)
-  if (!fs.existsSync(filePath)) return ''
+  const filePath = resolveNodePath(path.join(process.cwd(), `content/nodes/${tool}`), slug)
+  if (!filePath) return ''
   return fs.readFileSync(filePath, 'utf-8')
 }
 
@@ -89,10 +102,11 @@ export function getPackFiles(
   const nodesDir = path.join(process.cwd(), `content/nodes/${tool}`)
 
   for (const nodeSlug of pack.nodes) {
-    const filePath = path.join(nodesDir, `${nodeSlug}.md`)
-    if (!fs.existsSync(filePath)) continue
+    const filePath = resolveNodePath(nodesDir, nodeSlug)
+    if (!filePath) continue
     const content = fs.readFileSync(filePath, 'utf-8')
-    const zipPath = tool === 'logseq' ? `pages/${nodeSlug}.md` : `${nodeSlug}.md`
+    const filename = path.basename(filePath)
+    const zipPath = tool === 'logseq' ? `pages/${filename}` : filename
     files[zipPath] = content
   }
 
@@ -107,8 +121,10 @@ export function getAllNodes(): NodeMeta[] {
     for (const nodeSlug of pack.nodes) {
       if (seen.has(nodeSlug)) continue
       seen.add(nodeSlug)
+      const logseqPath = resolveNodePath(path.join(process.cwd(), 'content/nodes/logseq'), nodeSlug)
       nodes.push({
         slug: nodeSlug,
+        filename: logseqPath ? path.basename(logseqPath) : `${nodeSlug}.md`,
         title: titleFromSlug(nodeSlug),
         description: getNodeFirstLine(nodeSlug),
         pack: pack.slug,
