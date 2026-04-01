@@ -1,7 +1,7 @@
 ---
 title: "Self-compassion"
 author: Claude
-date: 2026-03-29
+date: 2026-04-01
 tags:
   - self-compassion
   - emotions
@@ -11,15 +11,15 @@ generated: true
 
 # Self-compassion
 
-Self-compassion is the practice of treating yourself with the same kindness and understanding you might offer a close friend who is struggling. For many people, this can feel surprisingly difficult — we are often our own harshest critics, holding ourselves to standards we would never apply to others. Learning to soften that inner voice is not about lowering expectations or ignoring difficulties; it is about meeting yourself with warmth rather than judgment, especially during hard times.
+Treating yourself with the same kindness you might offer a close friend can feel surprisingly difficult. Many people are quick to comfort others during hard times, yet meet their own struggles with harsh self-criticism or judgment. Self-compassion is the practice of turning that care inward — acknowledging your own pain or mistakes without [[Shame and guilt|shame]], and responding to yourself with warmth rather than blame.
 
-One place many people find it helpful to start is by noticing self-critical thoughts without immediately accepting them as truth. When a harsh inner voice says "I always get things wrong" or "I should be doing better," pausing to ask "Would I say this to someone I care about?" can create a small but meaningful shift in perspective. Over time, this kind of gentle questioning can help loosen the grip of automatic self-criticism.
+One way many people begin to build self-compassion is through noticing their inner voice. When something goes wrong, it can help to pause and ask: "Would I speak this way to someone I care about?" If the answer is no, that moment of awareness can be the first step toward choosing a gentler response. This doesn't mean ignoring mistakes or avoiding accountability — it means holding yourself to a fair standard rather than an impossible one.
 
-Another approach involves acknowledging that suffering and imperfection are part of shared human experience. Psychologist Kristin Neff, whose research has shaped much of how we understand self-compassion, describes this as "common humanity" — the recognition that struggle is not a sign of personal failure, but something that connects us all. Reminding yourself "this is hard, and other people feel this way too" can reduce feelings of isolation and shame.
+Mindfulness is another approach that many people find supportive. Rather than pushing difficult feelings away or getting swept up in them, mindfulness involves simply noticing what you're experiencing — "This is hard right now" — without adding layers of self-judgment on top. Research suggests that this kind of non-judgmental awareness is closely linked to emotional [[Building resilience|resilience]] and overall wellbeing.
 
-Some people also find that simple, physical gestures — such as placing a hand on the heart during a moment of distress — can help the body register a sense of care before the mind catches up. These small acts can serve as anchors when emotions feel overwhelming.
+Some people also find it helpful to write down self-compassionate thoughts, especially during stressful periods. Putting words to your experience — and then responding to yourself with kindness in writing — can make the practice feel more concrete and accessible over time.
 
-Building self-compassion is a gradual process, and it looks different for everyone. If you find it particularly difficult to be kind to yourself, speaking with a mental health professional can offer gentle, personalised guidance and support.
+It's worth remembering that self-compassion is a skill, not a personality trait. It can be learned and strengthened gradually. Many people find that as they become more compassionate toward themselves, they also feel better equipped to navigate life's inevitable challenges. If self-criticism feels deeply ingrained or overwhelming, speaking with a mental health professional can offer meaningful guidance and support.
 
 ---
 

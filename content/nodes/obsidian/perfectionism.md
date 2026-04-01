@@ -1,23 +1,27 @@
 ---
 title: "Perfectionism"
 author: Claude
-date: 2026-03-29
+date: 2026-04-01
 tags:
   - perfectionism
-  - anxiety
   - self-compassion
+  - anxiety
+aliases:
+  - perfectionist
 generated: true
 ---
 
 # Perfectionism
 
-Perfectionism is something many people recognise in themselves — that persistent sense that what you do is never quite good enough, or that anything less than flawless is a failure. While having high standards can be a strength, perfectionism can quietly become a source of significant stress, anxiety, and self-criticism. Understanding how it works is an important first step toward relating to yourself with a little more kindness.
+Perfectionism is something many people can relate to — that inner drive to get things exactly right, to meet high standards, or to avoid making mistakes. While having goals and caring about quality can be positive, perfectionism becomes a concern when it leads to [[Understanding stress|stress]], self-criticism, or avoiding things out of [[Fear|fear]] of falling short. Understanding how perfectionism works is an important first step toward finding a healthier balance.
 
-One strategy many people find helpful is learning to distinguish between healthy striving and perfectionism. Healthy striving means working toward meaningful goals while accepting that mistakes are part of the process. Perfectionism, by contrast, tends to measure self-worth entirely by outcomes, making setbacks feel devastating rather than informative. Noticing when this pattern is active — perhaps through a moment of pause before reacting to a mistake — can create a small but valuable space between the experience and the response.
+One strategy many people find helpful is practicing [[Self-compassion|self-compassion]]. This means treating yourself with the same kindness you might offer a friend who made a mistake — acknowledging that errors are a normal part of being human, not evidence of failure. Research suggests that [[Self-compassion|self-compassion]] can reduce the [[Understanding anxiety|anxiety]] and [[Shame and guilt|shame]] that often fuel perfectionistic thinking, making it easier to try new things and recover from setbacks.
 
-Another approach that some people find useful is practising what researchers call "adaptive perfectionism" — setting ambitious goals while building in flexibility and self-compassion when things don't go to plan. This might look like acknowledging effort alongside outcome, or gently asking yourself whether the standard you're holding yourself to is one you would apply to someone you care about. Over time, small shifts in self-talk can begin to soften the inner critic's grip.
+Another approach involves gently challenging [[All-or-nothing thinking|all-or-nothing thinking]]. Perfectionism often operates in extremes — something is either done perfectly or it's a complete failure. Learning to recognize and question this pattern, perhaps by noticing when "good enough" genuinely is good enough, can create more mental breathing room. Some people find that keeping a journal to track moments where imperfect outcomes still led to good results can gradually shift this mindset over time.
 
-It is also worth knowing that perfectionism is often connected to deeper patterns, such as fear of judgment, past experiences of criticism, or anxiety. These connections can be difficult to untangle alone, and that is completely understandable. Speaking with a mental health professional can offer a supportive space to explore where perfectionism comes from and how it might be showing up in your life. Many people find that with the right support, it is possible to hold high standards and still feel at ease with being human.
+It can also help to focus on the process rather than the outcome alone. Noticing small steps, efforts, and progress — rather than measuring everything against a final, flawless result — can make daily life feel more rewarding and less pressured.
+
+If perfectionism is affecting your relationships, work, or overall wellbeing, know that you don't have to navigate it alone. Many people find that talking with a mental health professional offers valuable tools for understanding where these patterns come from and how to relate to them differently. Change is possible, and [[Asking for support|asking for support]] is a meaningful step forward.
 
 ---
 

@@ -1,23 +1,25 @@
 ---
 title: "Disgust"
 author: Claude
-date: 2026-03-29
+date: 2026-04-01
 tags:
   - emotions
   - shame
-  - self-compassion
+  - trauma
 generated: true
 ---
 
 # Disgust
 
-Disgust is one of the most powerful and least talked-about human emotions. While fear and sadness tend to get more attention in conversations about mental health, disgust plays a significant role in how we experience the world — and how we feel about ourselves. Understanding this emotion a little better can be a valuable step toward greater self-awareness and wellbeing.
+Disgust is one of the most powerful — and least talked about — human emotions. While it is often associated with physical reactions to spoiled food or unsanitary conditions, disgust can also show up in emotional and psychological life in ways that are harder to name. Understanding this emotion more clearly can be an important step toward greater self-awareness and wellbeing.
 
-Disgust evolved as a protective response, originally helping humans avoid things that might cause harm, such as spoiled food or disease. Over time, however, this emotion became far more complex. Many people find that feelings of disgust extend inward, showing up as self-criticism, shame, or a deep sense of being "wrong" or "unclean" in some way. This kind of self-directed disgust can quietly undermine confidence and make it harder to extend kindness to ourselves. Noticing when this is happening — without judgment — is itself a meaningful first step.
+One way disgust can affect mental health is when it becomes directed inward. Many people experiencing [[Shame and guilt|shame]] or low self-worth describe a feeling that goes beyond [[Sadness|sadness]] — a deep sense of revulsion toward themselves or aspects of their identity. Research suggests this kind of self-directed disgust is closely linked to conditions such as depression, eating difficulties, and [[Understanding trauma|trauma]] responses. Recognizing it as an emotion — rather than a fact about who you are — can help create some distance from its intensity.
 
-Some approaches that many people find helpful when working with difficult emotions like disgust include practicing self-compassion, which involves treating yourself with the same care you might offer a close friend. Mindfulness practices can also help create a small but important distance between an emotion and your response to it, making the feeling feel less overwhelming and more manageable. Talking about disgust — whether with a trusted person in your life or a mental health professional — can also reduce its power, since shame and disgust tend to grow in silence and ease in connection.
+Disgust can also become a barrier in relationships. When this emotion is triggered by things that feel unfamiliar or threatening, it can fuel avoidance, judgment, or conflict. Some people find that gently exploring where disgust reactions come from — whether through journaling, mindfulness practices, or talking with someone they trust — can help them respond more thoughtfully rather than react automatically.
 
-It is worth remembering that experiencing difficult emotions, including disgust, is part of being human — not a sign that something is permanently wrong with you. These feelings can change, and many people find that with the right support, they are able to develop a more compassionate relationship with themselves and their emotional lives. Support is available, and reaching out is always a meaningful act.
+A third area worth noting is how disgust can show up in the aftermath of difficult experiences. Survivors of certain types of [[Understanding trauma|trauma]] sometimes describe feeling disgust toward their own bodies or memories. This is a recognized and understandable response, and it is something that therapy — particularly approaches focused on [[Understanding trauma|trauma]] and [[Self-compassion|self-compassion]] — can address with care.
+
+If you notice that feelings of disgust, especially toward yourself, are affecting your daily life or sense of worth, you are not alone. These feelings can be worked through, and support is available. Reaching out to a mental health professional is a meaningful step toward feeling more at ease with yourself and the world around you.
 
 ---
 
