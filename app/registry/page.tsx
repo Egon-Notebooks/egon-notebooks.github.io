@@ -6,7 +6,7 @@ import RegistryClient from '@/components/RegistryClient'
 
 export const metadata: Metadata = buildMetadata({
   title: 'The Registry',
-  description: 'Browse and download curated psychological knowledge packs for Obsidian and Logseq. 12 packs, 80 nodes.',
+  description: 'Browse and download curated psychological knowledge packs for Obsidian and Logseq. 14 packs, 100 nodes.',
   path: '/registry',
 })
 

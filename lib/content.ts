@@ -15,7 +15,6 @@ export interface NodeMeta {
   description: string
   pack: string
   packName: string
-  tags: string[]
 }
 
 const PACK_ORDER = [
@@ -102,16 +101,18 @@ export function getPackFiles(
 
 export function getAllNodes(): NodeMeta[] {
   const packs = getAllPacks()
+  const seen = new Set<string>()
   const nodes: NodeMeta[] = []
   for (const pack of packs) {
     for (const nodeSlug of pack.nodes) {
+      if (seen.has(nodeSlug)) continue
+      seen.add(nodeSlug)
       nodes.push({
         slug: nodeSlug,
         title: titleFromSlug(nodeSlug),
         description: getNodeFirstLine(nodeSlug),
         pack: pack.slug,
         packName: pack.name,
-        tags: pack.tags,
       })
     }
   }

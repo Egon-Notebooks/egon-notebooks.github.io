@@ -9,6 +9,10 @@ interface PackCardProps {
   logseqFiles: Record<string, string>
 }
 
+function titleFromSlug(slug: string): string {
+  return slug.split('-').map(w => w.charAt(0).toUpperCase() + w.slice(1)).join(' ')
+}
+
 export default function PackCard({ pack, tool, obsidianFiles, logseqFiles }: PackCardProps) {
   const files = tool === 'obsidian' ? obsidianFiles : logseqFiles
 
@@ -38,18 +42,69 @@ export default function PackCard({ pack, tool, obsidianFiles, logseqFiles }: Pac
       {/* Card body */}
       <div style={{ padding: '1.25rem', display: 'flex', flexDirection: 'column', gap: '0.75rem', flex: 1 }}>
         <div>
-          <h3
-            style={{
-              fontFamily: 'var(--font-display)',
-              fontSize: '1.2rem',
-              fontWeight: 600,
-              color: 'var(--color-ink)',
-              marginBottom: '0.4rem',
-              lineHeight: 1.2,
-            }}
-          >
-            {pack.name}
-          </h3>
+          {/* Collapsible title */}
+          <details className="pack-details">
+            <summary
+              style={{
+                listStyle: 'none',
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'space-between',
+                gap: '0.5rem',
+                cursor: 'pointer',
+                marginBottom: '0.4rem',
+                userSelect: 'none',
+              }}
+            >
+              <h3
+                style={{
+                  fontFamily: 'var(--font-display)',
+                  fontSize: '1.2rem',
+                  fontWeight: 600,
+                  color: 'var(--color-ink)',
+                  lineHeight: 1.2,
+                  margin: 0,
+                }}
+              >
+                {pack.name}
+              </h3>
+              <span className="pack-chevron" aria-hidden="true" style={{ flexShrink: 0, color: 'var(--color-ink-muted)', fontSize: '0.75rem' }}>
+                ▾
+              </span>
+            </summary>
+
+            {/* Node list */}
+            <ul
+              style={{
+                listStyle: 'none',
+                margin: '0.5rem 0 0.75rem',
+                padding: 0,
+                display: 'flex',
+                flexWrap: 'wrap',
+                gap: '0.375rem',
+              }}
+            >
+              {pack.nodes.map(slug => (
+                <li key={slug}>
+                  <span
+                    style={{
+                      display: 'inline-block',
+                      fontSize: '0.72rem',
+                      color: 'var(--color-ink-muted)',
+                      backgroundColor: 'var(--color-bg)',
+                      border: '1px solid var(--color-border)',
+                      borderRadius: '3px',
+                      padding: '0.2rem 0.5rem',
+                      lineHeight: 1.4,
+                    }}
+                  >
+                    {titleFromSlug(slug)}
+                  </span>
+                </li>
+              ))}
+            </ul>
+          </details>
+
           <p
             style={{
               fontSize: '0.85rem',

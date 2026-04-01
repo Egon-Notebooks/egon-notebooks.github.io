@@ -52,18 +52,6 @@ export default function NodeRow({ node, tool, obsidianContent, logseqContent }: 
       >
         {node.packName}
       </td>
-      <td
-        style={{
-          padding: '0.875rem 1rem',
-          verticalAlign: 'top',
-        }}
-      >
-        <div style={{ display: 'flex', gap: '0.375rem', flexWrap: 'wrap' }}>
-          {node.tags.slice(0, 2).map(tag => (
-            <span key={tag} className="tag">{tag}</span>
-          ))}
-        </div>
-      </td>
       <td style={{ padding: '0.875rem 0 0.875rem 1rem', verticalAlign: 'middle' }}>
         <NodeDownloadButton
           slug={node.slug}

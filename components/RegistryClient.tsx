@@ -155,7 +155,7 @@ export default function RegistryClient({ packs, nodes, packFiles, nodeFiles }: R
           <table style={{ width: '100%', borderCollapse: 'collapse' }}>
             <thead>
               <tr style={{ borderBottom: '2px solid var(--color-border)' }}>
-                {['Node', 'Description', 'Pack', 'Tags', ''].map((h, i) => (
+                {['Node', 'Description', 'Pack', ''].map((h, i) => (
                   <th
                     key={i}
                     className={i === 1 ? 'node-desc-col' : i === 2 ? 'node-pack-col' : ''}
@@ -167,7 +167,7 @@ export default function RegistryClient({ packs, nodes, packFiles, nodeFiles }: R
                       letterSpacing: '0.06em',
                       textTransform: 'uppercase',
                       color: 'var(--color-ink-muted)',
-                      padding: i === 0 ? '0 1rem 0.75rem 0' : i === 4 ? '0 0 0.75rem 1rem' : '0 1rem 0.75rem',
+                      padding: i === 0 ? '0 1rem 0.75rem 0' : i === 3 ? '0 0 0.75rem 1rem' : '0 1rem 0.75rem',
                     }}
                   >
                     {h}
