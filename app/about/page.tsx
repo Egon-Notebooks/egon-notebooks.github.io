@@ -98,7 +98,7 @@ export default function AboutPage() {
             The world knowledge graph is objective, curated, open, and portable. It is what the Registry
             offers: structured articles about human psychology — what emotions are, how the stress
             response works, what attachment styles mean. This knowledge does not belong to any individual.
-            It is a shared foundation based on humanity's aggregate wisdom and knowledge.
+            It is a shared foundation based on humanity&apos;s aggregate wisdom and knowledge.
           </p>
           <p style={{ fontSize: '0.9rem', color: 'var(--color-ink-muted)', lineHeight: 1.75, marginTop: '0.875rem' }}>
             The personal knowledge graph is the opposite: subjective, private, local, yours. It is your
