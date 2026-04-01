@@ -15,10 +15,6 @@ export const metadata: Metadata = {
   },
   description: 'A curated, downloadable graph of structured knowledge about the inner life — for Logseq and Obsidian.',
   metadataBase: new URL('https://egon-notebooks.github.io'),
-  icons: {
-    icon: '/images/egon_logo.png',
-    apple: '/images/egon_logo.png',
-  },
   openGraph: {
     siteName: 'Egon Notebooks',
     type: 'website',
