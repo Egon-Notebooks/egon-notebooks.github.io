@@ -1,7 +1,7 @@
 {
   "slug": "thinking-patterns",
   "name": "Thinking Patterns",
-  "description": "How thoughts shape feelings, and how to recognise and work with unhelpful patterns of thinking.",
+  "description": "How thoughts shape feelings, and how to recognize and work with unhelpful patterns of thinking.",
   "tags": ["cognition", "CBT"],
   "nodes": ["how-thoughts-affect-feelings","common-cognitive-distortions","rumination-and-how-to-interrupt-it","catastrophizing","all-or-nothing-thinking","challenging-unhelpful-thoughts"]
 }
