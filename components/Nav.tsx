@@ -1,6 +1,7 @@
 'use client'
 
 import Link from 'next/link'
+import Image from 'next/image'
 import { usePathname } from 'next/navigation'
 import { useState, useEffect } from 'react'
 
@@ -54,8 +55,18 @@ export default function Nav() {
               color: 'var(--color-ink)',
               letterSpacing: '-0.01em',
               textDecoration: 'none',
+              display: 'flex',
+              alignItems: 'center',
+              gap: '0.5rem',
             }}
           >
+            <Image
+              src="/images/egon_logo.png"
+              alt=""
+              width={24}
+              height={24}
+              style={{ borderRadius: '4px', flexShrink: 0 }}
+            />
             Egon Notebooks
           </Link>
 

@@ -18,6 +18,7 @@ export default function PackCard({ pack, tool, obsidianFiles, logseqFiles }: Pac
 
   return (
     <article
+      className="pack-card"
       style={{
         backgroundColor: 'var(--color-surface)',
         border: '1px solid var(--color-border)',
