@@ -1,12 +1,11 @@
 import Link from 'next/link'
-import { getPack, getPackFiles } from '@/lib/content'
+import { getBaseGraphFiles } from '@/lib/content'
 import InstallGuide from '@/components/InstallGuide'
 import BaseGraphDownload from '@/components/BaseGraphDownload'
 
 export default function GettingStartedPage() {
-  const baseGraph = getPack('base-graph')
-  const obsidianFiles = baseGraph ? getPackFiles(baseGraph, 'obsidian') : {}
-  const logseqFiles = baseGraph ? getPackFiles(baseGraph, 'logseq') : {}
+  const obsidianFiles = getBaseGraphFiles('obsidian')
+  const logseqFiles = getBaseGraphFiles('logseq')
 
   return (
     <div style={{ paddingBlock: '3rem 5rem' }}>

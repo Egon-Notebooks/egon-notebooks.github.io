@@ -30,7 +30,7 @@ export default function BaseGraphDownload({ obsidianFiles, logseqFiles }: BaseGr
           Or download everything at once
         </p>
         <p style={{ fontSize: '0.8rem', color: 'var(--color-ink-muted)', margin: 0, lineHeight: 1.55 }}>
-          The Base Graph contains all 100 nodes across every pack — a complete starting collection for your vault.
+          The Base Graph contains 100 nodes across the 14 core packs — a complete starting collection for your vault.
         </p>
       </div>
 

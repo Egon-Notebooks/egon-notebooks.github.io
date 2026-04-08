@@ -33,7 +33,25 @@ const PACK_ORDER = [
   'navigating-change',
   'personality',
   'trauma-and-healing',
+  'bullying',
 ]
+
+const BASE_GRAPH_PACKS = new Set([
+  'understanding-emotions',
+  'anxiety-and-worry',
+  'low-mood-and-depression',
+  'stress-and-burnout',
+  'self-awareness',
+  'self-care-foundations',
+  'relationships-and-connection',
+  'grief-and-loss',
+  'mindfulness-and-presence',
+  'thinking-patterns',
+  'identity-and-self-worth',
+  'navigating-change',
+  'personality',
+  'trauma-and-healing',
+])
 
 export function getAllPacks(): Pack[] {
   const packsDir = path.join(process.cwd(), 'content/packs')
@@ -110,6 +128,26 @@ export function getPackFiles(
     files[zipPath] = content
   }
 
+  return files
+}
+
+export function getBaseGraphFiles(tool: 'obsidian' | 'logseq'): Record<string, string> {
+  const packs = getAllPacks().filter(p => BASE_GRAPH_PACKS.has(p.slug))
+  const seen = new Set<string>()
+  const files: Record<string, string> = {}
+  const nodesDir = path.join(process.cwd(), `content/nodes/${tool}`)
+  for (const pack of packs) {
+    for (const nodeSlug of pack.nodes) {
+      if (seen.has(nodeSlug)) continue
+      seen.add(nodeSlug)
+      const filePath = resolveNodePath(nodesDir, nodeSlug)
+      if (!filePath) continue
+      const content = fs.readFileSync(filePath, 'utf-8')
+      const filename = path.basename(filePath)
+      const zipPath = tool === 'logseq' ? `pages/${filename}` : filename
+      files[zipPath] = content
+    }
+  }
   return files
 }
 
