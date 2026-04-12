@@ -1,0 +1,7 @@
+{
+  "slug": "self-assessment-tools",
+  "name": "Self-Assessment Tools",
+  "description": "Clinically validated questionnaires for tracking mood, anxiety, stress, and wellbeing — formatted as monthly check-ins for your personal graph.",
+  "tags": ["self-assessment", "mental health"],
+  "nodes": ["using-self-assessment-tools","phq-9-monthly-depression-check-in","gad-7-monthly-anxiety-check-in","rosenberg-self-esteem-scale-check-in","pss-10-monthly-stress-check-in","who-5-wellbeing-check-in","brief-resilience-scale-check-in","understanding-your-assessment-results"]
+}
