@@ -1,6 +1,6 @@
 # egon-notebooks.github.io
 
-[![Tests](https://github.com/Egon-Notebooks/egon-notebooks.github.io/actions/workflows/tests.yml/badge.svg)](https://github.com/Egon-Notebooks/egon-notebooks.githu.io/actions/workflows/tests.yml)
+[![CI](https://github.com/Egon-Notebooks/egon-notebooks.github.io/actions/workflows/ci.yml/badge.svg)](https://github.com/Egon-Notebooks/egon-notebooks.github.io/actions/workflows/ci.yml)
 
 Main website for Egon Notebooks.
 
