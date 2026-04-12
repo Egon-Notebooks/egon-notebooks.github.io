@@ -1,0 +1,7 @@
+{
+  "slug": "types-of-therapy",
+  "name": "Types of Therapy",
+  "description": "A plain-language guide to the major therapeutic approaches — what they are, how they work, and who they tend to help.",
+  "tags": ["therapy", "treatment"],
+  "nodes": ["what-is-psychotherapy","how-to-choose-a-therapist","cognitive-behavioral-therapy","dialectical-behavior-therapy","acceptance-and-commitment-therapy","mindfulness-based-cognitive-therapy","eye-movement-desensitization-and-reprocessing","psychodynamic-therapy","person-centered-therapy","schema-therapy","somatic-therapy","art-therapy","narrative-therapy","group-therapy"]
+}
