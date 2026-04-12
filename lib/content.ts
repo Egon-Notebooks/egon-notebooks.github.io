@@ -34,6 +34,9 @@ const PACK_ORDER = [
   'personality',
   'trauma-and-healing',
   'bullying',
+  'cognitive-distortions',
+  'types-of-therapy',
+  'self-assessment-tools',
 ]
 
 const BASE_GRAPH_PACKS = new Set([

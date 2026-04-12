@@ -1,0 +1,7 @@
+{
+  "slug": "cognitive-distortions",
+  "name": "Cognitive Distortions",
+  "description": "A reference taxonomy of the most common cognitive distortions — the thinking traps that fuel anxiety, low mood, and self-criticism.",
+  "tags": ["cognitive distortions", "thinking patterns", "CBT"],
+  "nodes": ["all-or-nothing-thinking","overgeneralization","mental-filter","disqualifying-the-positive","mind-reading","fortune-telling","catastrophizing","magnification-and-minimization","emotional-reasoning","should-statements","labeling-and-mislabeling","personalization","jumping-to-conclusions"]
+}
