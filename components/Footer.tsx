@@ -49,30 +49,42 @@ export default function Footer() {
           {/* Links */}
           <nav
             aria-label="Footer navigation"
-            style={{ display: 'flex', gap: '1.5rem', flexWrap: 'wrap', alignItems: 'center' }}
+            style={{ display: 'flex', flexDirection: 'column', gap: '0.75rem', alignItems: 'flex-end' }}
           >
-            <Link
-              href="https://github.com/egon-notebooks"
-              target="_blank"
-              rel="noopener noreferrer"
-              style={{ fontSize: '0.8rem', color: 'var(--color-ink-muted)' }}
-            >
-              GitHub
-            </Link>
-            <Link
-              href="https://huggingface.co/Egon-Notebooks"
-              target="_blank"
-              rel="noopener noreferrer"
-              style={{ fontSize: '0.8rem', color: 'var(--color-ink-muted)' }}
-            >
-              HuggingFace
-            </Link>
-            <Link href="/registry" style={{ fontSize: '0.8rem', color: 'var(--color-ink-muted)' }}>
-              Registry
-            </Link>
-            <Link href="/about" style={{ fontSize: '0.8rem', color: 'var(--color-ink-muted)' }}>
-              About
-            </Link>
+            <div style={{ display: 'flex', gap: '1.5rem' }}>
+              <Link
+                href="https://github.com/egon-notebooks"
+                target="_blank"
+                rel="noopener noreferrer"
+                style={{ fontSize: '0.8rem', color: 'var(--color-ink-muted)' }}
+              >
+                GitHub
+              </Link>
+              <Link
+                href="https://huggingface.co/Egon-Notebooks"
+                target="_blank"
+                rel="noopener noreferrer"
+                style={{ fontSize: '0.8rem', color: 'var(--color-ink-muted)' }}
+              >
+                HuggingFace
+              </Link>
+              <Link
+                href="https://www.linkedin.com/company/egon-notebooks/"
+                target="_blank"
+                rel="noopener noreferrer"
+                style={{ fontSize: '0.8rem', color: 'var(--color-ink-muted)' }}
+              >
+                LinkedIn
+              </Link>
+            </div>
+            <div style={{ display: 'flex', gap: '1.5rem' }}>
+              <Link href="/about" style={{ fontSize: '0.8rem', color: 'var(--color-ink-muted)' }}>
+                About
+              </Link>
+              <Link href="/registry" style={{ fontSize: '0.8rem', color: 'var(--color-ink-muted)' }}>
+                Registry
+              </Link>
+            </div>
           </nav>
         </div>
 
