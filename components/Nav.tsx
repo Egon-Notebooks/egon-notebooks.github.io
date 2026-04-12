@@ -7,8 +7,8 @@ import { useState, useEffect } from 'react'
 
 const NAV_LINKS = [
   { href: '/registry', label: 'Registry' },
-  { href: '/getting-started', label: 'Getting Started' },
   { href: '/journal', label: 'Journal' },
+  { href: '/getting-started', label: 'Getting Started' },
   { href: '/about', label: 'About' },
 ]
 

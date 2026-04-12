@@ -1,5 +1,7 @@
 # egon-notebooks.github.io
 
+[![Tests](https://github.com/Egon-Notebooks/egon-notebooks.github.io/actions/workflows/tests.yml/badge.svg)](https://github.com/Egon-Notebooks/egon-notebooks.githu.io/actions/workflows/tests.yml)
+
 Main website for Egon Notebooks.
 
 This is an early-stage project.

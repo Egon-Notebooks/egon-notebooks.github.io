@@ -1,7 +1,15 @@
+import type { Metadata } from 'next'
 import Link from 'next/link'
 import { getBaseGraphFiles } from '@/lib/content'
 import InstallGuide from '@/components/InstallGuide'
 import BaseGraphDownload from '@/components/BaseGraphDownload'
+import { buildMetadata } from '@/lib/metadata'
+
+export const metadata: Metadata = buildMetadata({
+  title: 'Getting Started',
+  description: 'Install Egon Notebooks into Obsidian or Logseq and start building your mental health knowledge graph.',
+  path: '/getting-started',
+})
 
 export default function GettingStartedPage() {
   const obsidianFiles = getBaseGraphFiles('obsidian')

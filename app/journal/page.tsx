@@ -1,11 +1,13 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
+import { buildMetadata } from '@/lib/metadata'
 
-export const metadata: Metadata = {
-  title: 'Journal — Egon Notebooks',
+export const metadata: Metadata = buildMetadata({
+  title: 'Journal',
   description:
     'Structured journaling for your Egon graph. Write daily entries, follow guided programs, and generate local reports across mood, physiology, and personality.',
-}
+  path: '/journal',
+})
 
 const sectionHeading: React.CSSProperties = {
   fontFamily: 'var(--font-display)',
@@ -79,11 +81,6 @@ const REPORTS: {
         command: 'uv run egon report-word-count',
       },
       {
-        name: 'Sentiment',
-        description: 'Daily sentiment score (VADER, −1 to +1) as a line chart with a neutral band. A fast, local measure of overall emotional tone.',
-        command: 'uv run egon report-sentiment',
-      },
-      {
         name: 'Word cloud',
         description: 'A visual summary of the most frequent words across a period. Opt-in: set wordcloud = true in egon.toml.',
         command: 'uv run egon report-wordcloud',
@@ -94,28 +91,39 @@ const REPORTS: {
         command: 'uv run egon report-topics',
         extra: 'topics',
       },
+      {
+        name: 'Cognitive distortions',
+        description: 'Detects cognitive distortions in journal text across seven categories (personalization, emotional reasoning, overgeneralizing, labeling, should statements, catastrophizing, reward fallacy) using a BERT-tiny classifier. Two-panel figure: daily distortion signal line and a stacked area by distortion type.',
+        command: 'uv run egon report-cognitive-bias',
+        extra: 'limbic',
+      },
     ],
   },
   {
     section: 'Personality & affective patterns',
     items: [
       {
-        name: 'Big Five traits',
-        description: 'Scores each entry on the five personality dimensions (Openness, Conscientiousness, Extraversion, Agreeableness, Neuroticism) using a DistilBERT regression model. Five subplots, one per trait, with the period average annotated.',
-        command: 'uv run egon report-bigfive',
-        extra: 'bigfive',
-      },
-      {
-        name: 'MBTI dimensions',
-        description: 'Classifies each entry into four binary MBTI dimensions (E/I, N/S, T/F, J/P) and shows the dominant pole and proportion across the period.',
-        command: 'uv run egon report-mbti',
-        extra: 'bigfive',
+        name: 'Sentiment',
+        description: 'Daily sentiment score (VADER, −1 to +1) as a line chart with a neutral band. A fast, local measure of overall emotional tone.',
+        command: 'uv run egon report-sentiment',
       },
       {
         name: 'Emotion',
         description: 'Daily emotion profile across seven categories (anger, disgust, fear, joy, neutral, sadness, surprise) using a DistilRoBERTa model. Includes a joy-vs-sadness overlay.',
         command: 'uv run egon report-emotion',
-        extra: 'bigfive',
+        extra: 'limbic',
+      },
+      {
+        name: 'Big Five traits',
+        description: 'Scores each entry on the five personality dimensions (Openness, Conscientiousness, Extraversion, Agreeableness, Neuroticism) using a DistilBERT regression model. Five subplots, one per trait, with the period average annotated.',
+        command: 'uv run egon report-bigfive',
+        extra: 'limbic',
+      },
+      {
+        name: 'MBTI dimensions',
+        description: 'Classifies each entry into four binary MBTI dimensions (E/I, N/S, T/F, J/P) and shows the dominant pole and proportion across the period.',
+        command: 'uv run egon report-mbti',
+        extra: 'limbic',
       },
     ],
   },
