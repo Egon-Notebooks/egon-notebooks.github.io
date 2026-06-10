@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import type { Metadata } from 'next'
 import { buildMetadata } from '@/lib/metadata'
 
@@ -31,7 +32,9 @@ export default function AboutPage() {
             marginBottom: '3rem',
           }}
         >
-          A privacy-first psychological knowledge infrastructure, built for your own vault.
+          A privacy-first psychological self-knowledge ecosystem, built on an open standard infrastructure for mental health and wellbeing.
+          Egon Notebooks provides a trusted repository of mental health resources, journaling support tools, insight generator modules, and locally-run conversational AI interfaces to move self-therapy into the modern era.
+          It is not a replacement of therapy or clinical care, but may be used to augment such care.
         </p>
 
         <section style={{ marginBottom: '2.75rem' }}>
@@ -46,12 +49,22 @@ export default function AboutPage() {
           >
             The name
           </h2>
-          <p style={{ fontSize: '0.9rem', color: 'var(--color-ink-muted)', lineHeight: 1.75 }}>
-            Egon Schiele was an Austrian painter known for his unflinching, interior self-portraits — drawings
-            that looked inward without flinching. There is something in his posture that feels right for this
-            project: a willingness to sit with the difficult, to give shape to the inner life without prettifying
-            it. Egon Notebooks is not named after Schiele&apos;s technique, but after his willingness to look.
-          </p>
+          <div style={{ display: 'flex', gap: '1.5rem', alignItems: 'flex-start', flexWrap: 'wrap' }}>
+            <p style={{ fontSize: '0.9rem', color: 'var(--color-ink-muted)', lineHeight: 1.75, flex: '1 1 300px', margin: 0 }}>
+              Egon Schiele was an Austrian painter who lived in Vienna around the turn of the 20th century, and was a contemporary of Sigmund Freud.
+              He is known for his interior self-portraits.
+              Drawings that looked inward without flinching.
+              There is something in his posture that feels right for this project: a willingness to sit with the difficult, to give shape to the inner life without prettifying it.
+              Egon Notebooks is not named after Schiele&apos;s technique, but after his willingness to look.
+            </p>
+            <Image
+              src="/images/egon-schiele-sketch.webp"
+              alt="Pencil sketch illustration of Egon Schiele drawing"
+              width={220}
+              height={147}
+              style={{ borderRadius: '4px', flexShrink: 0, width: '220px', height: 'auto' }}
+            />
+          </div>
         </section>
 
         <section style={{ marginBottom: '2.75rem', paddingTop: '2rem', borderTop: '1px solid var(--color-border)' }}>
@@ -64,17 +77,29 @@ export default function AboutPage() {
               marginBottom: '0.875rem',
             }}
           >
-            Privacy-first
+            Privacy-first and future-proof
           </h2>
           <p style={{ fontSize: '0.9rem', color: 'var(--color-ink-muted)', lineHeight: 1.75 }}>
-            This website serves knowledge. It does not receive anything back. When you download a pack,
-            the files live on your device — in your vault — and this website has no awareness of what
-            you do with them. There are no accounts, no sync services, no reading of your notes.
+            Some people do not mind sharing all of their most private thoughts with commercial AI companies.
+            Others are more hesitant and worry what will happen to their data, especially in the longer term.
+            We believe that you should feel completely safe in your self-exploration.
           </p>
           <p style={{ fontSize: '0.9rem', color: 'var(--color-ink-muted)', lineHeight: 1.75, marginTop: '0.875rem' }}>
-            This is not a technical limitation — it is a deliberate choice. Notes about the inner life
-            should stay inner. We use Cloudflare Web Analytics for aggregate traffic counting (no cookies,
-            no fingerprinting, no personal data). That is the extent of our data footprint.
+            This website and the supportive tools enclosed within it only *serve* knowledge.
+            It does not receive anything back.
+            When you download a pack, the files live on your device — in your personal &ldquo;vault&rdquo; — and Egon Notebooks has no awareness of what you do with them.
+            There are no accounts, no sync services, no reading of your notes.
+          </p>
+          <p style={{ fontSize: '0.9rem', color: 'var(--color-ink-muted)', lineHeight: 1.75, marginTop: '0.875rem' }}>
+            This is not a technical limitation — it is a deliberate choice.
+            Notes about the inner life should stay inner.
+            We use Cloudflare Web Analytics for aggregate traffic counting (no cookies, no fingerprinting, no personal data).
+            That is the extent of our data footprint.
+          </p>
+          <p style={{ fontSize: '0.9rem', color: 'var(--color-ink-muted)', lineHeight: 1.75, marginTop: '0.875rem' }}>
+            Your notes are simple Markdown files.
+            These are essentially slightly fancier Text file, and are used ubiquitously in modern AI.
+            This ensures that you have complete control over your personal journal, and you can take your journal to any future tool of your liking.
           </p>
         </section>
 
@@ -95,21 +120,23 @@ export default function AboutPage() {
             the <em>personal knowledge graph</em>.
           </p>
           <p style={{ fontSize: '0.9rem', color: 'var(--color-ink-muted)', lineHeight: 1.75, marginTop: '0.875rem' }}>
-            The world knowledge graph is objective, curated, open, and portable. It is what the Registry
-            offers: structured articles about human psychology — what emotions are, how the stress
-            response works, what attachment styles mean. This knowledge does not belong to any individual.
+            The world knowledge graph is objective, curated, open, and portable.
+            It is what the Registry offers: structured articles about human psychology — what emotions are, how the stress response works, what attachment styles mean.
+            This knowledge does not belong to any individual.
             It is a shared foundation based on humanity&apos;s aggregate wisdom and knowledge.
           </p>
           <p style={{ fontSize: '0.9rem', color: 'var(--color-ink-muted)', lineHeight: 1.75, marginTop: '0.875rem' }}>
-            The personal knowledge graph is the opposite: subjective, private, local, yours. It is your
-            journal entries, your annotations, your own map of what resonates and what doesn&apos;t. It lives
-            on your device and nowhere else.
+            The personal knowledge graph is the opposite: subjective, private, local, yours.
+            It is your journal entries, your annotations, your own map of what resonates and what doesn&apos;t.
+            This is crucial in mental health care: some of use like to gratitude journal, some are inspired by religion or spirituality, some like to focus on practical habits.
+            Egon Notebooks is agnostic to this, and empowers everyone to take ownership of their own wellbeing.
+            The personal graph lives on your device and nowhere else.
           </p>
           <p style={{ fontSize: '0.9rem', color: 'var(--color-ink-muted)', lineHeight: 1.75, marginTop: '0.875rem' }}>
-            The power of Egon Notebooks comes from their intersection. When you download a pack and
-            open it in Obsidian or Logseq, you are adding the world knowledge graph into your personal
-            one. You can annotate it, link it to your own notes, and make it yours — while the
-            underlying structure holds.
+            The power of Egon Notebooks comes from their intersection.
+            No man is an island, and we all want to stand of the shoulders of giants.
+            When you download a pack and open it in Obsidian or Logseq, you are selectively adding a piece of the world knowledge graph into your personal one.
+            You can annotate it, link it to your own notes, and make it yours — while the underlying structure holds.
           </p>
         </section>
 
@@ -131,9 +158,8 @@ export default function AboutPage() {
             population.
           </p>
           <p style={{ fontSize: '0.9rem', color: 'var(--color-ink-muted)', lineHeight: 1.75, marginTop: '0.875rem' }}>
-            In later phases, this means locally-hosted language models for private AI-assisted reflection,
-            integration with digital phenotyping data (sleep, movement, mood patterns), and optional
-            affective computing APIs for deeper insights. None of these touch a server you don&apos;t control.
+            In later phases, this means locally-hosted language models for private AI-assisted reflection, integration with digital phenotyping data (sleep, movement, mood patterns), and affective computing APIs for deeper insights.
+            None of these touch a server you don&apos;t control.
           </p>
           <p style={{ fontSize: '0.9rem', color: 'var(--color-ink-muted)', lineHeight: 1.75, marginTop: '0.875rem' }}>
             Initially, this will require technical comfort — running a local model takes setup. Early adopters will 
@@ -187,6 +213,7 @@ export default function AboutPage() {
           <p style={{ fontSize: '0.9rem', color: 'var(--color-ink-muted)', lineHeight: 1.75, marginTop: '0.875rem' }}>
             It is not a replacement for therapy. It is a starting point: a structured vocabulary for
             the inner life, offered freely, to anyone who wants it.
+            In fact, Egon Notebooks can be a natural complement to therapy, by making self-reflection more engaging, by generating reports to share with your therapist, or by tracking your wellbeing and realizing when it&apos;s time to go back to therapy.
           </p>
         </section>
       </div>
