@@ -30,9 +30,12 @@ export default function GettingStartedPage() {
         >
           Getting Started
         </h1>
+        <p style={{ fontSize: '1rem', color: 'var(--color-ink-muted)', lineHeight: 1.65, marginBottom: '1.5rem' }}>
+          Let&apos;s get started on your self-discovery journey!
+        </p>
         <p style={{ fontSize: '1rem', color: 'var(--color-ink-muted)', lineHeight: 1.65, marginBottom: '3.5rem' }}>
-          Egon Notebooks packs are plain Markdown files. They work with any tool that opens a folder
-          of <code>.md</code> files — but they are optimized for Obsidian and Logseq.
+          Egon Notebooks packs are plain Markdown files.
+          They work with any tool that opens a folder of <code>.md</code> files — but they are optimized for Obsidian and Logseq.
         </p>
 
         {/* Step 1: Choose tool */}
@@ -248,8 +251,10 @@ tags:: mental-health
             }}
           >
             <li>Explore the nodes and add your own annotations alongside them</li>
+            <li>Start journaling in the daily notes - the more you journal the better the AI will understand you</li>
+            <li>Explore the journaling support tools on the <Link href="/journal">Journaling page</Link></li>
             <li>Create links from your personal notes to nodes in the pack</li>
-            <li>Return to the Registry to download more packs</li>
+            <li>Return to <Link href="/registry">the Egon Registry</Link> to download more packs</li>
             <li>Read the <Link href="/about">About page</Link> to understand the longer vision</li>
           </ul>
         </section>
