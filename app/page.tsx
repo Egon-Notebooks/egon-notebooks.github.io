@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import { getAllPacks, getPackFiles } from '@/lib/content'
@@ -63,41 +64,51 @@ export default function HomePage() {
         }}
       >
         <div className="container">
-          <div style={{ maxWidth: '620px' }}>
-            <h1
-              style={{
-                fontFamily: 'var(--font-display)',
-                fontSize: 'clamp(2.4rem, 5vw, 3.6rem)',
-                fontWeight: 600,
-                lineHeight: 1.1,
-                color: 'var(--color-ink)',
-                marginBottom: '1.25rem',
-                letterSpacing: '-0.01em',
-              }}
-            >
-              Structured knowledge<br />about your inner life.
-            </h1>
-            <p
-              style={{
-                fontSize: '1.05rem',
-                color: 'var(--color-ink-muted)',
-                lineHeight: 1.7,
-                marginBottom: '2rem',
-                maxWidth: '520px',
-              }}
-            >
-              Egon Notebooks is a curated, downloadable graph of psychological knowledge — emotions,
-              thinking patterns, grief, relationships — designed to live in your Obsidian or Logseq vault.
-              Yours to keep, privately.
-            </p>
-            <div style={{ display: 'flex', gap: '0.75rem', flexWrap: 'wrap' }}>
-              <Link href="/registry" className="btn-primary" style={{ fontSize: '0.9rem', padding: '0.75rem 1.5rem' }}>
-                Explore the Registry
-              </Link>
-              <Link href="/getting-started" className="btn-secondary" style={{ fontSize: '0.9rem', padding: '0.75rem 1.5rem' }}>
-                Getting Started
-              </Link>
+          <div style={{ display: 'flex', alignItems: 'center', gap: '3rem', flexWrap: 'wrap' }}>
+            <div style={{ flex: '1 1 380px', minWidth: 0 }}>
+              <h1
+                style={{
+                  fontFamily: 'var(--font-display)',
+                  fontSize: 'clamp(2.4rem, 5vw, 3.6rem)',
+                  fontWeight: 600,
+                  lineHeight: 1.1,
+                  color: 'var(--color-ink)',
+                  marginBottom: '1.25rem',
+                  letterSpacing: '-0.01em',
+                }}
+              >
+                Structured knowledge<br />about your inner life.
+              </h1>
+              <p
+                style={{
+                  fontSize: '1.05rem',
+                  color: 'var(--color-ink-muted)',
+                  lineHeight: 1.7,
+                  marginBottom: '2rem',
+                  maxWidth: '520px',
+                }}
+              >
+                Egon Notebooks is a curated, downloadable graph of psychological knowledge — emotions,
+                thinking patterns, grief, relationships — designed to live in your Obsidian or Logseq vault.
+                Yours to keep, privately.
+              </p>
+              <div style={{ display: 'flex', gap: '0.75rem', flexWrap: 'wrap' }}>
+                <Link href="/registry" className="btn-primary" style={{ fontSize: '0.9rem', padding: '0.75rem 1.5rem' }}>
+                  Explore the Registry
+                </Link>
+                <Link href="/getting-started" className="btn-secondary" style={{ fontSize: '0.9rem', padding: '0.75rem 1.5rem' }}>
+                  Getting Started
+                </Link>
+              </div>
             </div>
+            <Image
+              src="/images/notebook-for-journaling.webp"
+              alt="A notebook open for journaling"
+              width={340}
+              height={227}
+              priority
+              style={{ borderRadius: '6px', flexShrink: 0, width: '340px', height: 'auto' }}
+            />
           </div>
         </div>
       </section>
