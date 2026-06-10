@@ -108,6 +108,18 @@ const REPORTS: {
         command: 'uv run egon report-sentiment',
       },
       {
+        name: 'Stress',
+        description: 'Daily psychological stress probability (0–1) inferred from journal text using a DistilBERT model fine-tuned on the Dreaddit dataset. Line chart with a mean reference line.',
+        command: 'uv run egon report-stress',
+        extra: 'limbic',
+      },
+      {
+        name: 'Loneliness',
+        description: 'Daily loneliness probability (0–1) inferred from journal text using a MentalBERT model fine-tuned for binary loneliness classification. Detects linguistic markers of social isolation and disconnection. Line chart with a mean reference line.',
+        command: 'uv run egon report-loneliness',
+        extra: 'limbic',
+      },
+      {
         name: 'Emotion',
         description: 'Daily emotion profile across seven categories (anger, disgust, fear, joy, neutral, sadness, surprise) using a DistilRoBERTa model. Includes a joy-vs-sadness overlay.',
         command: 'uv run egon report-emotion',
@@ -172,7 +184,7 @@ const REPORTS: {
     items: [
       {
         name: 'Correlations',
-        description: 'Pairwise Pearson correlations across all available journal and health signals — a full heatmap and a top-pairs chart. Requires at least two signals.',
+        description: 'Pairwise Pearson correlations across all available journal and health signals — three figures: a full heatmap, a top-10 pairs bar chart ranked by absolute strength (with configurable pair exclusions), and scatter plots for four mental-health-relevant pairs. Requires at least two signals.',
         command: 'uv run egon report-correlations --xml ~/export.xml',
       },
     ],
