@@ -22,3 +22,9 @@ To test the production build (static export, same as what deploys to GitHub Page
 npm run build
 npx serve out
 ```
+
+## References
+
+1. https://www.selfinsight.ai. A reference website from a friend with self-reflection AI prompts.
+1. Dimensional
+1. [Reflect](https://reflect.app)
