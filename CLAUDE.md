@@ -7,6 +7,7 @@ conventions) are in `../CLAUDE.md`; product docs are in `../docs/`.
 ## Commands
 
 ```bash
+nvm use            # Node 24 (see .nvmrc; CI uses the same)
 npm install
 npm run dev        # http://localhost:3000
 npm run lint       # CI

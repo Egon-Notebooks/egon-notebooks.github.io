@@ -1,6 +1,6 @@
 {
   "name": "egon-notebooks-site",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -26,5 +26,8 @@
     "eslint-config-next": "^15",
     "tailwindcss": "^4.0.0",
     "typescript": "^5"
+  },
+  "engines": {
+    "node": ">=24"
   }
 }
