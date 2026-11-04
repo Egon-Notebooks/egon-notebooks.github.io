@@ -28,3 +28,8 @@ npx serve out
 1. https://www.selfinsight.ai. A reference website from a friend with self-reflection AI prompts.
 1. Dimensional
 1. [Reflect](https://reflect.app)
+
+## License
+
+- **Code:** [MIT License](LICENSE).
+- **Content nodes and packs** (`content/`): [CC BY-NC 4.0](LICENSE-content).
