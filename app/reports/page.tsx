@@ -299,7 +299,8 @@ EGON_APPLE_HEALTH_XML=/path/to/apple_health_export/export.xml`}</div>
 uv run egon report --period month --full    # the last complete month`}</div>
           <p style={{ ...bodyText, marginTop: '0.75rem', marginBottom: '1.25rem' }}>
             The terminal shows one line per chart and where the combined report was saved
-            (<code>reports/full_report/</code>). Periods can be weeks (<code>2026-W14</code>), months
+            (<code>reports/full_report/</code> by default — set <code>EGON_REPORTS_DIR</code> in{' '}
+            <code>.env</code> to keep reports in another folder). Periods can be weeks (<code>2026-W14</code>), months
             (<code>2026-02</code>), quarters (<code>2026-Q1</code>) or years (<code>2026</code>). Which
             analyses are included is set in <code>egon.toml</code>.
           </p>
