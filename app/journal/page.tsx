@@ -175,7 +175,7 @@ uv run egon export-context --output context.md`}</div>
         {/* Next steps */}
         <section style={section}>
           <h2 style={sectionHeading}>Next steps</h2>
-          <ul style={{ ...bodyText, paddingLeft: '1.25rem', lineHeight: 1.85 }}>
+          <ul style={{ ...bodyText, listStyle: 'disc', paddingLeft: '1.25rem', lineHeight: 1.85 }}>
             <li>See what your entries can tell you on the <Link href="/reports">Reports</Link> page</li>
             <li>Browse the <Link href="/registry">Registry</Link> to download content packs to read alongside your entries</li>
             <li>Follow the <Link href="/getting-started">Getting Started guide</Link> to set up your Obsidian or Logseq vault</li>
