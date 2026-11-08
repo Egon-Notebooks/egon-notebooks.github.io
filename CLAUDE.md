@@ -17,6 +17,9 @@ npx serve out      # preview the production build
 
 ## Things to know
 
+- **Personal-data hook:** enable once per clone with `git config core.hooksPath .githooks`.
+  It blocks `.env` files, reports, journal entries, real Apple Health exports and the
+  paths set in `.env`. `bash .githooks/pre-commit --all` checks every tracked file.
 - **Pushing to `main` deploys the live site** (`.github/workflows/deploy.yml`).
   Work on a branch; CI (lint + build) runs on other branches and on PRs.
 - Pages are in `app/`, shared UI in `components/`, design tokens in
