@@ -399,7 +399,7 @@ uv sync --extra limbic --extra local-llm`}</div>
         {/* Privacy */}
         <section style={section}>
           <h2 style={sectionHeading}>Private by design</h2>
-          <ul style={{ ...bodyText, paddingLeft: '1.25rem', lineHeight: 1.85 }}>
+          <ul style={{ ...bodyText, listStyle: 'disc', paddingLeft: '1.25rem', lineHeight: 1.85 }}>
             <li>Your journal and health data are read from local files and analyzed on your device.</li>
             <li>Reports contain your data and are marked confidential — share them only if you mean to.</li>
             <li>Model scores are estimates from language, not a diagnosis. If something in a report worries you, talk to someone you trust or a professional.</li>
