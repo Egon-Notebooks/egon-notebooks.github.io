@@ -304,6 +304,12 @@ uv run egon report --period month --full    # the last complete month`}</div>
             (<code>2026-02</code>), quarters (<code>2026-Q1</code>) or years (<code>2026</code>). Which
             analyses are included is set in <code>egon.toml</code>.
           </p>
+          <p style={{ ...bodyText, marginBottom: '1.25rem' }}>
+            Every run also writes all journal entries of the period into one Markdown file,{' '}
+            <code>reports/journal_entries/2026-Q1.md</code>, with a dated section per entry. Most AI chatbots accept only a few uploaded files, so this is
+            the easy way to share a whole period with one. Egon only writes the file to your
+            computer; whatever you upload to a chatbot leaves it.
+          </p>
 
           <h3 style={subsectionHeading}>Optional extras</h3>
           <p style={{ ...bodyText, marginBottom: '0.75rem' }}>

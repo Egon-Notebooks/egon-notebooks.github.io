@@ -148,7 +148,8 @@ uv run egon new-summary --period month`}</div>
             document, ordered by date. This is useful when you want to feed your journal into the
             LLM of your choice to do some self-reflection — paste the file into a conversation and
             ask it to surface recurring themes, blind spots, or questions worth journaling about
-            next.
+            next. <code>uv run egon report</code> writes the same kind of file for a whole report
+            period (see <Link href="/reports">Reports</Link>).
           </p>
           <div style={codeBlock}>{`uv run egon export-context                          # last 3 months, printed to stdout
 uv run egon export-context --months 6
