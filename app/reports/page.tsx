@@ -11,6 +11,7 @@ export const metadata: Metadata = buildMetadata({
 })
 
 const DEMO_REPORT = '/demo/report-david-osei-2025-Q1.html'
+const DEMO_SHARE_REPORT = '/demo/report-marcus-webb-2025-Q1-share.html'
 
 const sectionHeading: React.CSSProperties = {
   fontFamily: 'var(--font-display)',
@@ -249,10 +250,13 @@ export default function ReportsPage() {
             A full quarterly report for <em>David Osei</em>, a fictional 58-year-old who retired
             early after a heart scare and is finding his feet again. He represents our{' '}
             <em>Self-Directed Individual</em> persona. His journal and health data are synthetic —
-            no real person&apos;s data — but the report was made with exactly the same command and
-            local models you would use yourself. Hover, zoom, and click around. Its AI health
-            summary was written by a small model (qwen2.5:7b) on an older laptop; a newer
-            computer can run larger models for more reliable summaries.
+            no real person&apos;s data — and the report was made with the same command you would use
+            yourself. Hover, zoom, and click around. Its journal summary was written by a cloud
+            model (Claude) from those synthetic entries, to show a best case. In your own reports a
+            local model writes it on your computer and nothing leaves it; a small local model gives
+            rougher summaries and can get details wrong. The AI health summary here was written by
+            a small local model (qwen2.5:7b) on an older laptop; a newer computer can run larger
+            models for more reliable summaries.
           </p>
           <div
             style={{
@@ -272,6 +276,13 @@ export default function ReportsPage() {
           <p style={{ ...bodyText, marginTop: '0.75rem' }}>
             <a href={DEMO_REPORT} target="_blank" rel="noopener noreferrer">
               Open the example report in a new tab →
+            </a>
+          </p>
+          <p style={{ ...bodyText, marginTop: '0.75rem' }}>
+            There is also a shorter kind of report, prepared to share with someone involved in your
+            care. <em>Marcus Webb</em>, another fictional persona, sees a therapist every two weeks:{' '}
+            <a href={DEMO_SHARE_REPORT} target="_blank" rel="noopener noreferrer">
+              open his report to share →
             </a>
           </p>
         </section>
@@ -304,6 +315,20 @@ uv run egon report --period month --full    # the last complete month`}</div>
             (<code>2026-02</code>), quarters (<code>2026-Q1</code>) or years (<code>2026</code>). Which
             analyses are included is set in <code>egon.toml</code>.
           </p>
+          <p style={{ ...bodyText, marginBottom: '0.75rem' }}>
+            To give something shorter to a therapist, counselor or doctor:
+          </p>
+          <div style={codeBlock}>{`uv run egon report --for 2026-Q1 --share`}</div>
+          <p style={{ ...bodyText, marginTop: '0.75rem', marginBottom: '1.25rem' }}>
+            It leaves out personality estimates, word lists and correlations by default, and you
+            choose what goes in under <code>[report.share]</code> in <code>egon.toml</code>. Egon
+            only writes the file; sharing it is up to you.
+          </p>
+          <p style={{ ...bodyText, marginBottom: '1.25rem' }}>
+            With Ollama running, reports begin with a short AI summary of the period&apos;s journal
+            entries, naming any particularly important events. It is written on your own computer, labeled as
+            AI-generated, and can be turned off.
+          </p>
           <p style={{ ...bodyText, marginBottom: '1.25rem' }}>
             Every run also writes all journal entries of the period into one Markdown file,{' '}
             <code>reports/journal_entries/2026-Q1.md</code>, with a dated section per entry. Most AI chatbots accept only a few uploaded files, so this is
@@ -318,7 +343,7 @@ uv run egon report --period month --full    # the last complete month`}</div>
           </p>
           <div style={codeBlock}>{`uv sync --extra limbic        # language models: stress, emotion, personality …
 uv sync --extra topics        # topic discovery (BERTopic)
-uv sync --extra local-llm     # AI health summary — also needs the Ollama app running
+uv sync --extra local-llm     # AI journal and health summaries — also needs the Ollama app running
                               # (larger models give better summaries on newer computers)
 
 # combine them, e.g.
