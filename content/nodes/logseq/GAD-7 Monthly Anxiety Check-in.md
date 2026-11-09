@@ -4,6 +4,7 @@ measures:: generalized anxiety
 tags:: questionnaire, anxiety, self-assessment
 
 - # GAD-7 — Generalized Anxiety Disorder-7
+- _If you are having a very hard time or thinking about harming yourself, you don't have to face it alone. Crisis lines in your country are listed at [findahelpline.com](https://findahelpline.com). If you are in immediate danger, call your local emergency number._
 - *Recommended frequency: monthly, or whenever anxiety has been noticeably elevated.*
 - ---
 - **Over the last 2 weeks, how often have you been bothered by the following problems?**
