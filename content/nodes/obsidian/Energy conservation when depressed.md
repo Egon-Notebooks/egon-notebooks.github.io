@@ -11,6 +11,8 @@ generated: true
 
 # Energy conservation when depressed
 
+_If you are having a very hard time or thinking about harming yourself, you don't have to face it alone. Crisis lines in your country are listed at [findahelpline.com](https://findahelpline.com). If you are in immediate danger, call your local emergency number._
+
 Everyday tasks can feel surprisingly heavy when someone is experiencing depression. Simple activities like getting dressed, preparing a meal, or responding to a message may take far more effort than usual — and that's not a reflection of weakness or laziness. It's a recognized part of how depression can affect the body and mind. Understanding this can be the first step toward being a little kinder to yourself on difficult days.
 
 One approach many people find helpful is the idea of "energy budgeting" — treating your available energy as a limited resource to be spent thoughtfully rather than something that should be unlimited. This means identifying which tasks genuinely need to happen today, which can wait, and which might be simplified. Breaking larger tasks into very small steps, and acknowledging each one as a real accomplishment, can make it easier to move through the day without becoming overwhelmed.

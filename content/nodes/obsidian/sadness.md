@@ -13,6 +13,8 @@ generated: true
 
 # Sadness
 
+_If you are having a very hard time or thinking about harming yourself, you don't have to face it alone. Crisis lines in your country are listed at [findahelpline.com](https://findahelpline.com). If you are in immediate danger, call your local emergency number._
+
 Sadness is a natural, universal human emotion — one that everyone experiences at some point in their lives. Whether it arises after a loss, a disappointment, or simply settles in without an obvious cause, sadness is a normal part of being human. Understanding it a little better can make it feel less overwhelming when it arrives.
 
 One thing many people find helpful is allowing themselves to actually feel sad, rather than pushing the emotion away. Suppressing difficult feelings can sometimes make them more intense over time. Giving yourself permission to sit with sadness — even briefly — can be a gentle act of [[Self-compassion|self-compassion]]. Some people find that expressing their feelings through journaling, talking with a trusted friend, or engaging in a creative outlet helps them process what they are going through.

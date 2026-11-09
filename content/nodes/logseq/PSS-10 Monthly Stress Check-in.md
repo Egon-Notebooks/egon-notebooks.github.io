@@ -4,6 +4,7 @@ measures:: perceived stress
 tags:: questionnaire, stress, self-assessment
 
 - # PSS-10 — Perceived Stress Scale (10-item)
+- _If you are having a very hard time or thinking about harming yourself, you don't have to face it alone. Crisis lines in your country are listed at [findahelpline.com](https://findahelpline.com). If you are in immediate danger, call your local emergency number._
 - *Recommended frequency: monthly.*
 - ---
 - **The questions in this scale ask about your feelings and thoughts during the last month.**

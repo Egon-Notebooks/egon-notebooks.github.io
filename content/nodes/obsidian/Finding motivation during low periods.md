@@ -11,6 +11,8 @@ generated: true
 
 # Finding motivation during low periods
 
+_If you are having a very hard time or thinking about harming yourself, you don't have to face it alone. Crisis lines in your country are listed at [findahelpline.com](https://findahelpline.com). If you are in immediate danger, call your local emergency number._
+
 Feeling unmotivated during difficult times is one of the most common — and most frustrating — experiences people can go through. When energy feels low and everyday tasks seem overwhelming, it can be hard to know where to start. Understanding why this happens, and having a few gentle strategies to draw on, can make a real difference.
 
 One approach many people find helpful is scaling back expectations and focusing on very small, concrete actions. Rather than aiming to complete a full to-do list, choosing just one manageable task — making a cup of tea, stepping outside for five minutes, or sending a single message — can help rebuild a sense of momentum. Small steps are still steps, and they can gradually create the conditions for more energy to return.

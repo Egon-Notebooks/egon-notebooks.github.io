@@ -4,6 +4,7 @@ measures:: subjective wellbeing
 tags:: questionnaire, wellbeing, self-assessment
 
 - # WHO-5 — World Health Organization Five Well-Being Index
+- _If you are having a very hard time or thinking about harming yourself, you don't have to face it alone. Crisis lines in your country are listed at [findahelpline.com](https://findahelpline.com). If you are in immediate danger, call your local emergency number._
 - *Recommended frequency: monthly.*
 - ---
 - **Over the last two weeks:**

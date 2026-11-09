@@ -196,7 +196,7 @@ export default function GettingStartedPage() {
             <li>A frontmatter block (YAML for Obsidian, <code>property::</code> for Logseq)</li>
             <li>3–5 paragraphs of structured, readable prose</li>
             <li>Wiki-links to related concepts within the pack</li>
-            <li>A disclaimer noting AI authorship and professional review</li>
+            <li>A disclaimer noting AI authorship and that it has not yet been professionally reviewed</li>
           </ul>
           <div
             style={{

@@ -4,6 +4,7 @@ measures:: depression
 tags:: questionnaire, depression, self-assessment
 
 - # PHQ-9 — Patient Health Questionnaire-9
+- _If you are having a very hard time or thinking about harming yourself, you don't have to face it alone. Crisis lines in your country are listed at [findahelpline.com](https://findahelpline.com). If you are in immediate danger, call your local emergency number._
 - *Recommended frequency: monthly, or whenever your mood has been noticeably low.*
 - ---
 - **Over the last 2 weeks, how often have you been bothered by any of the following problems?**

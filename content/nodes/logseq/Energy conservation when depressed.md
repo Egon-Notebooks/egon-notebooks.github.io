@@ -2,6 +2,7 @@ author:: Claude
 date:: 2026-04-01
 tags:: depression, self-care, energy
 
+- _If you are having a very hard time or thinking about harming yourself, you don't have to face it alone. Crisis lines in your country are listed at [findahelpline.com](https://findahelpline.com). If you are in immediate danger, call your local emergency number._
 - When depression is present, even small everyday tasks can feel exhausting. This isn't laziness or weakness — it's a real and recognized part of how depression affects the body and mind. Understanding how to work with your available energy, rather than against it, can make a meaningful difference in day-to-day life.
 - One approach many people find helpful is prioritizing tasks rather than trying to accomplish everything at once. This means identifying one or two genuinely necessary things for the day and letting go of the rest — at least for now. Some people find it useful to break larger tasks into smaller steps, so that progress feels more achievable and less overwhelming. Completing even a single small step can provide a gentle sense of accomplishment.
 - Pacing is another strategy worth considering. Rather than pushing through fatigue until energy runs out completely, some people find it helpful to alternate activity with short periods of rest. This isn't giving up — it's a practical way to sustain functioning over the course of a day. Rest itself is a legitimate and important activity, not something that needs to be earned.

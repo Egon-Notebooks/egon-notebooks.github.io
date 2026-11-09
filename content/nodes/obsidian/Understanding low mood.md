@@ -13,6 +13,8 @@ generated: true
 
 # Understanding low mood
 
+_If you are having a very hard time or thinking about harming yourself, you don't have to face it alone. Crisis lines in your country are listed at [findahelpline.com](https://findahelpline.com). If you are in immediate danger, call your local emergency number._
+
 Low mood is something almost everyone experiences at some point. It can feel like a heaviness that settles in — a loss of energy, reduced enjoyment in things that usually bring pleasure, or a general sense of flatness. While low mood is a normal part of being human, understanding what it is and how to respond to it can make a real difference.
 
 One of the most important things to recognize is that low mood and clinical depression are not the same thing, though they exist on a spectrum. Low mood is often temporary and may be linked to identifiable factors such as [[Understanding stress|stress]], poor sleep, social disconnection, or significant life changes. Paying attention to patterns — noticing when low mood tends to arise and what seems to influence it — can be a helpful first step in understanding your own experience.
