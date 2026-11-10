@@ -1,27 +1,27 @@
 ---
 title: "Comparing yourself to others"
+type: article
 author: Claude
-date: 2026-04-01
+date: 2026-11-10
 tags:
   - self-esteem
   - emotions
-  - wellbeing
+  - relationships
 generated: true
-type: article
 egon_version: "1"
 ---
 
 # Comparing yourself to others
 
-Scrolling through a friend's highlight reel, sitting in a meeting while someone else gets praised, or watching a peer reach a milestone you've been working toward — comparison is something almost everyone experiences. It's a natural part of how human beings make sense of their place in the world. But when comparing yourself to others becomes a habit, it can quietly chip away at self-worth and make it harder to appreciate your own path.
+Scrolling through a highlight reel of someone else's life, glancing at a colleague's career progress, or noticing a friend's seemingly effortless confidence — the urge to measure ourselves against others is a deeply human experience. Social comparison is something almost everyone does, and while it can occasionally motivate us, it often leaves us feeling inadequate or stuck. Understanding where this tendency comes from and how to gently redirect it can make a meaningful difference in how we relate to ourselves.
 
-One thing that many people find helpful is becoming aware of when comparison is happening and what it's pointing to. Rather than pushing the feeling away, treating it as information can be useful. A moment of envy or inadequacy sometimes signals something you genuinely value or want for yourself — and that awareness can be redirected into setting personal goals, rather than measuring yourself against someone else's journey.
+One helpful shift is to become curious rather than critical when a comparison arises. Instead of accepting the feeling as evidence that you are falling short, try noticing it as information — a signal about what you value or what you might want for yourself. Many people find that journaling about these moments helps them separate the feeling from the fact, and identify what goals or needs might be worth exploring.
 
-Another strategy that tends to support a healthier inner dialogue is practicing what's sometimes called "gratitude journaling" — taking a few minutes to write down specific things that are going well in your own life. Research suggests that regularly noticing personal progress, however small, can help shift attention away from external comparisons and toward a more grounded sense of self. Similarly, limiting time on social media, where curated content can make comparison feel constant and unavoidable, is something many people find genuinely supportive of their wellbeing.
+It also helps to remember that comparisons are almost always incomplete. What we see of other people's lives — online or in person — is rarely the full picture. Practicing gratitude for your own path, with its specific challenges and growth, can gradually shift attention from what seems to be missing toward what is genuinely present. Some people find that limiting time on social media, even briefly, creates enough space to reconnect with their own sense of progress.
 
-It's also worth remembering that comparison often works with incomplete information. Most people share their successes far more readily than their struggles, which means the picture you're comparing yourself to is rarely the full one.
+Finally, grounding yourself in personal benchmarks rather than external ones — asking "how have I grown compared to where I was?" rather than "how do I measure up to others?" — can foster a more compassionate and sustainable relationship with yourself.
 
-If feelings of inadequacy or low self-worth are persistent and getting in the way of daily life, talking with a mental health professional can make a real difference. Support is available, and things can change.
+If comparison is significantly affecting your mood, self-worth, or daily life, speaking with a mental health professional can offer meaningful support. These feelings are common, and with the right guidance, they can become much easier to navigate.
 
 ---
 

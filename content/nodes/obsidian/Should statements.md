@@ -1,30 +1,30 @@
 ---
 title: "Should statements"
+type: article
 author: Claude
-date: 2026-04-11
+date: 2026-11-10
 tags:
-  - self-talk
   - self-compassion
-  - cognitive patterns
+  - thinking patterns
+  - stress
 aliases:
   - should thinking
   - musts
 generated: true
-type: article
 egon_version: "1"
 ---
 
 # Should statements
 
-"Should statements" are a type of thinking pattern that many people experience without realizing it. They show up as rigid internal rules about how we — or others — must behave: "I should be more productive," "I shouldn't feel this way," or "They should know better." While these thoughts can feel like harmless self-motivation, they often create unnecessary pressure and emotional distress over time.
+"Should" is a small word that can carry a surprisingly heavy weight. Many people move through their days with an internal narrator that speaks in absolutes — "I should be more productive," "I should feel happy by now," "I should have handled that better." While these thoughts often come from a genuine desire to grow or do well, they can quietly chip away at [[Self-compassion|self-compassion]] and become a source of ongoing [[Understanding stress|stress]].
 
-One of the most helpful steps is simply learning to notice when "should" language appears in your inner dialogue. Many people find that pausing and identifying these thoughts — rather than accepting them automatically — creates a little breathing room. Ask yourself where this rule came from, and whether it reflects your actual values or an expectation you absorbed from others. Awareness alone can gently loosen the grip these thoughts have.
+This pattern of thinking is sometimes called "should statements," and it's one of the most common thinking styles that mental health professionals explore in therapeutic work. The core issue isn't ambition or high standards — it's the rigid, all-or-nothing quality of "should," which tends to frame normal human limitations as personal failures. Over time, a steady stream of these thoughts can contribute to feelings of guilt, [[Shame and guilt|shame]], or [[Understanding low mood|low mood]].
 
-Another strategy involves softening the language itself. Replacing "I should" with "I could" or "I would like to" shifts the tone from obligation to choice. This small shift can make a meaningful difference in how you relate to yourself, allowing for more [[Self-compassion|self-compassion]] rather than self-criticism. It is not about lowering your standards — it is about holding yourself with a little more kindness.
+One approach many people find helpful is simply noticing when "should" appears in their inner dialogue. Awareness is a meaningful first step. From there, some people experiment with softening the language — replacing "I should" with "I'd like to" or "it would help me if I" can shift the feeling from obligation and self-criticism toward intention and choice. This isn't about lowering expectations, but about engaging with goals from a place of self-respect rather than self-judgment.
 
-It can also be worth examining the underlying belief driving the "should." Often, these statements are tied to deeper fears — of failure, of judgment, or of not being enough. Exploring these beliefs, ideally with a trusted person or professional, can help uncover more realistic and balanced ways of thinking.
+Another strategy involves asking gently: "Where did this 'should' come from?" Sometimes these statements reflect values that feel genuinely meaningful. Other times, they echo old messages from family, culture, or past experiences that may no longer serve us. Exploring that distinction can be quietly powerful.
 
-It is completely normal to have high expectations of yourself, and noticing this pattern is already a meaningful step. With time and support, many people find they can relate to themselves with greater flexibility and compassion. If "should" thinking is causing you significant distress, reaching out to a mental health professional can be a valuable and worthwhile step.
+Recognizing unhelpful thinking patterns is a skill, and like any skill, it develops with practice and support. If "should" statements feel persistent or deeply distressing, speaking with a mental health professional can offer guidance tailored to your specific experience. Change is possible, and nobody has to work through it alone.
 
 ---
 

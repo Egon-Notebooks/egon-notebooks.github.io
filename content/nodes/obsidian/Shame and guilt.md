@@ -1,7 +1,8 @@
 ---
 title: "Shame and guilt"
+type: article
 author: Claude
-date: 2026-04-01
+date: 2026-11-10
 tags:
   - shame
   - guilt
@@ -10,19 +11,20 @@ aliases:
   - shame
   - guilt
 generated: true
-type: article
 egon_version: "1"
 ---
 
 # Shame and guilt
 
-Shame and guilt are two emotions that often get tangled together, yet they affect us in meaningfully different ways. Understanding the distinction between them — and learning how to work through both — can be an important step toward emotional well-being.
+Shame and guilt are emotions that most people encounter at some point in their lives. While they can feel similar on the surface, understanding the difference between them — and learning how to work through both — can be an important step toward emotional wellbeing.
 
-Guilt tends to focus on a specific action: the feeling that you did something wrong. Shame, by contrast, turns inward and targets the self — the sense that you *are* something wrong. While guilt can sometimes motivate positive change, shame often leads people to withdraw, hide, or feel stuck. Research in psychology, including the work of shame researcher Brené Brown, consistently shows that chronic shame is linked to [[Understanding anxiety|anxiety]], depression, and difficulties in relationships. Recognizing which emotion you're experiencing is a useful first step, because the path through each one can look different.
+Guilt tends to focus on a specific action: the feeling that you did something wrong. Shame, by contrast, turns inward, carrying the message that *you* are wrong — as a person. This distinction matters because shame can be much harder to shake. It can quietly affect [[Self-esteem and where it comes from|self-esteem]], relationships, and the willingness to reach out for help. Recognizing which emotion you're experiencing is often the first step in responding to it with compassion rather than self-criticism.
 
-One approach many people find helpful is practicing [[Self-compassion|self-compassion]] — treating yourself with the same kindness you would offer a close friend who made a mistake. This doesn't mean excusing harmful behavior; it means recognizing that being human involves imperfection, and that struggling doesn't make someone fundamentally flawed. Another strategy involves gently examining whether the shame you feel is truly your own, or whether it has been absorbed from critical messages received earlier in life. Shame frequently has roots in what we were told — or shown — about our worth growing up. Bringing those messages into awareness, perhaps through journaling or talking with a trusted person, can begin to loosen their hold.
+One approach that many people find helpful is practicing [[Self-compassion|self-compassion]] — treating yourself with the same understanding you might offer a trusted friend. Research suggests that self-compassion can reduce the intensity of shame without excusing harmful behavior. It simply creates enough emotional space to reflect honestly and, where needed, make amends or change course. Journaling or talking through feelings with someone trusted can support this process.
 
-It's worth remembering that both guilt and shame, even when painful, don't have to be permanent states. Many people find that working through these emotions — especially with the support of a therapist or counselor — leads to greater self-understanding and a more compassionate relationship with themselves. Reaching out for that kind of support is a sign of strength, not weakness.
+Another strategy involves gently challenging the stories shame tells. Shame often thrives in silence and isolation. Many people find that naming the feeling — whether to themselves, in writing, or with a supportive person — can reduce its power. Therapy, particularly approaches like [[Cognitive behavioral therapy|Cognitive Behavioral Therapy]] (CBT) or [[Acceptance and commitment therapy|Acceptance and Commitment Therapy]] (ACT), can offer structured support for working through deep-rooted shame.
+
+It is worth remembering that experiencing shame or guilt does not define who you are. These emotions are part of being human, and they can shift with time, support, and care. If these feelings are weighing heavily on you, reaching out to a mental health professional is a meaningful and courageous step.
 
 ---
 

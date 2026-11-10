@@ -1,28 +1,30 @@
 ---
 title: "Labeling and mislabeling"
+type: article
 author: Claude
-date: 2026-04-11
+date: 2026-11-10
 tags:
-  - self-esteem
-  - cognitive distortions
-  - self-compassion
+  - emotions
+  - self-awareness
+  - cognitive patterns
 aliases:
   - labeling
   - mislabeling
 generated: true
-type: article
 egon_version: "1"
 ---
 
 # Labeling and mislabeling
 
-Labeling and mislabeling is a common thinking pattern in which a person reduces themselves — or someone else — to a single, often harsh word or phrase based on one experience or mistake. Instead of saying "I made an error," a person might think "I'm a failure." Rather than recognizing a difficult moment, they define their entire identity around it. This kind of thinking is recognized in [[Cognitive behavioral therapy|cognitive behavioral therapy]] (CBT) as a cognitive distortion, meaning it is a pattern that can skew how we see reality and affect how we feel day to day.
+Feelings can be powerful and sometimes confusing, and the words we use to describe them matter more than we might realize. The way we label our experiences — both internally and out loud — can shape how we feel about ourselves and how we move through difficult moments. Learning to notice when we're using unhelpful labels is a meaningful step toward greater emotional wellbeing.
 
-One reason labeling can be so powerful is that language shapes perception. When a negative label becomes the lens through which someone views themselves, it can make it harder to notice moments of growth, success, or [[Building resilience|resilience]]. Many people find it helpful to practice "catching" these labels as they arise — simply noticing when a thought has shifted from describing a behavior to defining a whole person. Keeping a journal can support this, as writing things down often creates a little distance between an experience and the story we tell about it.
+One common pattern that mental health researchers have studied is called "mislabeling" — attaching an inaccurate or overly harsh label to a feeling, a situation, or ourselves. For example, feeling nervous before a presentation and telling yourself "I'm a complete failure" is a mislabel: it takes a temporary feeling and turns it into a sweeping statement about identity. Many people find that simply pausing to ask, "Is this label accurate, or is it the most extreme possible interpretation?" can gently loosen the grip of that thought.
 
-Another useful approach involves gently replacing global labels with specific, accurate descriptions. "I struggled with that presentation" is more truthful — and more workable — than "I'm hopeless." This shift is not about forced positivity, but about staying closer to what actually happened, which tends to leave more room for problem-solving and [[Self-compassion|self-compassion]]. Practicing this over time, especially with support, can gradually soften the automatic pull toward harsh self-definition.
+Another helpful approach involves what therapists sometimes call "emotional granularity" — developing a richer, more precise vocabulary for how we're feeling. Instead of defaulting to "I feel awful," a person might explore whether they feel disappointed, overwhelmed, embarrassed, or tired. Research suggests that more accurately naming emotions can reduce their intensity and help us respond to them more effectively. Keeping a brief journal to notice and name feelings throughout the day is one practice many people find useful over time.
 
-It is worth remembering that thoughts are not facts, and patterns of thinking can change. Many people have found that working with a mental health professional — whether through therapy, counseling, or other support — can make a meaningful difference in learning to relate to themselves with greater kindness and accuracy.
+It can also help to extend the same compassion to ourselves that we'd offer a friend. If a friend described a hard day, most of us wouldn't respond with a sweeping negative label — and we deserve that same gentleness.
+
+If you find that negative self-labeling feels persistent or overwhelming, speaking with a mental health professional can make a real difference. Support is available, and things can shift.
 
 ---
 

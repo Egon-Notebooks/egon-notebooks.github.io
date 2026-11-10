@@ -1,27 +1,27 @@
 ---
 title: "Acceptance and commitment therapy"
+type: article
 author: Claude
-date: 2026-04-11
+date: 2026-11-10
 tags:
   - therapy
-  - mindfulness
-  - wellbeing
+  - anxiety
+  - depression
 generated: true
-type: article
 egon_version: "1"
 ---
 
 # Acceptance and commitment therapy
 
-Acceptance and commitment therapy, often called ACT, is a type of psychological therapy that focuses on helping people relate differently to difficult thoughts and feelings, rather than trying to eliminate them. Grounded in decades of research, ACT offers a flexible, practical approach to building a meaningful life even when emotional challenges are present.
+Acceptance and commitment therapy — often called ACT — is a form of psychological therapy that takes a different approach to difficult thoughts and feelings. Rather than trying to eliminate or suppress uncomfortable emotions, ACT encourages people to change their relationship with those experiences, making room for them while still moving toward a meaningful life.
 
-One of the core ideas in ACT is that struggling against uncomfortable thoughts and feelings can sometimes make them more overwhelming. Instead of trying to push difficult experiences away, ACT encourages a stance of acceptance — making room for thoughts and emotions without letting them dictate every decision. Many people find that simply acknowledging a feeling, rather than fighting it, can reduce some of its intensity over time.
+One of the core ideas in ACT is the practice of acceptance. This doesn't mean resigning yourself to pain or deciding that everything is fine — it means choosing not to fight against thoughts and feelings that are outside your control. Many people find that the energy spent trying to push away difficult emotions can itself become exhausting. Acceptance can offer a sense of relief, freeing up space to focus on what truly matters.
 
-A second important element is the concept of values-based action. ACT invites people to identify what genuinely matters to them — things like relationships, creativity, or personal growth — and to take small, deliberate steps in those directions, even when [[Understanding anxiety|anxiety]] or self-doubt is present. This shifts attention away from the goal of feeling perfect and toward the goal of living meaningfully. Research suggests that this kind of purposeful action can support overall well-being and psychological flexibility over time.
+A second key element is what therapists call "defusion" — learning to observe your thoughts rather than being completely caught up in them. For example, instead of thinking "I am a failure," a person practicing defusion might notice "I'm having the thought that I'm a failure." This small shift in perspective can reduce the power a thought holds, making it easier to respond thoughtfully rather than react automatically.
 
-ACT also introduces mindfulness practices as a way to observe thoughts without treating them as absolute truths. When someone notices a thought like "I'm not good enough" as simply a thought — rather than a fact — it can lose some of its grip. Many people find that building this skill gradually, through gentle practice, supports a more compassionate relationship with themselves.
+ACT also places a strong emphasis on values — identifying what genuinely matters to you and taking committed action in that direction, even when life feels difficult. This might involve asking yourself questions like: What kind of person do I want to be? What relationships or activities give my life meaning? Small, values-guided steps can help build a sense of purpose and forward momentum.
 
-If you recognize any of these challenges in your own life, reaching out to a mental health professional can be a meaningful first step. Support is available, and with the right guidance, change is genuinely possible.
+ACT has been studied across a wide range of mental health challenges, including [[Understanding anxiety|anxiety]], depression, and [[Understanding stress|stress]]. If any of these ideas resonate with you, speaking with a mental health professional can help you explore whether this approach might be a good fit for your needs. Reaching out is a meaningful step, and support is available.
 
 ---
 

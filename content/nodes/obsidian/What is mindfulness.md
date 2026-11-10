@@ -1,25 +1,27 @@
 ---
 title: "What is mindfulness"
+type: article
 author: Claude
-date: 2026-04-01
+date: 2026-11-10
 tags:
   - mindfulness
   - stress
-  - emotions
+  - anxiety
 generated: true
-type: article
 egon_version: "1"
 ---
 
 # What is mindfulness
 
-Mindfulness is the practice of paying attention to the present moment with openness and without judgment. Rather than replaying past events or worrying about what lies ahead, mindfulness invites a gentle awareness of what is happening right now — thoughts, feelings, and physical sensations included. It is a skill that can be learned and strengthened over time, and research suggests it can play a meaningful role in supporting emotional wellbeing.
+Mindfulness is the practice of paying attention to the present moment — noticing thoughts, feelings, and physical sensations with openness and without judgment. While it has roots in ancient meditation traditions, it has been widely studied in modern psychology and is recognized as a practical tool for supporting mental and emotional wellbeing.
 
-One of the core ideas behind mindfulness is that we don't have to act on every thought or feeling that arises. Many people find that simply noticing a thought — rather than automatically responding to it — creates a small but important sense of space. This can make it easier to respond to challenges more calmly and with greater clarity. Practices like mindful breathing, where attention is gently brought back to the rhythm of each breath whenever the mind wanders, are a simple entry point that many people find accessible.
+One of the core ideas behind mindfulness is that we often spend a great deal of mental energy replaying the past or worrying about the future. Many people find that gently redirecting attention to what is happening right now — a breath, a sound, the feeling of their feet on the floor — can create a small but meaningful sense of calm and clarity. This doesn't require hours of meditation. Even a few intentional minutes each day can help build the habit of present-moment awareness.
 
-Mindfulness doesn't require special equipment, a specific setting, or a large block of time. Some people practice formally through guided meditation or quiet sitting, while others weave it into everyday moments — paying close attention while drinking a cup of tea, taking a slow walk, or simply pausing before responding in a conversation. Research has linked regular mindfulness practice to reduced [[Understanding stress|stress]] and improved emotional regulation, and it forms a key component of several evidence-based therapies used to support conditions like [[Understanding anxiety|anxiety]] and depression.
+Mindfulness can also change the relationship we have with our thoughts and emotions. Rather than getting caught up in a difficult feeling or assuming that a negative thought is true, mindfulness encourages a kind of curious distance — noticing "I'm having this thought" rather than becoming fully immersed in it. Research suggests this approach may help reduce the intensity of [[Understanding stress|stress]], [[Understanding anxiety|anxiety]], and [[Understanding low mood|low mood]] over time, particularly when practiced consistently.
 
-It is worth noting that mindfulness is a complement to — not a replacement for — professional mental health support. If difficult thoughts or feelings are affecting your daily life, speaking with a qualified professional can make a real difference. Many people find that combining mindfulness with other forms of support helps them build a more grounded and resilient relationship with their own wellbeing.
+For those who want to explore mindfulness, some starting points many people find accessible include slow, deliberate breathing exercises, short body-scan practices, or simply taking a few moments during everyday activities — like eating or walking — to pay close attention to the experience.
+
+Mindfulness is not a cure-all, and it may not feel natural straight away. That's completely normal. For people who are navigating more significant mental health challenges, mindfulness can be one helpful part of a broader approach to care — and speaking with a mental health professional is always a valuable step.
 
 ---
 

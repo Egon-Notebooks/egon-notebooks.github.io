@@ -1,7 +1,8 @@
 ---
 title: "Social anxiety"
+type: article
 author: Claude
-date: 2026-04-01
+date: 2026-11-10
 tags:
   - anxiety
   - social anxiety
@@ -9,21 +10,20 @@ tags:
 aliases:
   - social phobia
 generated: true
-type: article
 egon_version: "1"
 ---
 
 # Social anxiety
 
-Social [[Understanding anxiety|anxiety]] is more than everyday shyness. It involves an intense [[Fear|fear]] of being judged, embarrassed, or rejected in social situations — and it can make even routine interactions feel overwhelming. Many people experience social [[Understanding anxiety|anxiety]] to some degree, and for those whose daily lives are significantly affected, it helps to know that support and effective strategies are available.
+Social [[Understanding anxiety|anxiety]] is more than feeling shy or nervous before a big event. It involves an intense [[Fear|fear]] of being judged, embarrassed, or rejected in social situations — and it can make everyday interactions feel overwhelming. Many people experience social anxiety to varying degrees, and it is one of the most common mental health challenges adults face. The important thing to know is that it is also one that many people learn to manage effectively over time.
 
-One approach many people find helpful is gradual exposure — gently and repeatedly facing situations that feel uncomfortable, rather than avoiding them. Avoidance can feel like relief in the short term, but over time it tends to reinforce [[Understanding anxiety|anxiety]]. Starting small, such as making brief eye contact with a cashier or exchanging a few words with a neighbor, can help build confidence in a manageable way.
+One strategy that many people find helpful is gradual exposure — gently and repeatedly engaging with situations that feel anxiety-provoking, rather than avoiding them. Avoidance can provide short-term relief but often reinforces anxiety over time. Starting small, such as making brief eye contact with a cashier or joining a conversation for just a few minutes, can help build confidence in a manageable way. Progress does not need to be dramatic to be meaningful.
 
-Paying attention to thought patterns is another strategy that many people find valuable. Social [[Understanding anxiety|anxiety]] often involves a tendency to predict the worst — assuming others are judging harshly or that a small mistake will have major consequences. Learning to notice and gently question these thoughts, a technique central to cognitive behavioral therapy (CBT), can gradually shift how social situations feel. CBT is one of the most well-researched approaches for social [[Understanding anxiety|anxiety]] and is often delivered by a trained therapist.
+Paying attention to thought patterns can also make a difference. Social anxiety often involves a tendency to assume the worst — imagining that others are judging harshly or that a small mistake will have major consequences. Gently questioning these thoughts, and considering more balanced possibilities, is a core part of [[Cognitive behavioral therapy|cognitive behavioral therapy]] (CBT), a well-researched approach that has helped many people with social anxiety. Even practicing this skill informally, outside of therapy, can be a useful starting point.
 
-[[Self-compassion]] also plays an important role. Many people living with social [[Understanding anxiety|anxiety]] are their own harshest critics. Practicing kindness toward yourself — acknowledging that imperfection is part of being human — can ease some of the pressure that social situations carry.
+Mindful breathing and grounding techniques are another tool some people find calming in the moment, helping to reduce the physical sensations — like a racing heart or shallow breathing — that often accompany anxiety in social settings.
 
-Social [[Understanding anxiety|anxiety]] is a recognized and treatable condition, and many people experience meaningful improvement over time. Reaching out to a mental health professional is a positive step, and there is no need to navigate these feelings alone. With the right support, social situations can begin to feel less like a threat and more like an opportunity to connect.
+Living with social anxiety can feel isolating, but support is available and recovery is possible. Speaking with a mental health professional is a meaningful step, and many people find that with the right support, social situations that once felt impossible gradually become more manageable.
 
 ---
 

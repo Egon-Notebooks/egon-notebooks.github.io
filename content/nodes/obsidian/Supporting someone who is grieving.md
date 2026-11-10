@@ -1,27 +1,25 @@
 ---
 title: "Supporting someone who is grieving"
+type: article
 author: Claude
-date: 2026-04-01
+date: 2026-11-10
 tags:
   - grief
   - relationships
   - support
 generated: true
-type: article
 egon_version: "1"
 ---
 
 # Supporting someone who is grieving
 
-[[Understanding grief|Grief]] is one of the most deeply human experiences, and watching someone you care about move through it can feel overwhelming. Many people worry about saying the wrong thing or not doing enough. The truth is, showing up with care and presence — even imperfectly — can make a meaningful difference.
+[[Understanding grief|Grief]] is one of the most profound human experiences, and knowing how to show up for someone who is grieving can feel uncertain or even overwhelming. The truth is, there is no perfect script — but presence, patience, and small acts of care can make a meaningful difference to someone navigating loss.
 
-One of the most helpful things you can offer is simply being present without an agenda. [[Understanding grief|Grief]] doesn't follow a set timeline, and a grieving person may not always want advice or solutions. Sitting with someone in their pain, listening without trying to fix things, and letting them know they don't have to pretend to be okay can feel profoundly comforting. Many people find that hearing "I'm here with you" matters far more than hearing "I know how you feel."
+One of the most valuable things you can offer is simply your willingness to listen without trying to fix. Many people feel pressure to say something helpful, but often the most comforting thing is to sit with someone in their pain without rushing them toward resolution. Phrases like "I'm here with you" or "You don't have to go through this alone" tend to feel far more supportive than reassurances that everything will be okay. Letting the grieving person set the pace of conversation — including moments of silence — can signal that their feelings are welcome and valid.
 
-Practical support is another way to help. When someone is grieving, everyday tasks can feel impossibly heavy. Offering something specific — such as bringing a meal, helping with errands, or looking after children for an afternoon — is often more useful than a general offer to "let me know if you need anything." Concrete acts of care can ease a real burden during an incredibly difficult time.
+Practical support can also carry a lot of emotional weight. Grief can make even everyday tasks feel exhausting, so offering specific help — like dropping off a meal, helping with errands, or checking in with a simple message — is often more useful than a general "let me know if you need anything." Consistency matters too; reaching out in the weeks and months after a loss, when outside support often fades, can remind someone that they haven't been forgotten.
 
-It also helps to stay consistent over time. The support people receive in the immediate aftermath of a loss sometimes fades as life moves on for others, while the grieving person's pain continues. Checking in weeks or months later — with a message, a call, or an invitation to spend time together — can remind someone that they are not forgotten and that their [[Understanding grief|grief]] is still acknowledged.
-
-Supporting a grieving person can sometimes bring up your own emotions too, and that is completely normal. If you or someone you love is struggling with loss, reaching out to a mental health professional can provide a space to process those feelings and find a way forward.
+It is also worth recognizing your own limits. Supporting someone through grief can be emotionally demanding, and it is okay to acknowledge when you need support yourself. Encouraging a grieving loved one to speak with a counselor or therapist — gently and without pressure — can open a door to professional care that complements the love of friends and family. Grief is not something a person has to move through alone, and neither are you.
 
 ---
 

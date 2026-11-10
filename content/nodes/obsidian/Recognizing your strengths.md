@@ -1,27 +1,27 @@
 ---
 title: "Recognizing your strengths"
+type: article
 author: Claude
-date: 2026-04-01
+date: 2026-11-10
 tags:
   - self-esteem
   - resilience
   - wellbeing
 generated: true
-type: article
 egon_version: "1"
 ---
 
 # Recognizing your strengths
 
-Noticing what we're good at can feel uncomfortable for many people — especially during difficult times, when self-criticism tends to be loudest. Yet recognizing personal strengths is more than a confidence boost. Research in positive psychology suggests that identifying and using our strengths is connected to greater well-being, [[Building resilience|resilience]], and a sense of purpose in daily life.
+Recognizing your own strengths can feel surprisingly difficult, especially during times of [[Understanding stress|stress]] or [[Understanding low mood|low mood]]. Many people find it much easier to notice what they feel they're doing wrong than to acknowledge what they're doing well. Learning to identify and connect with your strengths, however, is something that can meaningfully support your overall well-being.
 
-One way to begin exploring your strengths is to reflect on moments when things felt meaningful or energizing — times when you were absorbed in a task, helped someone effectively, or navigated a challenge in a way that felt true to who you are. These moments often point toward underlying qualities like creativity, patience, curiosity, or perseverance. Journaling about these experiences, even briefly, can help make patterns more visible over time.
+One place to start is by paying attention to the moments in your day when things feel a little more natural or rewarding — a conversation that went well, a task you handled thoughtfully, or the way you showed up for someone who needed support. These small moments often reflect genuine strengths, even if they don't feel significant at the time. Some people find it helpful to keep a brief daily journal, noting one or two things they did that reflect a quality they value in themselves.
 
-It can also help to consider feedback from people who know you well. Others sometimes notice qualities in us that we overlook or take for granted. A trusted friend, family member, or colleague might offer a perspective that feels surprising but resonates. This isn't about seeking external validation — it's about gathering information that you can reflect on privately and at your own pace.
+It can also help to consider feedback you've received from people you trust. Friends, family members, or colleagues sometimes see qualities in us that we overlook in ourselves. Traits like patience, creativity, perseverance, or humor are real strengths — even if they don't appear on a resume. Reflecting on how others describe you, particularly during moments of connection or collaboration, can offer a more rounded picture of who you are.
 
-Strengths don't have to be dramatic or rare. Many people find that qualities like reliability, empathy, humor, or the ability to stay calm under pressure are among their most valuable. Recognizing these everyday strengths — and finding small ways to use them intentionally — can gradually shift how a person relates to themselves, particularly during periods of [[Understanding low mood|low mood]] or self-doubt.
+Another approach many people find useful is exploring formal strengths assessments, which are tools developed through psychological research to help people identify their characteristic ways of thinking and engaging with the world. These can offer a helpful starting point for self-reflection.
 
-If self-criticism feels persistent or overwhelming, speaking with a mental health professional can be a helpful step. Exploring your sense of self and identity is something that therapy and counseling are well-equipped to support, and many people find that this kind of work leads to meaningful, lasting change.
+Recognizing your strengths is not about ignoring difficulties or pretending everything is fine. It's about building a more complete and honest understanding of yourself — one that includes what you bring to your life and to others. If this kind of self-exploration feels hard to do alone, speaking with a mental health professional can be a supportive and valuable next step.
 
 ---
 

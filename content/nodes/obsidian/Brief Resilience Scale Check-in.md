@@ -1,5 +1,6 @@
 ---
 title: "Brief Resilience Scale Check-in"
+date: 2026-11-10
 type: questionnaire
 questionnaire: BRS
 measures: resilience — the ability to bounce back from stress
@@ -7,7 +8,6 @@ tags:
   - questionnaire
   - resilience
   - self-assessment
-date: 2026-11-10
 egon_version: "1"
 ---
 

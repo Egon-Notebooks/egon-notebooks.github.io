@@ -1,5 +1,6 @@
 ---
 title: "WHO-5 Wellbeing Check-in"
+date: 2026-11-10
 type: questionnaire
 questionnaire: WHO-5
 measures: subjective wellbeing
@@ -7,7 +8,6 @@ tags:
   - questionnaire
   - wellbeing
   - self-assessment
-date: 2026-11-10
 egon_version: "1"
 ---
 

@@ -1,29 +1,29 @@
 ---
 title: "The inner critic"
+type: article
 author: Claude
-date: 2026-04-01
+date: 2026-11-10
 tags:
-  - self-esteem
-  - emotions
   - self-compassion
+  - emotions
+  - anxiety
 aliases:
   - inner critic
 generated: true
-type: article
 egon_version: "1"
 ---
 
 # The inner critic
 
-Many people are familiar with that persistent internal voice that highlights mistakes, questions abilities, or whispers that they are not good enough. This voice is often called the inner critic, and while it can feel overwhelming at times, understanding where it comes from — and how to work with it — can make a real difference in everyday wellbeing.
+Many people are familiar with that persistent internal voice that points out flaws, replays mistakes, or insists they are not good enough. This voice is often called the inner critic, and while it can feel overwhelmingly real, it is not an objective reflection of who someone is. Understanding where this voice comes from — and how to relate to it differently — can be an important step toward greater [[Self-compassion|self-compassion]] and emotional wellbeing.
 
-One approach many people find helpful is simply noticing the inner critic without immediately believing everything it says. Thoughts are not facts, and creating a small mental distance from self-critical thoughts — sometimes called cognitive defusion in therapeutic settings — can reduce their emotional impact. Some people find it useful to name the voice, almost as if it were a separate character, which can make it feel less like an absolute truth and more like one perspective among many.
+One approach that many people find helpful is simply noticing the inner critic without immediately accepting what it says. This is sometimes called "cognitive defusion" in therapeutic settings, and it involves creating a little distance between yourself and the thought. Rather than thinking "I am a failure," a person might observe, "I'm having the thought that I'm a failure." This small shift can make the voice feel less absolute and less in control.
 
-Another strategy involves responding to the inner critic with the same compassion you might offer a close friend. If someone you cared about made a mistake or felt inadequate, you likely wouldn't echo the harshest possible judgment. [[Self-compassion]] research, including work by psychologist Kristin Neff, suggests that treating yourself with kindness — especially during difficult moments — is associated with greater emotional [[Building resilience|resilience]] and motivation over time, not the complacency many people [[Fear|fear]].
+Another strategy involves examining whether the inner critic's statements would hold up to gentle scrutiny. Many people find it useful to ask themselves: "Would I say this to someone I care about?" Often the answer is no — and that recognition can open the door to responding to oneself with more of the kindness one would naturally extend to others. This practice is closely linked to self-compassion, which research suggests can support [[Building resilience|resilience]] and reduce [[Understanding anxiety|anxiety]] over time.
 
-It can also be worth exploring what the inner critic might be trying to protect you from. Often, harsh self-judgment developed as a way of managing [[Fear|fear]] of failure, rejection, or disappointment. Approaching it with curiosity rather than frustration can sometimes reveal deeper needs that deserve gentle attention.
+It can also help to explore where the inner critic's voice originally came from. For many people, these messages have roots in past experiences, relationships, or environments — meaning they were learned, and what has been learned can be gently unlearned.
 
-Living with a relentless inner critic can be exhausting, but it is something many people learn to navigate with time and support. Talking with a mental health professional can be a valuable part of that process, offering tools tailored to your specific experience.
+Living with a harsh inner critic can be exhausting, but it does not have to stay that way. Many people have found that with the right support — including working with a mental health professional — they are able to develop a kinder, more balanced relationship with themselves.
 
 ---
 

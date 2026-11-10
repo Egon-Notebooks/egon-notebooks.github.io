@@ -1,25 +1,25 @@
 ---
 title: "Signs of burnout"
+type: article
 author: Claude
-date: 2026-04-01
+date: 2026-11-10
 tags:
   - burnout
   - stress
   - wellbeing
 generated: true
-type: article
 egon_version: "1"
 ---
 
 # Signs of burnout
 
-Burnout is a state of deep exhaustion that can develop when prolonged [[Understanding stress|stress]] — often from work, caregiving, or other demanding responsibilities — goes unaddressed for too long. It is more than just feeling tired after a busy week. Recognizing the signs early can make a meaningful difference in how quickly someone is able to begin recovering.
+Burnout is more than just feeling tired after a long week. It is a state of prolonged [[Understanding stress|stress]] and exhaustion that can affect how a person thinks, feels, and functions — and it is more common than many people realize. Recognizing the early signs can be an important first step toward feeling better.
 
-One of the most common signs of burnout is a persistent sense of emotional and physical exhaustion that does not improve with rest. A person experiencing burnout may find that sleep no longer feels restorative, and that even small tasks require enormous effort. Alongside this, many people notice a growing sense of detachment — feeling disconnected from work, relationships, or activities that once felt meaningful. This emotional distance can sometimes be mistaken for laziness or indifference, but it is often the mind and body's way of trying to protect itself from ongoing overwhelm.
+One of the most telling signs of burnout is a persistent sense of exhaustion that does not improve with rest. A person experiencing burnout may wake up feeling just as drained as when they went to sleep. This kind of fatigue often goes hand in hand with a growing sense of detachment — from work, from relationships, or from activities that once brought [[Joy and positive emotions|joy]]. Many people describe feeling emotionally numb or going through the motions without any real sense of engagement or purpose.
 
-A third sign worth paying attention to is a decline in effectiveness or a growing sense of cynicism. Someone moving through burnout may feel that nothing they do makes a difference, or that their usual competence has slipped away. This can feed a cycle of self-criticism that makes recovery harder. Many people find it helpful to gently reconnect with small, manageable routines — short periods of rest, light movement, or activities that feel genuinely enjoyable — as a way of gradually rebuilding their energy reserves.
+Burnout can also show up in cognitive ways. Some people notice that they have difficulty concentrating, making decisions, or completing tasks that would normally feel straightforward. Increased irritability, cynicism, or a feeling of being trapped are also common experiences. Physical symptoms — such as frequent headaches, changes in sleep patterns, or a lowered immune system — may appear alongside these emotional and mental shifts.
 
-It is worth remembering that burnout develops over time, and recovery also takes time. Noticing these signs is not a sign of weakness — it is a sign of self-awareness, and that awareness is a meaningful first step. Support is available, and many people find that talking with a trusted person or a mental health professional helps them understand what they are experiencing and begin moving forward.
+If any of these experiences feel familiar, it can help to know that burnout is not a personal failing. It is a signal that something in the balance between demands and resources needs to shift. Many people find that small, consistent changes — like setting clearer [[Setting healthy boundaries|boundaries]], building in time for rest, and talking openly with someone they trust — can begin to make a meaningful difference. Speaking with a mental health professional can offer additional support and guidance tailored to individual circumstances. Things can change, and reaching out is a sign of strength, not weakness.
 
 ---
 

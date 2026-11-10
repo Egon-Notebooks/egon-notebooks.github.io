@@ -1,29 +1,29 @@
 ---
 title: "Personalization"
+type: article
 author: Claude
-date: 2026-04-11
+date: 2026-11-10
 tags:
-  - self-blame
-  - cognitive patterns
+  - thinking patterns
   - self-compassion
+  - cognitive behavioral therapy
 aliases:
   - personalizing
 generated: true
-type: article
 egon_version: "1"
 ---
 
 # Personalization
 
-Personalization is a common thinking pattern in which a person takes excessive responsibility for events or situations that are not entirely — or even at all — within their control. It often sounds like an internal voice saying "this is my fault" or "I must have done something wrong" when things go wrong around them. Recognizing this pattern is an important step toward thinking more flexibly and compassionately about oneself.
+Personalization is a common thinking pattern where a person takes excessive personal responsibility for events or situations that are outside their control. It can show up as an automatic inner voice that says "this is my fault" — even when the evidence doesn't support that conclusion. Recognizing this pattern is an important step toward developing a healthier, more balanced relationship with yourself and the world around you.
 
-One strategy many people find helpful is learning to pause and examine the evidence. When a difficult situation arises, it can be useful to gently ask: "What factors contributed to this, beyond my own actions?" Most situations involve multiple people, circumstances, and variables. Practicing this kind of balanced thinking — sometimes called cognitive restructuring in therapy — can gradually loosen the grip of self-blame over time.
+One approach that many people find helpful is learning to pause before accepting blame. When a difficult situation arises, it can be useful to ask: "What other factors might have contributed to this?" Broadening the perspective this way — rather than immediately turning inward with self-criticism — allows space for a more accurate and fair assessment. This technique is often used in [[Cognitive behavioral therapy|cognitive behavioral therapy]] (CBT), a well-researched approach that helps people examine and gently challenge unhelpful thought patterns.
 
-Another approach involves noticing the language used in self-talk. Phrases like "I always cause problems" or "everything that goes wrong is because of me" tend to be absolute and rarely hold up under closer examination. Many people find it helpful to reframe these thoughts in more realistic terms, such as "I played one part in a complicated situation." This small shift can make a meaningful difference in how a person feels about themselves day to day.
+Another strategy many people benefit from is practicing [[Self-compassion|self-compassion]]. This means treating yourself with the same understanding you would offer a close friend facing a similar situation. Journaling can be a supportive tool here — writing out the situation, the automatic thought, and a more balanced alternative can help make the pattern more visible and easier to shift over time.
 
-It also helps to practice [[Self-compassion|self-compassion]] — treating oneself with the same understanding one might offer a close friend. When personalizing thoughts arise, responding with kindness rather than criticism can reduce their emotional intensity over time.
+It is also worth noting that personalization often intensifies during periods of high [[Understanding stress|stress]], [[Understanding anxiety|anxiety]], or [[Understanding low mood|low mood]]. Noticing when it tends to appear can help you approach it with curiosity rather than frustration, which makes it easier to work through.
 
-Personalization is a very human tendency, and struggling with self-blame does not reflect a character flaw — it reflects a mind working hard to make sense of the world. With time, practice, and the right support, it is entirely possible to develop a kinder, more balanced relationship with oneself. Speaking with a mental health professional can be a valuable part of that journey.
+If personalization is frequently affecting your confidence, your relationships, or your overall well-being, speaking with a mental health professional can make a real difference. Many people find that with the right support, these kinds of thought patterns can be understood, challenged, and changed — and that greater self-compassion and balance are genuinely within reach.
 
 ---
 

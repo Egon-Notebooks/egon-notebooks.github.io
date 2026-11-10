@@ -1,5 +1,6 @@
 ---
 title: "GAD-7 Monthly Anxiety Check-in"
+date: 2026-11-10
 type: questionnaire
 questionnaire: GAD-7
 measures: generalized anxiety
@@ -7,7 +8,6 @@ tags:
   - questionnaire
   - anxiety
   - self-assessment
-date: 2026-11-10
 egon_version: "1"
 ---
 

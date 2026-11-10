@@ -1,27 +1,27 @@
 ---
 title: "Disqualifying the positive"
+type: article
 author: Claude
-date: 2026-04-11
+date: 2026-11-10
 tags:
   - self-esteem
-  - thinking patterns
-  - cognitive behavioral therapy
+  - cognitive distortions
+  - negative thinking
 generated: true
-type: article
 egon_version: "1"
 ---
 
 # Disqualifying the positive
 
-Disqualifying the positive is a thinking pattern where a person dismisses or discounts good experiences, achievements, or qualities — often without realizing they are doing it. For example, someone might receive genuine praise for their work and immediately think, "They're just being polite," or achieve something meaningful and tell themselves, "Anyone could have done that." This pattern can quietly erode [[Self-esteem and where it comes from|self-esteem]] and make it harder to feel a sense of progress or [[Joy and positive emotions|joy]], even when both are genuinely present.
+Disqualifying the positive is a common thinking pattern in which a person brushes off good experiences or achievements, telling themselves that they "don't count" or happened only by luck. It is one of several cognitive distortions — habitual ways of thinking that can quietly reinforce feelings of low self-worth, [[Understanding anxiety|anxiety]], or depression. Recognizing this pattern is an important first step toward shifting it.
 
-One way to begin noticing this pattern is to practice pausing before deflecting a positive experience. When a kind word or accomplishment arises, many people find it helpful to simply acknowledge it — even silently — before the habit of dismissal kicks in. This isn't about forcing positivity or ignoring real challenges. It's about allowing good information to register fairly, the same way difficult experiences often do automatically.
+One way to begin noticing this habit is to pay attention to how you respond when something goes well. If a colleague compliments your work and your immediate internal response is "they're just being nice" or "anyone could have done that," this may be disqualifying the positive at work. Simply noticing the thought — without judgment — can create a small but meaningful pause between the experience and the dismissal. Many people find that keeping a brief journal of positive events, and writing down what actually contributed to them, helps build a more balanced picture over time.
 
-Journaling can also be a useful tool. Some people find that writing down one or two things that went well each day — and then writing a sentence about why they went well — helps gently challenge the habit of discounting. Over time, this kind of reflection can make it easier to hold positive experiences as real and meaningful, rather than flukes or exceptions.
+Another helpful approach is to practice what some therapists call "taking in the good." This means intentionally allowing a positive experience to register — sitting with it for a few moments rather than deflecting it. This is not about forcing false optimism. It is about giving genuine experiences the same attention that difficult ones so often receive. Over time, many people find this practice helps create a slightly more even emotional landscape.
 
-It can also help to notice the language used in self-talk. Phrases like "but," "only," or "it doesn't count because" are often signs that disqualifying is happening. Recognizing these patterns in the moment is a meaningful first step toward responding differently.
+It is also worth exploring where this pattern may have come from. For some people, dismissing good things feels protective — a way of avoiding disappointment. Understanding that function, ideally with the support of a trained therapist, can open the door to real and lasting change.
 
-If this kind of thinking feels persistent or is getting in the way of daily life, speaking with a mental health professional can make a real difference. Cognitive behavioral approaches, in particular, are well-suited to helping people examine and gradually shift these patterns. Support is available, and change is genuinely possible.
+If you notice this pattern showing up regularly in your life, you are not alone, and support is available. Reaching out to a mental health professional is a meaningful step that many people find genuinely helpful.
 
 ---
 
