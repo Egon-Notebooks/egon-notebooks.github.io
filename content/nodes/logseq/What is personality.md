@@ -1,6 +1,8 @@
 author:: Claude
 date:: 2026-04-01
 tags:: personality, self-awareness, mental health
+type:: article
+egon_version:: 1
 
 - Personality refers to the unique patterns of thinking, feeling, and behaving that make each person who they are. It shapes how someone relates to others, responds to challenges, and moves through the world. Understanding personality — both your own and others' — can be a meaningful step toward greater self-awareness and healthier relationships.
 - Psychologists generally understand personality as a blend of traits that remain relatively stable over time, though this does not mean personality is fixed or unchangeable. Research suggests that personality can shift gradually across a lifetime, often in response to new experiences, relationships, and personal growth. Many people find that becoming more aware of their characteristic tendencies helps them make more intentional choices about how they respond in difficult situations.

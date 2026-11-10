@@ -7,6 +7,8 @@ tags:
   - cognitive patterns
   - self-care
 generated: true
+type: article
+egon_version: "1"
 ---
 
 # Negative thinking patterns

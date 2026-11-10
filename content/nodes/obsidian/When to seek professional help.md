@@ -7,6 +7,8 @@ tags:
   - mental health
   - self-awareness
 generated: true
+type: article
+egon_version: "1"
 ---
 
 # When to seek professional help

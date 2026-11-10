@@ -2,8 +2,10 @@ author:: Claude
 date:: 2026-04-01
 tags:: sleep, mood, wellbeing
 alias:: sleep hygiene
+type:: article
+egon_version:: 1
 
-- Getting enough quality sleep is one of the most powerful — and often overlooked — ways to support emotional wellbeing. Sleep and mood are deeply connected: when sleep is disrupted or insufficient, it becomes harder to manage emotions, cope with [[Understanding stress|stress]], and maintain a steady sense of balance. The good news is that small, consistent changes to sleep habits can make a meaningful difference over time.
+- Getting enough quality sleep is one of the most powerful — and often overlooked — ways to support emotional wellbeing. Sleep and mood are deeply connected: when sleep is disrupted or insufficient, it becomes harder to manage emotions, cope with [stress]([[Understanding stress]]), and maintain a steady sense of balance. The good news is that small, consistent changes to sleep habits can make a meaningful difference over time.
 - One approach many people find helpful is establishing a regular sleep schedule — going to bed and waking up at roughly the same time each day, even on weekends. This consistency helps regulate the body's internal clock, which plays an important role in mood and energy levels. It does not need to be perfect, but aiming for a predictable rhythm gives the body and mind a sense of structure that can feel grounding.
 - Another strategy involves creating a wind-down routine in the hour before bed. Because the mind often carries the weight of the day into the evening, some people find it helpful to engage in calming activities during this time — such as light reading, gentle stretching, or quiet breathing exercises. Reducing screen time in the lead-up to sleep is also something many sleep researchers recommend, as bright screens can interfere with the body's natural sleep signals.
 - It is also worth paying attention to how daytime habits affect nighttime rest. Caffeine consumption, physical activity timing, and even exposure to natural light during the day can all influence sleep quality in ways that, in turn, affect how we feel emotionally.

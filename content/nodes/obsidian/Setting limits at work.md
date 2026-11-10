@@ -7,6 +7,8 @@ tags:
   - workplace
   - stress
 generated: true
+type: article
+egon_version: "1"
 ---
 
 # Setting limits at work

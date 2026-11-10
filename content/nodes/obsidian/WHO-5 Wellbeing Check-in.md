@@ -7,6 +7,8 @@ tags:
   - questionnaire
   - wellbeing
   - self-assessment
+date: 2026-11-10
+egon_version: "1"
 ---
 
 # WHO-5 — World Health Organization Five Well-Being Index

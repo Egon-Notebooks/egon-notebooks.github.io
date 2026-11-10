@@ -7,6 +7,8 @@ tags:
   - self-esteem
   - relationships
 generated: true
+type: article
+egon_version: "1"
 ---
 
 # Person-centered therapy

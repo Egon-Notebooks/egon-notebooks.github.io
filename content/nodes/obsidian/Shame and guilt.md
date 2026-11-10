@@ -10,6 +10,8 @@ aliases:
   - shame
   - guilt
 generated: true
+type: article
+egon_version: "1"
 ---
 
 # Shame and guilt

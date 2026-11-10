@@ -9,6 +9,8 @@ tags:
 aliases:
   - panic attack
 generated: true
+type: article
+egon_version: "1"
 ---
 
 # Panic and panic attacks

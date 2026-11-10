@@ -7,6 +7,8 @@ tags:
   - mental health tools
   - wellbeing
 generated: true
+type: article
+egon_version: "1"
 ---
 
 # Using self-assessment tools

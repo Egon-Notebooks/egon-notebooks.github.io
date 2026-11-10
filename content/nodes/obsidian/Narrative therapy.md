@@ -7,6 +7,8 @@ tags:
   - therapy
   - self-identity
 generated: true
+type: article
+egon_version: "1"
 ---
 
 # Narrative therapy

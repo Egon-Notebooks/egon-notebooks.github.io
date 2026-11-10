@@ -9,6 +9,8 @@ tags:
 aliases:
   - body image
 generated: true
+type: article
+egon_version: "1"
 ---
 
 # Body image and self-acceptance

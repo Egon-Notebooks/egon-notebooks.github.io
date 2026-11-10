@@ -7,6 +7,8 @@ tags:
   - stress
   - mindfulness
 generated: true
+type: article
+egon_version: "1"
 ---
 
 # Time in nature

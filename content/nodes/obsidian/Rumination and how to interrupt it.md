@@ -9,6 +9,8 @@ tags:
 aliases:
   - rumination
 generated: true
+type: article
+egon_version: "1"
 ---
 
 # Rumination and how to interrupt it

@@ -9,6 +9,8 @@ tags:
 aliases:
   - crystal ball thinking
 generated: true
+type: article
+egon_version: "1"
 ---
 
 # Fortune telling

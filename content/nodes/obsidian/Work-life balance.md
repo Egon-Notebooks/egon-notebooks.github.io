@@ -7,6 +7,8 @@ tags:
   - work-life balance
   - wellbeing
 generated: true
+type: article
+egon_version: "1"
 ---
 
 # Work-life balance

@@ -7,6 +7,8 @@ tags:
   - coping
   - growth
 generated: true
+type: article
+egon_version: "1"
 ---
 
 # Finding meaning in difficulty

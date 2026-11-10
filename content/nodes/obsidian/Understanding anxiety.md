@@ -9,6 +9,8 @@ tags:
 aliases:
   - anxiety
 generated: true
+type: article
+egon_version: "1"
 ---
 
 # Understanding anxiety

@@ -7,6 +7,8 @@ tags:
   - support
   - healing
 generated: true
+type: article
+egon_version: "1"
 ---
 
 # When to seek trauma-informed support

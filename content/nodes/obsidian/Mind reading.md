@@ -9,6 +9,8 @@ tags:
 aliases:
   - mind-reading
 generated: true
+type: article
+egon_version: "1"
 ---
 
 # Mind reading

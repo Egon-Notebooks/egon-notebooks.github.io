@@ -7,6 +7,8 @@ tags:
   - emotions
   - skills
 generated: true
+type: article
+egon_version: "1"
 ---
 
 # Dialectical behavior therapy

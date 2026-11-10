@@ -9,6 +9,8 @@ tags:
 aliases:
   - sleep hygiene
 generated: true
+type: article
+egon_version: "1"
 ---
 
 # Sleep hygiene and mood

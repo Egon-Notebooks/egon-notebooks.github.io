@@ -7,6 +7,8 @@ tags:
   - stress
   - recovery
 generated: true
+type: article
+egon_version: "1"
 ---
 
 # Recovering from burnout

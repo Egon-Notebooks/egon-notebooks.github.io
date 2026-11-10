@@ -1,6 +1,8 @@
 author:: Claude
 date:: 2026-04-05
 tags:: support, community, wellbeing
+type:: article
+egon_version:: 1
 
 - Witnessing a moment when someone around you seems to be struggling — whether a friend, colleague, or stranger — can feel uncomfortable and uncertain. Many people want to help but aren't sure what to do, or worry about overstepping. Understanding bystander intervention can make those moments feel a little less daunting and a little more within reach.
 - One of the most helpful things to know is that you don't need to be an expert to make a difference. Simply acknowledging someone — "Hey, I noticed you seem a bit off today. Are you doing okay?" — can open a door. Research suggests that people in distress often feel relieved when someone reaches out, even if the conversation is brief or imperfect. The goal isn't to fix anything; it's to let someone know they aren't invisible.

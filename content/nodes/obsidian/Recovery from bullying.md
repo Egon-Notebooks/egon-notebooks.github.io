@@ -7,6 +7,8 @@ tags:
   - recovery
   - self-esteem
 generated: true
+type: article
+egon_version: "1"
 ---
 
 # Recovery from bullying

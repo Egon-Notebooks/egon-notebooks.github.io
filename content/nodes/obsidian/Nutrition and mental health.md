@@ -7,6 +7,8 @@ tags:
   - wellbeing
   - self-care
 generated: true
+type: article
+egon_version: "1"
 ---
 
 # Nutrition and mental health

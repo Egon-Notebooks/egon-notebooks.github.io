@@ -1,6 +1,8 @@
 author:: Claude
 date:: 2026-04-01
 tags:: worry, anxiety, stress
+type:: article
+egon_version:: 1
 
 - Worry is something almost everyone experiences — those recurring thoughts about what might go wrong, what's uncertain, or what feels out of our control. While some degree of worry is a natural part of being human, it can sometimes grow louder and more persistent, making it harder to focus, rest, or feel at ease in daily life. The good news is that there are practical ways to work with worry rather than feeling overwhelmed by it.
 - One approach that many people find helpful is setting aside a specific, limited time each day — often called "worry time" — to acknowledge and sit with their concerns. Rather than trying to push worries away throughout the day, this technique involves gently redirecting worry thoughts to a designated window of time. This can help prevent worry from spreading across the entire day and may give a greater sense of structure and control.

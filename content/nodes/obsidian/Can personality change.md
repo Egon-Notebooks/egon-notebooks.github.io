@@ -7,6 +7,8 @@ tags:
   - self-growth
   - therapy
 generated: true
+type: article
+egon_version: "1"
 ---
 
 # Can personality change

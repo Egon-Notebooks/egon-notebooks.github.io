@@ -10,6 +10,8 @@ aliases:
   - should thinking
   - musts
 generated: true
+type: article
+egon_version: "1"
 ---
 
 # Should statements

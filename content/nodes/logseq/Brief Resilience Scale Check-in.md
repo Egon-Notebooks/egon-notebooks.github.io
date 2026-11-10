@@ -2,6 +2,7 @@ type:: questionnaire
 questionnaire:: BRS
 measures:: resilience — the ability to bounce back from stress
 tags:: questionnaire, resilience, self-assessment
+egon_version:: 1
 
 - # BRS — Brief Resilience Scale
 - _If you are having a very hard time or thinking about harming yourself, you don't have to face it alone. Crisis lines in your country are listed at [findahelpline.com](https://findahelpline.com). If you are in immediate danger, call your local emergency number._

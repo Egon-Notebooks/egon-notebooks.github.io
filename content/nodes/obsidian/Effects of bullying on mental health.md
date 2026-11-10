@@ -7,6 +7,8 @@ tags:
   - anxiety
   - self-esteem
 generated: true
+type: article
+egon_version: "1"
 ---
 
 # Effects of bullying on mental health

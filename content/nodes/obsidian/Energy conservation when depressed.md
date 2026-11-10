@@ -7,6 +7,8 @@ tags:
   - self-care
   - energy
 generated: true
+type: article
+egon_version: "1"
 ---
 
 # Energy conservation when depressed

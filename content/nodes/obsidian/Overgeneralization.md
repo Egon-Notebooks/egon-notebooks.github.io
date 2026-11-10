@@ -9,6 +9,8 @@ tags:
 aliases:
   - overgeneralizing
 generated: true
+type: article
+egon_version: "1"
 ---
 
 # Overgeneralization

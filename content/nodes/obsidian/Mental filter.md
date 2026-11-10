@@ -9,6 +9,8 @@ tags:
 aliases:
   - selective abstraction
 generated: true
+type: article
+egon_version: "1"
 ---
 
 # Mental filter

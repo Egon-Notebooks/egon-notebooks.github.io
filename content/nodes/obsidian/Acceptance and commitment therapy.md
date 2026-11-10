@@ -7,6 +7,8 @@ tags:
   - mindfulness
   - wellbeing
 generated: true
+type: article
+egon_version: "1"
 ---
 
 # Acceptance and commitment therapy

@@ -9,6 +9,8 @@ tags:
 aliases:
   - stress response
 generated: true
+type: article
+egon_version: "1"
 ---
 
 # The stress response

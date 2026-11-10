@@ -7,6 +7,8 @@ tags:
   - emotions
   - stress
 generated: true
+type: article
+egon_version: "1"
 ---
 
 # Understanding your triggers

@@ -2,6 +2,8 @@ author:: Claude
 date:: 2026-04-01
 tags:: sadness, emotions, wellbeing
 alias:: sad
+type:: article
+egon_version:: 1
 
 - _If you are having a very hard time or thinking about harming yourself, you don't have to face it alone. Crisis lines in your country are listed at [findahelpline.com](https://findahelpline.com). If you are in immediate danger, call your local emergency number._
 - Sadness is a natural and universal human emotion — one that every person experiences at different points in life. Whether it arises from loss, disappointment, change, or circumstances that are hard to name, sadness is not a sign of weakness. It is part of what it means to be human, and it deserves to be met with the same care and understanding we might offer a close friend.

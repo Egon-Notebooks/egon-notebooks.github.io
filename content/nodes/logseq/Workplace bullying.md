@@ -1,6 +1,8 @@
 author:: Claude
 date:: 2026-04-05
 tags:: workplace, stress, relationships
+type:: article
+egon_version:: 1
 
 - Workplace bullying is more common than many people realize, and its effects can reach well beyond the office. Repeated mistreatment at work — whether through public humiliation, exclusion, constant criticism, or having your contributions ignored — can take a serious toll on a person's emotional wellbeing, sleep, confidence, and sense of self. Recognizing what is happening is an important first step, and it is worth knowing that support is available.
 - One strategy many people find helpful is documenting incidents as they occur. Keeping a private record of dates, what was said or done, and who was present can help clarify patterns over time and may be useful if a formal complaint becomes necessary. Writing things down can also help a person feel a greater sense of clarity and control in a situation that can otherwise feel overwhelming.

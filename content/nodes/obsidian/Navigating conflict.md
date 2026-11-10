@@ -7,6 +7,8 @@ tags:
   - communication
   - emotions
 generated: true
+type: article
+egon_version: "1"
 ---
 
 # Navigating conflict

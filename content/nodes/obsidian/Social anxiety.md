@@ -9,6 +9,8 @@ tags:
 aliases:
   - social phobia
 generated: true
+type: article
+egon_version: "1"
 ---
 
 # Social anxiety

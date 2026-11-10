@@ -10,6 +10,8 @@ aliases:
   - labeling
   - mislabeling
 generated: true
+type: article
+egon_version: "1"
 ---
 
 # Labeling and mislabeling

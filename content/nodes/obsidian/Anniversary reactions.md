@@ -7,6 +7,8 @@ tags:
   - emotions
   - loss
 generated: true
+type: article
+egon_version: "1"
 ---
 
 # Anniversary reactions

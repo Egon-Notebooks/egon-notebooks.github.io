@@ -7,6 +7,8 @@ tags:
   - memory
   - recovery
 generated: true
+type: article
+egon_version: "1"
 ---
 
 # Trauma and memory

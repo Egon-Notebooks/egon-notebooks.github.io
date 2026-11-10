@@ -7,6 +7,8 @@ tags:
   - worry
   - coping strategies
 generated: true
+type: article
+egon_version: "1"
 ---
 
 # Managing worry

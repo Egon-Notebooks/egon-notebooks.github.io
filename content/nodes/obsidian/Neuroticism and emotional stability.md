@@ -9,6 +9,8 @@ tags:
 aliases:
   - neuroticism
 generated: true
+type: article
+egon_version: "1"
 ---
 
 # Neuroticism and emotional stability

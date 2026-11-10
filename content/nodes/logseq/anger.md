@@ -2,10 +2,12 @@ author:: Claude
 date:: 2026-04-01
 tags:: anger, emotions, self-awareness
 alias:: angry
+type:: article
+egon_version:: 1
 
 - Anger is a normal, human emotion — one that everyone experiences at some point. It can arise in response to feeling hurt, threatened, or treated unfairly, and in many situations it serves an important purpose, signaling that something feels wrong. The challenge isn't to eliminate anger, but to understand it and respond to it in ways that feel healthy and constructive.
 - One strategy many people find helpful is pausing before reacting. When anger arises, the body often responds quickly — heart rate increases, muscles tense, and thoughts can become overwhelming. Taking a moment to breathe slowly and deeply can help create a little space between the feeling and the response. Even a few deep breaths or a brief walk can allow the nervous system to settle enough to think more clearly.
-- Another approach is exploring what's beneath the anger. Anger is often described as a "secondary emotion," meaning it sometimes covers more vulnerable feelings like [[Fear|fear]], [[Sadness|sadness]], [[Understanding grief|grief]], or [[Shame and guilt|shame]]. Reflecting on what might be driving the anger — perhaps through journaling or talking with someone trusted — can help a person better understand their own needs and communicate them more effectively.
+- Another approach is exploring what's beneath the anger. Anger is often described as a "secondary emotion," meaning it sometimes covers more vulnerable feelings like [fear]([[Fear]]), [sadness]([[Sadness]]), [grief]([[Understanding grief]]), or [shame]([[Shame and guilt]]). Reflecting on what might be driving the anger — perhaps through journaling or talking with someone trusted — can help a person better understand their own needs and communicate them more effectively.
 - It can also help to notice patterns over time. If anger feels frequent, intense, or difficult to manage, keeping a simple log of when it tends to arise may reveal triggers or underlying stressors that deserve attention. This kind of self-awareness is a meaningful step toward change.
 - Struggling with anger doesn't mean something is fundamentally wrong. Many people find that working through it — whether on their own, in conversation with loved ones, or with the support of a mental health professional — leads to a greater sense of calm and connection. Support is available, and things can improve.
 

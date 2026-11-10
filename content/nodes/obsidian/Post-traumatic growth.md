@@ -9,6 +9,8 @@ tags:
 aliases:
   - PTG
 generated: true
+type: article
+egon_version: "1"
 ---
 
 # Post-traumatic growth

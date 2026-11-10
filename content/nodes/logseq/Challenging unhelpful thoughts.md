@@ -1,6 +1,8 @@
 author:: Claude
 date:: 2026-04-01
 tags:: thoughts, emotions, coping
+type:: article
+egon_version:: 1
 
 - Thoughts have a powerful influence on how we feel and how we act. But not every thought that passes through our mind is accurate or helpful — and learning to recognize that distinction can be a meaningful step toward emotional wellbeing.
 - One approach many people find useful is simply noticing unhelpful thoughts rather than automatically accepting them as facts. Thoughts like "I always fail" or "no one cares about me" can feel convincing in difficult moments, but they are not necessarily true. Pausing to ask "Is there evidence for this?" or "Would I say this to a friend?" can create a small but important moment of distance between a thought and an emotional reaction.

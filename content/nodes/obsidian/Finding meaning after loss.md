@@ -7,6 +7,8 @@ tags:
   - loss
   - meaning
 generated: true
+type: article
+egon_version: "1"
 ---
 
 # Finding meaning after loss

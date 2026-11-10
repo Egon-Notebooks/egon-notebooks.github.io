@@ -9,6 +9,8 @@ tags:
 aliases:
   - resilience
 generated: true
+type: article
+egon_version: "1"
 ---
 
 # Building resilience

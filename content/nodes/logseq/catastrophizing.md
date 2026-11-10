@@ -1,6 +1,8 @@
 author:: Claude
 date:: 2026-04-01
 tags:: anxiety, thinking patterns, stress
+type:: article
+egon_version:: 1
 
 - Catastrophizing is a thinking pattern where the mind jumps to the worst possible outcome — turning a small mistake at work into a sign of total failure, or a headache into something far more serious. It's a common experience, and recognizing it is often the first step toward feeling more grounded.
 - One strategy many people find helpful is learning to "catch and question" these thoughts as they arise. When a catastrophic thought appears, it can help to gently ask: "What is the evidence for this? What are some other explanations?" This isn't about forcing false positivity — it's about encouraging the mind to consider a fuller picture. Over time, this kind of gentle self-inquiry can loosen the grip that worst-case thinking tends to have.

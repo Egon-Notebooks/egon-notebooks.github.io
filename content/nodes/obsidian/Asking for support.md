@@ -7,6 +7,8 @@ tags:
   - relationships
   - self-care
 generated: true
+type: article
+egon_version: "1"
 ---
 
 # Asking for support

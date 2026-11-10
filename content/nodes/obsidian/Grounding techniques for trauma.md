@@ -7,6 +7,8 @@ tags:
   - grounding
   - coping strategies
 generated: true
+type: article
+egon_version: "1"
 ---
 
 # Grounding techniques for trauma

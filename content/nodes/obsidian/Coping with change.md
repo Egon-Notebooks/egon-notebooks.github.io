@@ -7,6 +7,8 @@ tags:
   - coping
   - emotions
 generated: true
+type: article
+egon_version: "1"
 ---
 
 # Coping with change

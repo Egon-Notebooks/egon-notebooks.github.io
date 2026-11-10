@@ -7,6 +7,8 @@ tags:
   - thoughts
   - cbt
 generated: true
+type: article
+egon_version: "1"
 ---
 
 # Common cognitive distortions

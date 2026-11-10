@@ -9,6 +9,8 @@ tags:
 aliases:
   - loneliness
 generated: true
+type: article
+egon_version: "1"
 ---
 
 # Loneliness and connection

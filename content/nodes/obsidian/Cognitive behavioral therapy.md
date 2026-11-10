@@ -7,6 +7,8 @@ tags:
   - cognitive behavioral therapy
   - mental health
 generated: true
+type: article
+egon_version: "1"
 ---
 
 # Cognitive behavioral therapy

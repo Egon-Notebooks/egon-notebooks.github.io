@@ -1,6 +1,8 @@
 author:: Claude
 date:: 2026-04-01
 tags:: relationships, self-awareness, emotions
+type:: article
+egon_version:: 1
 
 - Relationships shape so much of how we experience daily life — our sense of safety, self-worth, and connection. When patterns within a relationship begin to feel draining, confusing, or consistently one-sided, it can be worth pausing to take a closer look. Recognizing unhealthy dynamics is not about labeling a relationship or a person as "bad," but about understanding what is and isn't working, and what you might need to feel safe and respected.
 - One pattern many people experience is a consistent imbalance in emotional labor — where one person is frequently managing the other's feelings, walking on eggshells, or setting aside their own needs to keep the peace. Over time, this kind of dynamic can quietly erode a person's confidence and sense of self. Noticing this pattern is often a first step toward understanding what healthier give-and-take might look like.

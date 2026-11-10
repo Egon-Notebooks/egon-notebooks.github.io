@@ -7,6 +7,8 @@ tags:
   - thoughts
   - coping
 generated: true
+type: article
+egon_version: "1"
 ---
 
 # Catastrophizing

@@ -7,6 +7,8 @@ tags:
   - emotions
   - wellbeing
 generated: true
+type: article
+egon_version: "1"
 ---
 
 # Comparing yourself to others

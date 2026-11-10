@@ -7,6 +7,8 @@ tags:
   - sleep
   - stress
 generated: true
+type: article
+egon_version: "1"
 ---
 
 # The importance of rest

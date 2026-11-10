@@ -7,6 +7,8 @@ tags:
   - stress
   - coping
 generated: true
+type: article
+egon_version: "1"
 ---
 
 # Life transitions

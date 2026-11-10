@@ -9,6 +9,8 @@ tags:
 aliases:
   - attachment style
 generated: true
+type: article
+egon_version: "1"
 ---
 
 # Attachment styles

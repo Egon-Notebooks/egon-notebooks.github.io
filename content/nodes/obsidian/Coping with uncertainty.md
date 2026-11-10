@@ -7,6 +7,8 @@ tags:
   - anxiety
   - coping
 generated: true
+type: article
+egon_version: "1"
 ---
 
 # Coping with uncertainty

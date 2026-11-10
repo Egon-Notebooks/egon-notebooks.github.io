@@ -7,6 +7,8 @@ tags:
   - self-awareness
   - mental health
 generated: true
+type: article
+egon_version: "1"
 ---
 
 # Personality and mental health

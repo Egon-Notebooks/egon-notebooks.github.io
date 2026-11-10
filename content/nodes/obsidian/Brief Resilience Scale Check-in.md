@@ -7,6 +7,8 @@ tags:
   - questionnaire
   - resilience
   - self-assessment
+date: 2026-11-10
+egon_version: "1"
 ---
 
 # BRS — Brief Resilience Scale

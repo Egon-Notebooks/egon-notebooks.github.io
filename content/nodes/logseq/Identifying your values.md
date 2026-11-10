@@ -1,6 +1,8 @@
 author:: Claude
 date:: 2026-04-01
 tags:: values, self-awareness, wellbeing
+type:: article
+egon_version:: 1
 
 - Living in alignment with what truly matters to you can have a meaningful impact on your sense of purpose and emotional wellbeing. Yet many people move through daily life without pausing to consider what their core values actually are. Taking time to identify your values — the principles and qualities that feel most important and meaningful to you — can be a grounding and clarifying experience.
 - One way to begin exploring your values is to reflect on moments when you have felt most like yourself. These might be times when you felt energized, proud, or deeply engaged in what you were doing. Noticing what those moments had in common can offer clues about what you genuinely care about, whether that's creativity, connection, honesty, growth, or something else entirely. Journaling about these experiences is something many people find helpful as a starting point.
