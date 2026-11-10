@@ -5,7 +5,7 @@ import { buildMetadata } from '@/lib/metadata'
 export const metadata: Metadata = buildMetadata({
   title: 'Journal',
   description:
-    'Structured journaling for your Egon graph. Write daily entries, follow guided programs and write summaries — all as plain Markdown on your own device.',
+    'Structured journaling for your Egon graph. Write daily entries, use prompts and write summaries — all as plain Markdown on your own device.',
   path: '/journal',
 })
 
@@ -65,7 +65,7 @@ export default function JournalPage() {
           Egon Notebooks does not aim to be an &quot;AI therapist&quot;.
           Rather, we believe that journaling, in combination with human connection and support, is a more sustainable long-term self-help approach that also doesn&apos;t risk developing parasocial relationships with AI.
           The <code>egon-journal</code> CLI adds structured journaling to your Egon graph.
-          Write daily entries linked to the content you already have and follow guided programs — without any data leaving your device.
+          Write daily entries linked to the content you already have — without any data leaving your device.
           When you have a few weeks of entries, turn them into private <Link href="/reports">reports</Link>.
         </p>
 
@@ -107,25 +107,15 @@ uv run egon new-entry --open  # open immediately in $EDITOR`}</div>
           </p>
         </section>
 
-        {/* Prompts & programs */}
+        {/* Prompts */}
         <section style={section}>
-          <h2 style={sectionHeading}>Prompts and programs</h2>
+          <h2 style={sectionHeading}>Prompts</h2>
           <p style={{ ...bodyText, marginBottom: '1.25rem' }}>
             Journaling prompts are short, topic-linked questions that sit as nodes in your graph
-            alongside the content they refer to. Structured programs are time-bounded sequences —
-            each day is a node that frames a reading and a reflection.
+            alongside the content they refer to.
           </p>
           <div style={codeBlock}>{`# Generate all prompt nodes
-uv run egon generate-prompts
-
-# List available programs
-uv run egon list-programs
-
-# Generate a specific program
-uv run egon generate-program --name "14-Day Sleep Improvement"
-
-# Generate all programs
-uv run egon generate-all-programs`}</div>
+uv run egon generate-prompts`}</div>
         </section>
 
         {/* Summaries */}
