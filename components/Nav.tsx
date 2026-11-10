@@ -16,12 +16,10 @@ const NAV_LINKS = [
 
 export default function Nav() {
   const pathname = usePathname()
-  const [menuOpen, setMenuOpen] = useState(false)
-
-  // Close menu on route change
-  useEffect(() => {
-    setMenuOpen(false)
-  }, [pathname])
+  // The menu belongs to the page it was opened on, so it closes on route change.
+  const [menuPath, setMenuPath] = useState<string | null>(null)
+  const menuOpen = menuPath !== null && menuPath === pathname
+  const setMenuOpen = (open: boolean) => setMenuPath(open ? pathname : null)
 
   // Prevent body scroll when menu open
   useEffect(() => {
@@ -103,7 +101,7 @@ export default function Nav() {
           <button
             aria-label={menuOpen ? 'Close menu' : 'Open menu'}
             aria-expanded={menuOpen}
-            onClick={() => setMenuOpen(v => !v)}
+            onClick={() => setMenuOpen(!menuOpen)}
             className="show-mobile"
             style={{
               background: 'none',
