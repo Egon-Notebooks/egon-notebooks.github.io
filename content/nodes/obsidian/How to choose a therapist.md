@@ -7,6 +7,8 @@ tags:
   - help-seeking
   - relationships
 generated: true
+type: article
+egon_version: "1"
 ---
 
 # How to choose a therapist

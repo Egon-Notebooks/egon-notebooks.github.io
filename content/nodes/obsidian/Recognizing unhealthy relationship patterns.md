@@ -7,6 +7,8 @@ tags:
   - boundaries
   - self-awareness
 generated: true
+type: article
+egon_version: "1"
 ---
 
 # Recognizing unhealthy relationship patterns

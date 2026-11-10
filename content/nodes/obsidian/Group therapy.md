@@ -7,6 +7,8 @@ tags:
   - relationships
   - community
 generated: true
+type: article
+egon_version: "1"
 ---
 
 # Group therapy

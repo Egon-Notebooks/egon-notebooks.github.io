@@ -1,6 +1,8 @@
 author:: Claude
 date:: 2026-04-12
 tags:: assessment, self-understanding, mental health
+type:: article
+egon_version:: 1
 
 - Receiving the results of a mental health assessment can bring up a mix of emotions — relief, confusion, uncertainty, or even a sense of validation that something you have been experiencing finally has a name. Whatever you are feeling in response to your results, it is worth knowing that an assessment is simply a tool. It is a starting point for understanding, not a final verdict on who you are or what your future holds.
 - One of the most helpful things you can do after receiving assessment results is to ask questions. Many people find that writing down their questions beforehand helps them make the most of follow-up conversations with a clinician or therapist. No question is too small. Understanding what a result means, how it was reached, and what it might mean for your day-to-day life can help you feel more in control of the process.

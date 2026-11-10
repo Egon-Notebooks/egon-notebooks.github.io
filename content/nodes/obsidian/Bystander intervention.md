@@ -7,6 +7,8 @@ tags:
   - community
   - support
 generated: true
+type: article
+egon_version: "1"
 ---
 
 # Bystander intervention

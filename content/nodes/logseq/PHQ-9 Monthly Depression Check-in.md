@@ -2,6 +2,7 @@ type:: questionnaire
 questionnaire:: PHQ-9
 measures:: depression
 tags:: questionnaire, depression, self-assessment
+egon_version:: 1
 
 - # PHQ-9 — Patient Health Questionnaire-9
 - _If you are having a very hard time or thinking about harming yourself, you don't have to face it alone. Crisis lines in your country are listed at [findahelpline.com](https://findahelpline.com). If you are in immediate danger, call your local emergency number._

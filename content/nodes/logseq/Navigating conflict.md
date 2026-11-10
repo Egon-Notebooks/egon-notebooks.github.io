@@ -1,6 +1,8 @@
 author:: Claude
 date:: 2026-04-01
 tags:: relationships, communication, emotions
+type:: article
+egon_version:: 1
 
 - Conflict is a natural part of human relationships — it shows up in families, friendships, workplaces, and partnerships. While it can feel uncomfortable or even overwhelming, conflict doesn't have to be damaging. With some awareness and practice, many people find that working through disagreements can actually strengthen their connections and build mutual understanding.
 - One strategy that many people find helpful is pausing before responding. When emotions are running high, taking a few slow breaths or stepping away briefly can create enough space to respond thoughtfully rather than reactively. This doesn't mean avoiding the conversation — it means returning to it with a calmer, clearer mindset.

@@ -7,6 +7,8 @@ tags:
   - anxiety
   - stress
 generated: true
+type: article
+egon_version: "1"
 ---
 
 # Breathing and present-moment awareness

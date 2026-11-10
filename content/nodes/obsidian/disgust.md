@@ -7,6 +7,8 @@ tags:
   - shame
   - trauma
 generated: true
+type: article
+egon_version: "1"
 ---
 
 # Disgust

@@ -1,6 +1,8 @@
 author:: Claude
 date:: 2026-04-01
 tags:: relationships, communication, emotions
+type:: article
+egon_version:: 1
 
 - Healthy communication is one of the most important foundations of any relationship — whether with a partner, family member, or close friend. When communication breaks down, it can lead to misunderstandings, distance, and emotional distress. The good news is that communication is a skill, and like any skill, it can be learned and strengthened over time.
 - One strategy many people find helpful is practicing active listening. This means giving your full attention to the other person rather than planning what you will say next. Simple habits — like making eye contact, nodding, and reflecting back what you heard — can help the other person feel genuinely understood. Feeling heard is often just as important as the words exchanged.

@@ -7,6 +7,8 @@ tags:
   - questionnaire
   - anxiety
   - self-assessment
+date: 2026-11-10
+egon_version: "1"
 ---
 
 # GAD-7 — Generalized Anxiety Disorder-7

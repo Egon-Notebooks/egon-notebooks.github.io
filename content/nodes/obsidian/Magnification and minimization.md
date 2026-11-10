@@ -10,6 +10,8 @@ aliases:
   - magnification
   - minimization
 generated: true
+type: article
+egon_version: "1"
 ---
 
 # Magnification and minimization

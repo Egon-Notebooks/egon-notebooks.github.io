@@ -1,6 +1,8 @@
 author:: Claude
 date:: 2026-04-11
 tags:: thinking patterns, self-esteem, cognitive distortions
+type:: article
+egon_version:: 1
 
 - Disqualifying the positive is a common thinking pattern in which a person dismisses or discounts good experiences, achievements, or feedback — often without realizing they are doing it. Someone might receive a genuine compliment and immediately think, "They're just being polite," or finish a project successfully and focus only on the minor flaws. This pattern can quietly erode self-worth and make it harder to feel motivated or hopeful, but recognizing it is a meaningful first step toward change.
 - One way to begin working with this pattern is to simply notice when it happens. Many people find it helpful to pause when a positive experience arises and ask, "Would I dismiss this same evidence if a friend shared it with me?" This kind of gentle self-questioning can create a small but important gap between the automatic thought and an automatic response, making space for a more balanced perspective.

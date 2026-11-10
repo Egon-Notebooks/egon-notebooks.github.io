@@ -7,6 +7,8 @@ tags:
   - questionnaire
   - self-esteem
   - self-assessment
+date: 2026-11-10
+egon_version: "1"
 ---
 
 # RSES — Rosenberg Self-Esteem Scale

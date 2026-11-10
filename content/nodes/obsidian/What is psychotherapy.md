@@ -7,6 +7,8 @@ tags:
   - mental health
   - therapy
 generated: true
+type: article
+egon_version: "1"
 ---
 
 # What is psychotherapy

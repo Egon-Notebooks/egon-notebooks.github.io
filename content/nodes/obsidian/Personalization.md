@@ -9,6 +9,8 @@ tags:
 aliases:
   - personalizing
 generated: true
+type: article
+egon_version: "1"
 ---
 
 # Personalization

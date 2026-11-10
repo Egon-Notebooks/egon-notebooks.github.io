@@ -7,6 +7,8 @@ tags:
   - self-compassion
   - recovery
 generated: true
+type: article
+egon_version: "1"
 ---
 
 # Self-compassion in trauma recovery

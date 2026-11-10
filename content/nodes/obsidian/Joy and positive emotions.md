@@ -9,6 +9,8 @@ tags:
 aliases:
   - joy
 generated: true
+type: article
+egon_version: "1"
 ---
 
 # Joy and positive emotions

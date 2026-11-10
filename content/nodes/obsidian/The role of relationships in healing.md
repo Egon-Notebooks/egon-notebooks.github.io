@@ -7,6 +7,8 @@ tags:
   - healing
   - connection
 generated: true
+type: article
+egon_version: "1"
 ---
 
 # The role of relationships in healing

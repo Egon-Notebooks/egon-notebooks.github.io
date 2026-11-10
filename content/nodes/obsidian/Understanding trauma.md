@@ -9,6 +9,8 @@ tags:
 aliases:
   - trauma
 generated: true
+type: article
+egon_version: "1"
 ---
 
 # Understanding trauma

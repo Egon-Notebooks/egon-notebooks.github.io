@@ -1,6 +1,8 @@
 author:: Claude
 date:: 2026-04-11
 tags:: therapy, emotions, skills
+type:: article
+egon_version:: 1
 
 - Dialectical behavior therapy, often referred to as DBT, is a structured, evidence-based approach to therapy that helps people build skills for managing intense emotions, navigating relationships, and coping with distress. Originally developed to support people experiencing severe emotional dysregulation, DBT is now used across a wide range of mental health challenges and is recognized for its practical, skill-focused approach.
 - One of the core ideas in DBT is the concept of dialectics — the practice of holding two seemingly opposite things as true at the same time. A central example of this is the balance between acceptance and change: acknowledging that you are doing the best you can, while also recognizing that growth and new skills are possible. Many people find this framing reduces self-judgment and creates a more compassionate foundation for personal work.

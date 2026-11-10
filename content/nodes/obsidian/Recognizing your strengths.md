@@ -7,6 +7,8 @@ tags:
   - resilience
   - wellbeing
 generated: true
+type: article
+egon_version: "1"
 ---
 
 # Recognizing your strengths

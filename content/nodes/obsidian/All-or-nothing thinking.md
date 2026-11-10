@@ -7,6 +7,8 @@ tags:
   - anxiety
   - self-awareness
 generated: true
+type: article
+egon_version: "1"
 ---
 
 # All-or-nothing thinking

@@ -9,6 +9,8 @@ tags:
 aliases:
   - self-esteem
 generated: true
+type: article
+egon_version: "1"
 ---
 
 # Self-esteem and where it comes from

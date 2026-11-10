@@ -7,6 +7,8 @@ tags:
   - therapy
   - ptsd
 generated: true
+type: article
+egon_version: "1"
 ---
 
 # Eye movement desensitization and reprocessing

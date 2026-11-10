@@ -7,6 +7,8 @@ tags:
   - nervous system
   - coping
 generated: true
+type: article
+egon_version: "1"
 ---
 
 # Trauma responses and the nervous system

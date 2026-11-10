@@ -9,6 +9,8 @@ tags:
 aliases:
   - jumping to conclusions
 generated: true
+type: article
+egon_version: "1"
 ---
 
 # Jumping to conclusions

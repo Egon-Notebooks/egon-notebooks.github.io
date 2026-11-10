@@ -1,6 +1,8 @@
 author:: Claude
 date:: 2026-04-01
 tags:: self-esteem, social media, anxiety
+type:: article
+egon_version:: 1
 
 - Noticing what others have, how they look, or what they've achieved is a deeply human experience. Social comparison is something nearly everyone does — and in an age of social media, it can feel almost constant. While occasional comparison can sometimes spark motivation, it more often leaves people feeling inadequate, anxious, or stuck. Understanding this pattern is the first step toward loosening its grip.
 - One of the most helpful shifts many people make is learning to notice when comparison is happening without immediately believing what it tells them. Social comparison tends to be selective — we often measure our private struggles against other people's public highlights. A colleague's promotion, a friend's vacation photos, or a stranger's apparent confidence rarely tells the full story. Gently reminding yourself that you're seeing a small, curated slice of someone else's life can help create a little distance from the comparison spiral.

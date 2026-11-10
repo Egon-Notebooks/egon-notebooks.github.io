@@ -7,6 +7,8 @@ tags:
   - self-awareness
   - personal growth
 generated: true
+type: article
+egon_version: "1"
 ---
 
 # What is personality

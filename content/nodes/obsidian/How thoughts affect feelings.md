@@ -7,6 +7,8 @@ tags:
   - emotions
   - cbt
 generated: true
+type: article
+egon_version: "1"
 ---
 
 # How thoughts affect feelings

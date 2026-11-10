@@ -7,6 +7,8 @@ tags:
   - breathing
   - stress
 generated: true
+type: article
+egon_version: "1"
 ---
 
 # Breathing exercises for anxiety

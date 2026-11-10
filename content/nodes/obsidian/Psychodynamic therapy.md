@@ -7,6 +7,8 @@ tags:
   - self-awareness
   - relationships
 generated: true
+type: article
+egon_version: "1"
 ---
 
 # Psychodynamic therapy

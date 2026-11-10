@@ -7,6 +7,8 @@ tags:
   - low mood
   - self-care
 generated: true
+type: article
+egon_version: "1"
 ---
 
 # Finding motivation during low periods

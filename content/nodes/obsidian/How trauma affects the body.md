@@ -7,6 +7,8 @@ tags:
   - stress
   - wellbeing
 generated: true
+type: article
+egon_version: "1"
 ---
 
 # How trauma affects the body

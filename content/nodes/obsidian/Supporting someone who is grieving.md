@@ -7,6 +7,8 @@ tags:
   - relationships
   - support
 generated: true
+type: article
+egon_version: "1"
 ---
 
 # Supporting someone who is grieving

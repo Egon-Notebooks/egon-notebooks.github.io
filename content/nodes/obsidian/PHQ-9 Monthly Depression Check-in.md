@@ -7,6 +7,8 @@ tags:
   - questionnaire
   - depression
   - self-assessment
+date: 2026-11-10
+egon_version: "1"
 ---
 
 # PHQ-9 — Patient Health Questionnaire-9

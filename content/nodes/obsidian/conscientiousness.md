@@ -7,6 +7,8 @@ tags:
   - perfectionism
   - wellbeing
 generated: true
+type: article
+egon_version: "1"
 ---
 
 # Conscientiousness

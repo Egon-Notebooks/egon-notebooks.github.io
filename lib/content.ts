@@ -100,7 +100,13 @@ export function getNodeFirstLine(slug: string): string {
   const lines = content.split('\n')
   const bullet = lines.find(l => l.startsWith('- ') && !l.startsWith('- _'))
   if (!bullet) return ''
-  const text = bullet.slice(2).trim()
+  // Show link text, not link syntax: [text]([[Page]]), [[Page|text]] and [[Page]].
+  const text = bullet
+    .slice(2)
+    .replace(/\[([^\]]+)\]\(\[\[[^\]]+\]\]\)/g, '$1')
+    .replace(/\[\[[^\]|]+\|([^\]]+)\]\]/g, '$1')
+    .replace(/\[\[([^\]]+)\]\]/g, '$1')
+    .trim()
   if (text.length <= 100) return text
   // Break at word boundary around 100 chars
   const cut = text.lastIndexOf(' ', 97)

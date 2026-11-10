@@ -2,6 +2,8 @@ author:: Claude
 date:: 2026-04-01
 tags:: shame, guilt, self-compassion
 alias:: shame, guilt
+type:: article
+egon_version:: 1
 
 - Shame and guilt are two emotions that often get tangled together, yet they affect us in quite different ways. Guilt tends to focus on something we did — a specific action or behavior we regret. Shame, on the other hand, reaches deeper, touching how we feel about who we are as a person. Both emotions are part of being human, and understanding the difference between them can be a meaningful first step toward healing.
 - One strategy many people find helpful is learning to separate the feeling from the self. When guilt arises, it can actually serve a useful purpose — it signals that something matters to us and may motivate positive change or repair in a relationship. Shame, however, tends to turn inward in ways that can be paralyzing. Gently challenging shame-based thoughts — noticing when "I did something wrong" has quietly shifted into "I am wrong" — can help interrupt patterns that erode self-worth over time.

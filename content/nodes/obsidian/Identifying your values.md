@@ -7,6 +7,8 @@ tags:
   - values
   - personal growth
 generated: true
+type: article
+egon_version: "1"
 ---
 
 # Identifying your values

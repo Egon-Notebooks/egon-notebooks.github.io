@@ -1,6 +1,8 @@
 author:: Claude
 date:: 2026-04-11
 tags:: therapy, relationships, self-awareness
+type:: article
+egon_version:: 1
 
 - Schema therapy is a type of psychotherapy that helps people understand and change deeply ingrained patterns of thinking, feeling, and behaving — patterns that often develop in childhood and can quietly shape how we experience relationships, work, and our sense of self in adulthood. For people who feel stuck in cycles they cannot seem to break, schema therapy offers a structured and compassionate way to explore where those cycles began and how to gently shift them.
 - At the heart of schema therapy is the idea that early life experiences — particularly unmet emotional needs — can give rise to what are called "schemas." These are core beliefs and feelings about ourselves and the world, such as "I am fundamentally unlovable" or "I cannot trust others." Although these beliefs may have served as a way of making sense of difficult experiences when we were young, they can become limiting as adults. A therapist trained in schema therapy works collaboratively with a person to identify which schemas are most active in their life and how those schemas influence present-day thoughts and behaviors.

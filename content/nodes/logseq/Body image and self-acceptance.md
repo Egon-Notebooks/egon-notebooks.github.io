@@ -2,6 +2,8 @@ author:: Claude
 date:: 2026-04-01
 tags:: body image, self-acceptance, wellbeing
 alias:: body image
+type:: article
+egon_version:: 1
 
 - Feeling at peace with your body can be one of the most challenging aspects of emotional wellbeing — and one of the most meaningful. Body image refers to how we see, think, and feel about our physical appearance, and it can shift from day to day, often shaped by past experiences, cultural messages, and the images we encounter in media and social environments. Struggling with body image is incredibly common, and it says nothing about a person's worth or character.
 - One approach many people find helpful is practicing mindful awareness of critical self-talk. When a negative thought about your body arises, noticing it — rather than automatically accepting it as truth — can create a small but important moment of distance. Some people find it useful to ask: "Would I speak to a friend this way?" That question alone can gently shift perspective over time.

@@ -9,6 +9,8 @@ tags:
 aliases:
   - boundaries
 generated: true
+type: article
+egon_version: "1"
 ---
 
 # Setting healthy boundaries

@@ -10,6 +10,8 @@ aliases:
   - Big Five
   - OCEAN
 generated: true
+type: article
+egon_version: "1"
 ---
 
 # The Big Five personality traits

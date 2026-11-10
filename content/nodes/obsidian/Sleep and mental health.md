@@ -7,6 +7,8 @@ tags:
   - anxiety
   - wellbeing
 generated: true
+type: article
+egon_version: "1"
 ---
 
 # Sleep and mental health

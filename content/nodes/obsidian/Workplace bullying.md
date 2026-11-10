@@ -7,6 +7,8 @@ tags:
   - stress
   - self-esteem
 generated: true
+type: article
+egon_version: "1"
 ---
 
 # Workplace bullying

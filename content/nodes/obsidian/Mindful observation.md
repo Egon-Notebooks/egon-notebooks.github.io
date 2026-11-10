@@ -7,6 +7,8 @@ tags:
   - stress
   - emotions
 generated: true
+type: article
+egon_version: "1"
 ---
 
 # Mindful observation

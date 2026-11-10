@@ -9,6 +9,8 @@ tags:
 aliases:
   - feelings as facts
 generated: true
+type: article
+egon_version: "1"
 ---
 
 # Emotional reasoning

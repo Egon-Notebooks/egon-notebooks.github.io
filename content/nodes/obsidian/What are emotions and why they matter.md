@@ -7,6 +7,8 @@ tags:
   - wellbeing
   - mindfulness
 generated: true
+type: article
+egon_version: "1"
 ---
 
 # What are emotions and why they matter

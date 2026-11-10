@@ -7,6 +7,8 @@ tags:
   - childhood
   - healing
 generated: true
+type: article
+egon_version: "1"
 ---
 
 # Complex trauma and childhood experiences

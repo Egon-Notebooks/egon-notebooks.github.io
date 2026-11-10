@@ -7,6 +7,8 @@ tags:
   - future thinking
   - wellbeing
 generated: true
+type: article
+egon_version: "1"
 ---
 
 # Hope and future thinking

@@ -7,6 +7,8 @@ tags:
   - trauma
   - mind-body connection
 generated: true
+type: article
+egon_version: "1"
 ---
 
 # Somatic therapy

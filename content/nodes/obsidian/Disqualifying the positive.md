@@ -7,6 +7,8 @@ tags:
   - thinking patterns
   - cognitive behavioral therapy
 generated: true
+type: article
+egon_version: "1"
 ---
 
 # Disqualifying the positive

@@ -9,6 +9,8 @@ tags:
 aliases:
   - stress
 generated: true
+type: article
+egon_version: "1"
 ---
 
 # Understanding stress

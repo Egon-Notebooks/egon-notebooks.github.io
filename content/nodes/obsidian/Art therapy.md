@@ -7,6 +7,8 @@ tags:
   - self-expression
   - wellbeing
 generated: true
+type: article
+egon_version: "1"
 ---
 
 # Art therapy

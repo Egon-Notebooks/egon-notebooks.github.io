@@ -7,6 +7,8 @@ tags:
   - questionnaire
   - stress
   - self-assessment
+date: 2026-11-10
+egon_version: "1"
 ---
 
 # PSS-10 — Perceived Stress Scale (10-item)

@@ -7,6 +7,8 @@ tags:
   - emotions
   - resilience
 generated: true
+type: article
+egon_version: "1"
 ---
 
 # Openness to experience

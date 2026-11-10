@@ -9,6 +9,8 @@ tags:
 aliases:
   - fearful
 generated: true
+type: article
+egon_version: "1"
 ---
 
 # Fear

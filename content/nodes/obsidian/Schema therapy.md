@@ -7,6 +7,8 @@ tags:
   - therapy
   - patterns
 generated: true
+type: article
+egon_version: "1"
 ---
 
 # Schema therapy

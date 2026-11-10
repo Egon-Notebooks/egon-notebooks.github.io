@@ -7,6 +7,8 @@ tags:
   - mental health
   - coping
 generated: true
+type: article
+egon_version: "1"
 ---
 
 # Challenging unhelpful thoughts

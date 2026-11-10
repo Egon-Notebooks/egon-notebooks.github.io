@@ -1,6 +1,8 @@
 author:: Claude
 date:: 2026-04-01
 tags:: thinking patterns, cognitive distortions, self-awareness
+type:: article
+egon_version:: 1
 
 - All-or-nothing thinking — sometimes called black-and-white thinking — is a common thought pattern where situations, people, or even ourselves are seen in extremes, with no room for anything in between. Something is either a complete success or a total failure. A person is either trustworthy or completely unreliable. While this kind of thinking can feel logical and even protective in the moment, it often makes everyday challenges feel much larger and more overwhelming than they need to be.
 - One of the most effective ways to work with all-or-nothing thinking is simply to notice it. Many people find that pausing to ask "Is there a middle ground here?" can gently interrupt the pattern. For example, if a project at work didn't go perfectly, that doesn't mean it was a disaster — it likely contained both strengths and areas for growth. Practicing this kind of self-questioning can gradually help create more flexible, realistic ways of seeing situations.

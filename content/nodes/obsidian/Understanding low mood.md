@@ -9,6 +9,8 @@ tags:
 aliases:
   - low mood
 generated: true
+type: article
+egon_version: "1"
 ---
 
 # Understanding low mood
