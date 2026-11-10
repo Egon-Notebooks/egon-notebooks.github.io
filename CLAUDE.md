@@ -1,6 +1,6 @@
 # egon-notebooks.github.io
 
-The Egon Notebooks website: Next.js 15 static export with Tailwind 4, deployed to
+The Egon Notebooks website: Next.js 16 static export with Tailwind 4, deployed to
 GitHub Pages. Workspace-wide rules (privacy, docs sync, American English, git
 conventions) are in `../CLAUDE.md`; product docs are in `../docs/`.
 

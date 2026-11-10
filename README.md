@@ -3,7 +3,7 @@
 [![CI](https://github.com/Egon-Notebooks/egon-notebooks.github.io/actions/workflows/ci.yml/badge.svg?event=pull_request)](https://github.com/Egon-Notebooks/egon-notebooks.github.io/actions/workflows/ci.yml)
 [![Deploy](https://github.com/Egon-Notebooks/egon-notebooks.github.io/actions/workflows/deploy.yml/badge.svg)](https://github.com/Egon-Notebooks/egon-notebooks.github.io/actions/workflows/deploy.yml)
 [![Node 24](https://img.shields.io/badge/node-24-339933)](https://nodejs.org/)
-[![Next.js 15](https://img.shields.io/badge/next.js-15-black)](https://nextjs.org/)
+[![Next.js 16](https://img.shields.io/badge/next.js-16-black)](https://nextjs.org/)
 [![License: MIT](https://img.shields.io/badge/license-MIT-green)](LICENSE)
 [![Content: CC BY-NC 4.0](https://img.shields.io/badge/content-CC%20BY--NC%204.0-lightgrey)](LICENSE-content)
 
