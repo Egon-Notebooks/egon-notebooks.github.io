@@ -1,6 +1,6 @@
 'use client'
 
-import { useState, useEffect } from 'react'
+import { useState, useSyncExternalStore } from 'react'
 import { useRouter, useSearchParams } from 'next/navigation'
 import type { Pack, NodeMeta } from '@/lib/content'
 import PackCard from './PackCard'
@@ -28,6 +28,11 @@ type Tool = 'obsidian' | 'logseq'
 
 const TOOL_KEY = 'egon-preferred-tool'
 
+function subscribeToStorage(onChange: () => void) {
+  window.addEventListener('storage', onChange)
+  return () => window.removeEventListener('storage', onChange)
+}
+
 export default function RegistryClient({ packs, nodes, packFiles, nodeFiles }: RegistryClientProps) {
   const router = useRouter()
   const searchParams = useSearchParams()
@@ -35,15 +40,14 @@ export default function RegistryClient({ packs, nodes, packFiles, nodeFiles }: R
   const viewParam = searchParams.get('view')
   const view: View = viewParam === 'nodes' ? 'nodes' : 'packs'
 
-  const [tool, setTool] = useState<Tool>('obsidian')
-
-  // Read tool preference from localStorage
-  useEffect(() => {
-    const saved = localStorage.getItem(TOOL_KEY)
-    if (saved === 'obsidian' || saved === 'logseq') {
-      setTool(saved)
-    }
-  }, [])
+  // The saved tool preference; the static page renders the default first.
+  const saved = useSyncExternalStore(
+    subscribeToStorage,
+    () => localStorage.getItem(TOOL_KEY),
+    () => null,
+  )
+  const [chosen, setTool] = useState<Tool | null>(null)
+  const tool: Tool = chosen ?? (saved === 'logseq' ? 'logseq' : 'obsidian')
 
   const handleViewChange = (v: View) => {
     const params = new URLSearchParams(searchParams.toString())
