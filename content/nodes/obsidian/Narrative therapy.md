@@ -1,27 +1,27 @@
 ---
 title: "Narrative therapy"
+type: article
 author: Claude
-date: 2026-04-11
+date: 2026-11-10
 tags:
   - narrative therapy
+  - self-esteem
   - therapy
-  - self-identity
 generated: true
-type: article
 egon_version: "1"
 ---
 
 # Narrative therapy
 
-Narrative therapy is an approach to mental health support that centers on the stories we tell about ourselves and our lives. The idea is that the meaning we attach to our experiences shapes how we see ourselves — and that those stories can be examined, questioned, and even rewritten. Developed in the 1980s by therapists Michael White and David Epston, narrative therapy has since grown into a widely respected, evidence-informed practice.
+Narrative therapy is a collaborative, respectful approach to mental health support that invites people to look at their lives as stories — ones that can be examined, reframed, and even rewritten. Rather than viewing a person as "the problem," narrative therapy separates the individual from their difficulties, recognizing that struggles are things we experience, not things we are.
 
-One of the core ideas in narrative therapy is the concept of "externalizing" a problem — that is, separating a person's identity from the difficulties they are facing. Rather than thinking "I am anxious," a person might explore "I am someone who is experiencing [[Understanding anxiety|anxiety]]." This subtle shift can create a sense of distance and agency, making it easier to examine how a problem has been affecting life without feeling defined by it.
+One of the core ideas in narrative therapy is that the stories we tell about ourselves shape how we feel and act. Over time, certain experiences — particularly painful ones — can dominate our internal narrative, overshadowing moments of strength, [[Building resilience|resilience]], and connection. A therapist working in this tradition might gently help someone identify these dominant stories and explore whether they truly reflect the full picture of who that person is.
 
-Another key element involves identifying what therapists call "unique outcomes" — moments when the dominant, often negative story did not hold true. For example, a person who sees themselves as lacking confidence might be gently guided to recall times when they acted courageously. These moments can serve as building blocks for a richer, more balanced self-narrative. Many people find that this process helps loosen the grip of self-critical thinking over time.
+A related practice is what therapists call "re-authoring." This involves bringing attention to moments that contradict a negative self-story — times when someone acted with courage, kindness, or perseverance, even in small ways. These "unique outcomes," as they are sometimes called, can become the foundation for a richer, more balanced sense of self. Many people find that writing, journaling, or even simply talking through their experiences in this structured way helps them feel less defined by their hardest moments.
 
-Narrative therapy also values the social dimension of healing. Some approaches involve writing letters, sharing stories with trusted people, or engaging in what are called "witnessing" practices — having others reflect back what they have heard and appreciated in someone's story. This can foster a sense of connection and being truly seen.
+Narrative therapy also emphasizes that our stories are influenced by culture, family, and social context. Exploring where certain beliefs about ourselves came from can be a powerful step toward loosening their grip and opening up new possibilities for how we see ourselves moving forward.
 
-If any of these ideas resonate with you, speaking with a mental health professional can be a meaningful first step. Narrative therapy, like many approaches, is most effective when guided by a trained therapist, and support is available for anyone ready to explore their story.
+If you feel that the story you are living doesn't reflect who you truly are or who you want to be, that feeling is worth exploring. Speaking with a trained mental health professional can offer a safe space to begin that process — and many people find that with support, a different chapter is always possible.
 
 ---
 

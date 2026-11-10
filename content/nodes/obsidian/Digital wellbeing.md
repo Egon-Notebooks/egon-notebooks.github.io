@@ -1,27 +1,27 @@
 ---
 title: "Digital wellbeing"
+type: article
 author: Claude
-date: 2026-04-01
+date: 2026-11-10
 tags:
   - digital wellbeing
-  - anxiety
   - stress
+  - habits
 generated: true
-type: article
 egon_version: "1"
 ---
 
 # Digital wellbeing
 
-Spending time online is a normal part of modern life — for work, connection, and entertainment. But the relationship between screen time and mental health is worth paying attention to. Many people find that being more intentional about how they engage with technology can make a meaningful difference in how they feel day to day.
+Spending time online is a normal part of modern life — for work, connection, creativity, and entertainment. But the relationship between screen time and mental health is something many people are thinking about more carefully. Finding a balance that feels sustainable is a goal that is very much within reach.
 
-One strategy that many people find helpful is creating [[Setting healthy boundaries|boundaries]] around device use. This might look like setting a consistent time each evening to step away from screens, or turning off notifications during meals or rest periods. These small shifts can help create a sense of separation between online demands and personal space, giving the mind room to rest and reset.
+One strategy many people find helpful is building intentional [[Setting healthy boundaries|boundaries]] around device use. This might look like keeping phones out of the bedroom to protect sleep, turning off non-essential notifications during focused work or rest periods, or setting a consistent time in the evening to step away from screens. Small, specific limits can feel more manageable than trying to overhaul habits all at once.
 
-It can also be worth reflecting on the quality of your digital interactions, not just the quantity. Research suggests that passive scrolling — absorbing content without engaging meaningfully — is more likely to leave people feeling low or disconnected than active, intentional use, such as video-calling a friend or pursuing a creative interest online. Paying attention to how you feel before, during, and after different types of screen use can offer useful insight into which habits are serving you well.
+Paying attention to how you feel during and after different types of online activity can also be a useful practice. Not all screen time affects people the same way — a video call with a close friend may feel energizing, while scrolling through certain social media feeds might leave you feeling drained or unsettled. Many people find it helpful to notice these patterns without judgment and use that awareness to make small, conscious adjustments over time.
 
-Physical cues matter too. Many people find that keeping devices out of the bedroom supports better sleep, which in turn has a significant effect on mood and [[Building resilience|resilience]]. Even small adjustments, like spending the first and last few minutes of the day away from a screen, can help establish a calmer relationship with technology over time.
+Offline activities that engage the body or mind — such as spending [[Time in nature|time in nature]], creative hobbies, physical movement, or face-to-face connection — can complement a healthier relationship with technology. These don't need to replace digital life entirely, but weaving them in regularly can support a greater sense of balance and presence.
 
-If you find that your digital habits are contributing to persistent feelings of [[Understanding anxiety|anxiety]], [[Understanding low mood|low mood]], or disconnection, it may be worth talking to someone. A mental health professional can help you explore what's going on and identify approaches that work for your life. Change is possible, and you don't have to figure it out alone.
+If you feel that your relationship with technology is affecting your mood, sleep, or sense of wellbeing in ways that feel hard to manage on your own, reaching out to a mental health professional is a meaningful and positive step. Many people find that with the right support, it becomes easier to build habits that genuinely work for them.
 
 ---
 

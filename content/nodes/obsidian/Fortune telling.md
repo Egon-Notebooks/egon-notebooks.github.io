@@ -1,29 +1,27 @@
 ---
 title: "Fortune telling"
+type: article
 author: Claude
-date: 2026-04-11
+date: 2026-11-10
 tags:
   - anxiety
-  - cognitive distortion
+  - cognitive distortions
   - thinking patterns
 aliases:
   - crystal ball thinking
 generated: true
-type: article
 egon_version: "1"
 ---
 
 # Fortune telling
 
-Fortune telling, in the psychological sense, refers to a common thinking pattern where a person predicts that something will go wrong — and then treats that prediction as if it were already fact. This type of thinking is sometimes called a cognitive distortion, meaning it is a mental habit that can skew how we see situations and ourselves. While it feels like realistic preparation, it often creates unnecessary distress and can hold people back from engaging fully with life.
+Fortune telling, in the psychological sense, refers to a common thinking pattern where a person assumes they already know how something will turn out — usually for the worse. It is one of several cognitive distortions that mental health professionals recognize as contributors to [[Understanding anxiety|anxiety]], [[Understanding low mood|low mood]], and avoidance behaviors. Understanding this pattern can be a meaningful first step toward loosening its grip.
 
-One of the most helpful first steps is simply learning to notice when this pattern is happening. Many people find that pausing to ask "Is this a fact, or is this a [[Fear|fear]]?" can create a small but meaningful moment of clarity. Writing thoughts down in a journal may also help — seeing a prediction on paper can make it easier to evaluate whether it is based on evidence or [[Understanding anxiety|anxiety]].
+This kind of thinking often shows up in everyday moments: convincing yourself a job interview will go badly before it begins, assuming a difficult conversation will end in conflict, or feeling certain that trying something new will only lead to failure. The mind, trying to protect us from disappointment, can sometimes become overconfident in its negative predictions — treating them as facts rather than possibilities. Over time, this can lead people to avoid situations that might actually go well, quietly narrowing their world.
 
-Another strategy that many people find useful is gently challenging the prediction. This does not mean forcing false positivity, but rather exploring a fuller picture. Questions like "What else could happen?" or "Have I been wrong about a prediction like this before?" can help loosen the grip of certainty that fortune telling tends to create. Over time, this kind of gentle curiosity can begin to shift habitual thought patterns.
+One strategy many people find helpful is learning to treat predictions as guesses rather than certainties. When a negative outcome feels inevitable, it can help to gently ask: "What evidence do I actually have for this?" or "Have I been wrong about similar predictions before?" This isn't about forcing positive thinking, but about creating a little space between the thought and the automatic belief in it. Keeping a brief journal of predictions and their actual outcomes is something some people find useful for noticing patterns over time. Mindfulness practices may also help by encouraging a focus on what is actually happening rather than what might happen.
 
-It is also worth noting that fortune telling often feels more intense during periods of high [[Understanding stress|stress]], [[Understanding low mood|low mood]], or anxiety. Recognizing that this thinking pattern tends to increase during difficult times — rather than reflecting an accurate view of reality — can itself be a source of relief.
-
-If fortune telling is significantly affecting your daily life, relationships, or sense of wellbeing, reaching out to a mental health professional can make a real difference. Support is available, and thinking patterns, however entrenched they feel, can change.
+It is worth remembering that recognizing a thinking pattern does not mean there is something wrong with you — these are common, human responses to uncertainty. With time and the right support, many people learn to relate to these thoughts differently. Speaking with a mental health professional can be a valuable part of that process.
 
 ---
 

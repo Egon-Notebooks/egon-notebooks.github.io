@@ -1,25 +1,27 @@
 ---
 title: "Identifying your values"
+type: article
 author: Claude
-date: 2026-04-01
+date: 2026-11-10
 tags:
   - self-awareness
   - values
-  - personal growth
+  - wellbeing
 generated: true
-type: article
 egon_version: "1"
 ---
 
 # Identifying your values
 
-Knowing what truly matters to you can be a quiet but powerful anchor in daily life. Values are the personal principles that guide how we want to live — things like honesty, connection, creativity, or kindness. When our choices align with these principles, many people find a greater sense of purpose and calm. When they don't, it can be a source of unease that's hard to name. Taking time to identify your values can be a meaningful step toward understanding yourself more clearly.
+Living in alignment with what truly matters to you can be one of the most grounding experiences a person can have. Yet many people move through daily life without pausing to ask a simple but powerful question: what do I actually value? Identifying your core values — the principles and qualities that feel most meaningful to you — can offer a sense of direction, especially during times of uncertainty or [[Understanding stress|stress]].
 
-One way to begin exploring your values is to reflect on moments when you felt genuinely satisfied or proud. What was happening? What did that experience say about what matters to you? Journaling about these moments, or simply sitting quietly with the question, can help patterns emerge. You might notice that certain themes — like fairness, family, or learning — come up again and again.
+One place to start is simply noticing what stirs a strong emotional response in you. Many people find that moments of genuine pride, deep satisfaction, or even frustration can point toward something they care about deeply. If you feel energized when supporting a friend through a hard time, connection and care may be central values for you. If you feel frustrated when asked to compromise your honesty, integrity may be one of your guiding principles. Paying attention to these emotional signals, rather than dismissing them, can be a meaningful first step.
 
-It can also help to notice moments of frustration or discomfort. Feeling unsettled when something doesn't sit right with you is often a sign that a value has been overlooked or compromised. Rather than pushing that feeling aside, treating it as useful information can help you get clearer on what you need. Some people find it helpful to look at a list of common values and notice which ones feel immediately meaningful — not as a checklist, but as a starting point for reflection.
+Another approach is reflection through writing. Some people find it helpful to spend a few quiet minutes journaling about a time when they felt most like themselves, or a moment when life felt particularly meaningful. Reading back over what you have written often reveals patterns — recurring themes that can point toward the values quietly shaping your choices.
 
-Values can shift over time, and that's completely normal. Life experiences, relationships, and growth all shape what we care about most. The goal isn't to arrive at a fixed list, but to stay curious and honest with yourself. If you find this kind of self-reflection difficult, or if exploring your values brings up strong emotions, a mental health professional can offer a supportive space to work through it together.
+It is also worth remembering that values are not rigid rules. They can shift over time as life changes, and that is entirely normal. What mattered most to you at twenty may look different at forty, and both can be true and valid.
+
+Understanding your values is not about achieving perfection or measuring yourself against an ideal. It is about building a clearer relationship with yourself — and that kind of self-awareness can support overall wellbeing in meaningful ways. If you would like to explore this further, speaking with a mental health professional can be a helpful and supportive next step.
 
 ---
 

@@ -1,29 +1,29 @@
 ---
 title: "Emotional reasoning"
+type: article
 author: Claude
-date: 2026-04-11
+date: 2026-11-10
 tags:
   - emotions
-  - cognitive patterns
-  - self-awareness
+  - thinking patterns
+  - cbt
 aliases:
   - feelings as facts
 generated: true
-type: article
 egon_version: "1"
 ---
 
 # Emotional reasoning
 
-Emotional reasoning is a thought pattern in which a person treats their feelings as evidence of objective truth — for example, believing "I feel like a failure, therefore I must be a failure." While emotions are always valid and worth paying attention to, they don't always give us an accurate picture of reality. Understanding this pattern can be a meaningful step toward developing a healthier relationship with difficult thoughts and feelings.
+Emotional reasoning is a thinking pattern in which a person treats their feelings as direct evidence of reality — for example, believing "I feel like a failure, so I must be one." It is a very common experience, and understanding how it works can be an important step toward relating to thoughts and emotions in a healthier way.
 
-One strategy many people find helpful is learning to notice emotional reasoning when it happens. This might involve gently asking yourself, "Is this a feeling, or is this a fact?" Keeping a journal can support this process — writing down a thought and then looking for concrete evidence for or against it helps create some distance between the emotion and the conclusion being drawn from it.
+One strategy that many people find helpful is learning to notice the difference between a feeling and a fact. Emotions are real and valid, but they do not always give us accurate information about a situation. When a strong feeling arises, pausing to ask "What is the evidence for and against this belief?" can gently create some distance between the emotion and the conclusion being drawn from it. This is a core idea in [[Cognitive behavioral therapy|cognitive behavioral therapy]] (CBT), a well-researched approach to changing unhelpful thought patterns.
 
-Another approach involves practicing what is sometimes called "cognitive defusion" — a technique from [[Acceptance and commitment therapy|acceptance and commitment therapy]] (ACT) that encourages people to observe their thoughts rather than automatically accepting them as truth. For instance, instead of thinking "I am worthless," a person might reframe this as "I notice I'm having the thought that I am worthless." This small shift can reduce the power a thought has over how someone feels and behaves.
+Another approach some people find useful is practicing [[Self-compassion|self-compassion]] when difficult feelings come up. Rather than immediately accepting what an emotion seems to be saying about you or the world, treating yourself with the same kindness you might offer a friend can help soften the intensity of emotional reasoning. Journaling about emotions — writing out the feeling, then separately writing out the facts of a situation — is one way to practice this distinction over time.
 
-It can also help to talk through recurring thought patterns with someone you trust. Sharing what you're experiencing often reveals perspectives you hadn't considered, and having your feelings acknowledged without them being treated as absolute truth can be genuinely grounding.
+Mindfulness can also support this process. By observing emotions as passing experiences rather than fixed truths, many people find they gain more flexibility in how they respond to difficult thoughts and feelings.
 
-Many people experience emotional reasoning at some point in their lives, and it doesn't have to stay in the driver's seat. With time, support, and practice, it is possible to develop greater awareness of these patterns and respond to difficult emotions with more flexibility and [[Self-compassion|self-compassion]]. If emotional reasoning is significantly affecting your daily life, speaking with a mental health professional can make a real difference.
+It is worth remembering that emotional reasoning is something most people experience at times — it does not reflect a flaw in character. With the right support, it is possible to develop new ways of relating to your inner world. If this pattern feels particularly persistent or distressing, speaking with a mental health professional can be a meaningful and effective next step.
 
 ---
 

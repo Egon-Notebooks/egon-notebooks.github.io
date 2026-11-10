@@ -1,7 +1,8 @@
 ---
 title: "Mind reading"
+type: article
 author: Claude
-date: 2026-04-11
+date: 2026-11-10
 tags:
   - anxiety
   - relationships
@@ -9,19 +10,20 @@ tags:
 aliases:
   - mind-reading
 generated: true
-type: article
 egon_version: "1"
 ---
 
 # Mind reading
 
-Mind reading — the habit of assuming we know what others are thinking — is one of the most common thinking patterns that can quietly fuel [[Understanding anxiety|anxiety]], self-doubt, and relationship tension. Most people engage in it from time to time, often without realizing it. Recognizing this pattern is a meaningful first step toward loosening its grip.
+Mind reading — not the stage-magic kind, but the mental habit of assuming you know what someone else is thinking — is one of the most common patterns that can quietly fuel [[Understanding anxiety|anxiety]], conflict, and [[Understanding low mood|low mood]]. It happens when we fill in the blanks of another person's inner world, often with the most critical or negative interpretation possible. Recognizing this pattern is a meaningful first step toward shifting it.
 
-This kind of thinking often sounds like: "They didn't reply quickly, so they must be [[Anger|angry]] with me," or "Everyone in that room thought I was embarrassing myself." The mind fills in gaps with guesses, and those guesses tend to reflect our own fears rather than reality. When we treat these assumptions as facts, it can lead to unnecessary distress or cause us to withdraw from people and situations that are actually safe.
+One strategy many people find helpful is pausing to notice when a thought begins with an assumption about someone else's feelings or intentions. Phrases like "she thinks I'm incompetent" or "he's annoyed with me" are worth gently questioning. Asking yourself, "What actual evidence do I have for this?" can create a small but powerful moment of distance between the automatic thought and your emotional response. This is a core technique in [[Cognitive behavioral therapy|cognitive behavioral therapy]] (CBT), a well-researched approach to changing unhelpful thinking patterns.
 
-One approach many people find helpful is gently questioning the evidence behind an assumption. Asking yourself, "What do I actually know for certain here?" can create a small but important pause between a thought and an emotional reaction. Another strategy is to consider alternative explanations — if a friend seems quiet, there could be many reasons that have nothing to do with you. Over time, practicing this kind of curious, open thinking can help reduce the emotional intensity that mind reading often triggers. Some people also find it useful to communicate directly rather than interpret, checking in with someone rather than drawing conclusions in silence.
+Another approach is to stay curious rather than certain. Instead of treating an assumption as fact, some people find it useful to hold it lightly — treating it as one possible interpretation among several. When it feels appropriate and safe, checking in directly with the other person can also replace guesswork with genuine understanding. A simple, open question often does more to ease worry than hours of internal analysis.
 
-These patterns are very common and do not mean something is fundamentally wrong with how you think. Many people find that working with a therapist or counselor — particularly approaches like [[Cognitive behavioral therapy|cognitive behavioral therapy]] (CBT) — can be especially effective in identifying and shifting unhelpful thinking habits. Support is available, and with time and practice, it is entirely possible to build a more grounded and compassionate relationship with your own thoughts.
+It is also worth practicing [[Self-compassion|self-compassion]] around this habit. Mind reading tends to be more frequent during periods of [[Understanding stress|stress]], low [[Self-esteem and where it comes from|self-esteem]], or past experiences where others were unpredictable or critical. It is not a character flaw — it is the mind trying to stay safe.
+
+If you notice that thought patterns like these are significantly affecting your relationships or daily wellbeing, speaking with a mental health professional can offer personalized support and guidance. You do not have to work through it alone.
 
 ---
 

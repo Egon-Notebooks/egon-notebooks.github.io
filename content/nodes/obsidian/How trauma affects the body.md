@@ -1,25 +1,27 @@
 ---
 title: "How trauma affects the body"
+type: article
 author: Claude
-date: 2026-04-01
+date: 2026-11-10
 tags:
   - trauma
   - stress
-  - wellbeing
+  - healing
 generated: true
-type: article
 egon_version: "1"
 ---
 
 # How trauma affects the body
 
-[[Understanding trauma|Trauma]] is not only an emotional experience — it can also leave a lasting imprint on the body. When a person goes through something overwhelming or frightening, the nervous system responds with a powerful survival reaction. For many people, this response doesn't simply switch off once the danger has passed. Understanding the connection between [[Understanding trauma|trauma]] and physical experience can be an important first step toward healing.
+[[Understanding trauma|Trauma]] is not just an emotional experience — it lives in the body, too. When something overwhelming happens, the body's [[The stress response|stress response]] activates to help us survive. For many people, the effects of that response don't simply fade once the danger has passed. Understanding how trauma shows up physically can be an important first step toward healing.
 
-One way [[Understanding trauma|trauma]] shows up in the body is through a heightened state of alertness, sometimes called hyperarousal. A person may notice that they startle easily, feel tense or restless much of the time, or have difficulty sleeping. This happens because the nervous system has been trained to stay on guard. Over time, this constant state of readiness can be exhausting, and many people find that gentle, body-based practices — such as slow breathing exercises or mindful movement — help the nervous system gradually feel safer.
+One of the most common physical effects of trauma is a persistent state of heightened alertness, sometimes called hyperarousal. The nervous system can become "stuck" in survival mode, making it harder to relax, sleep, or feel safe — even in ordinary situations. Many people find that their heart races, their muscles feel tense, or they startle easily, long after a difficult experience. This isn't a character flaw or weakness; it's the body doing its best to protect itself.
 
-[[Understanding trauma|Trauma]] can also affect the body in subtler ways. Some people experience unexplained physical symptoms such as fatigue, headaches, digestive discomfort, or a general sense of feeling disconnected from their own body. Researchers have found strong links between traumatic experiences and physical health, which is why [[Understanding trauma|trauma]]-informed care — an approach that considers the whole person — has become an increasingly important part of healthcare and mental health support.
+Trauma can also affect the digestive system, immune function, and chronic pain levels. Research suggests that the mind and body are deeply connected, and prolonged [[Understanding stress|stress]] responses can contribute to physical symptoms that may not have an obvious cause. Some people experiencing trauma notice headaches, stomach issues, fatigue, or a general sense of feeling unwell. Recognizing these symptoms as potentially connected to past experiences can help people seek the right kind of support.
 
-It is also worth knowing that the body's responses to [[Understanding trauma|trauma]] are not signs of weakness. They are natural, protective reactions to deeply difficult experiences. Many people find that working with a trained professional — such as a therapist familiar with [[Understanding trauma|trauma]] — can help them process these experiences in ways that support both emotional and physical wellbeing. Recovery is possible, and with the right support, people can develop a renewed sense of safety and connection within themselves.
+Gentle, body-aware practices are one avenue that many people find helpful alongside professional care. These might include mindful movement, breathwork, or simply spending time noticing physical sensations without judgment. Approaches like these can gradually help the nervous system find a greater sense of calm and safety.
+
+Healing from trauma is a process, and it looks different for everyone. Reaching out for professional support — whether from a therapist, doctor, or another trusted provider — can make a meaningful difference. Recovery is possible, and no one has to navigate this alone.
 
 ---
 

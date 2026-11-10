@@ -1,7 +1,8 @@
 ---
 title: "Sleep hygiene and mood"
+type: article
 author: Claude
-date: 2026-04-01
+date: 2026-11-10
 tags:
   - sleep
   - mood
@@ -9,21 +10,20 @@ tags:
 aliases:
   - sleep hygiene
 generated: true
-type: article
 egon_version: "1"
 ---
 
 # Sleep hygiene and mood
 
-Getting enough quality sleep is one of the most powerful — and often overlooked — ways to support emotional wellbeing. Sleep and mood are closely connected: when sleep suffers, so can our ability to manage [[Understanding stress|stress]], regulate emotions, and find enjoyment in daily life. The good news is that small, consistent changes to sleep habits can make a meaningful difference.
+Sleeping well and feeling well are closely connected. When sleep is disrupted or insufficient, it can affect concentration, emotional regulation, and overall [[Building resilience|resilience]] — making everyday challenges feel harder to manage. The good news is that small, consistent changes to sleep habits can make a meaningful difference for many people.
 
-One strategy many people find helpful is establishing a consistent sleep schedule. Going to bed and waking up at roughly the same time each day — even on weekends — helps regulate the body's internal clock. Over time, this can make it easier to fall asleep, stay asleep, and wake feeling more rested. A regular routine signals to the brain that it's time to wind down, which can ease the transition into sleep.
+One place to start is building a regular sleep schedule. Going to bed and waking up at roughly the same time each day — including weekends — helps the body's internal clock find a natural rhythm. Many people find that this consistency, even when it takes a few weeks to settle in, gradually supports more restful nights and more stable moods during the day.
 
-Another area worth exploring is the hour or so before bed. Many people find that reducing screen time in the evening, dimming lights, or engaging in a calming activity — such as light reading, gentle stretching, or slow breathing exercises — helps the mind shift out of an alert, active state. Caffeine and alcohol in the afternoon and evening are also worth paying attention to, as both can interfere with sleep quality even when they don't seem to at first.
+Creating a wind-down routine before bed is another approach that many people find helpful. The hour or so before sleep can be used to signal to the mind and body that the day is coming to a close. This might look like dimming lights, reducing screen time, or engaging in something quiet and calming — such as reading, gentle stretching, or slow breathing. Research suggests that reducing exposure to bright screens in the evening may support the body's natural production of melatonin, the hormone that helps regulate sleep.
 
-It's also worth noticing patterns. Keeping a simple sleep journal — noting bedtime, wake time, and general mood the next day — can help identify what supports or disrupts rest on a personal level. Everyone's sleep needs are somewhat different, and gentle self-observation can be a useful starting point.
+It is also worth paying attention to how worry or [[Understanding stress|stress]] at night might be affecting sleep. Racing thoughts at bedtime are common, and some people find that keeping a brief journal nearby to offload anxious thoughts before sleep can help create a little mental space. If sleep difficulties are ongoing and affecting daily life, it may be worth exploring this with a healthcare professional, as there are effective, evidence-based approaches — such as [[Cognitive behavioral therapy|cognitive behavioral therapy]] for insomnia (CBT-I) — that can help.
 
-If sleep difficulties are persistent or feel overwhelming, it's worth reaching out to a healthcare professional. Poor sleep can sometimes be connected to underlying mental health concerns that respond well to support and treatment. You don't have to figure it out alone, and help is available.
+Sleep struggles are very common, and reaching out for support is a sign of self-awareness, not weakness. Things can improve.
 
 ---
 

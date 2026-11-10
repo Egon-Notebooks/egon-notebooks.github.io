@@ -1,29 +1,29 @@
 ---
 title: "Imposter syndrome"
+type: article
 author: Claude
-date: 2026-04-01
+date: 2026-11-10
 tags:
   - self-esteem
   - confidence
-  - workplace mental health
+  - workplace
 aliases:
   - impostor syndrome
 generated: true
-type: article
 egon_version: "1"
 ---
 
 # Imposter syndrome
 
-Feeling like a fraud — even when the evidence clearly points to your competence — is something many people experience at some point in their lives. This phenomenon, often called imposter syndrome, describes an internal pattern where a person doubts their own achievements and lives with a persistent [[Fear|fear]] of being "found out" as less capable than others believe them to be. It is remarkably common, and importantly, it does not reflect reality.
+Imposter syndrome is a common experience in which a person doubts their own accomplishments and fears being exposed as less capable or qualified than others believe them to be. Despite outward evidence of success, those experiencing it often attribute their achievements to luck, timing, or other external factors rather than their own skill or effort. It's worth knowing that this experience is widespread — researchers have found it affects people across many professions, backgrounds, and stages of life.
 
-One of the most helpful things to understand about imposter syndrome is that it tends to thrive in silence. Many people who experience it assume they are alone in feeling this way, which only strengthens the self-doubt. Talking openly with trusted colleagues, friends, or a therapist about these feelings can be a powerful first step. Many people find that simply naming the experience — recognizing it as a known pattern rather than a personal failing — helps reduce its hold.
+One strategy that many people find helpful is recognizing and naming the pattern when it arises. When a thought like "I don't deserve to be here" surfaces, pausing to notice it as a cognitive pattern — rather than a fact — can create a small but meaningful shift in perspective. Journaling about past challenges that were successfully navigated, or listing concrete contributions made to a project or role, can help ground a person in evidence that counters [[The inner critic|the inner critic]].
 
-Another strategy that some people find useful is keeping a record of their accomplishments, positive feedback, and moments when they navigated a challenge well. When self-doubt feels loudest, having a concrete reference point can help interrupt the cycle of negative thinking. This is not about arrogance — it is about building a more balanced and accurate picture of yourself.
+Connecting with others can also make a real difference. Many people find that talking openly with trusted peers or mentors reveals that others share similar doubts. This kind of honest conversation can reduce the isolation that imposter syndrome often creates. Mentorship relationships, in particular, may offer perspective from someone who has worked through similar feelings and can reflect back a more accurate picture of a person's abilities.
 
-It can also help to reframe mistakes and uncertainty as normal parts of learning and growth, rather than evidence of inadequacy. Most people — including high achievers — experience gaps in their knowledge and moments of uncertainty. These moments do not disqualify anyone; they are part of being human.
+It can also help to reframe the experience of uncertainty itself. Feeling uncertain in a new role or challenging situation is not a sign of inadequacy — it is often a sign of growth. Many people find that gradually tolerating discomfort, rather than trying to eliminate it, allows them to build genuine confidence over time.
 
-If feelings of self-doubt are persistent and affecting your daily life, work, or wellbeing, reaching out to a mental health professional can make a real difference. Support is available, and with the right help, many people find they are able to move through imposter syndrome and develop a kinder, truer relationship with themselves.
+Imposter syndrome can feel deeply convincing, but it does not reflect the truth of a person's worth or capability. Support is available, and with the right tools and connections, many people find their relationship with self-doubt can meaningfully change.
 
 ---
 

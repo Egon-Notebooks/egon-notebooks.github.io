@@ -1,27 +1,25 @@
 ---
 title: "Supporting someone who is being bullied"
+type: article
 author: Claude
-date: 2026-04-05
+date: 2026-11-10
 tags:
   - bullying
   - relationships
   - support
 generated: true
-type: article
 egon_version: "1"
 ---
 
 # Supporting someone who is being bullied
 
-Being there for someone who is being bullied can make a genuine difference in how they cope and recover. Bullying — whether it happens in person, online, or in the workplace — can affect a person's confidence, sense of safety, and emotional wellbeing. Knowing how to offer meaningful support, rather than simply sympathy, is one of the most valuable things you can do.
+Watching someone you care about go through bullying can feel overwhelming. Whether it's happening to a child, a teenager, or an adult in a workplace setting, bullying can have a real impact on a person's mental health — affecting their confidence, sense of safety, and overall wellbeing. Knowing how to offer meaningful support can make a significant difference.
 
-One of the most important things you can offer is a space to be heard. Many people who experience bullying feel ashamed or worry they won't be believed, so listening without judgment — and making clear that you believe them — can help reduce feelings of isolation. Avoid jumping straight to problem-solving; simply acknowledging what they're going through first can help them feel less alone.
+One of the most valuable things you can do is simply listen without judgment. Many people who experience bullying feel ashamed or worry they won't be believed. Creating a safe, calm space where they can share what's happening — at their own pace — helps them feel less alone. Avoid rushing to fix the situation or minimizing what they've described. Phrases like "that sounds really hard" or "I'm glad you told me" can go a long way toward building trust.
 
-Encouraging a sense of agency can also be supportive. Rather than telling someone what they should do, you might gently explore options together. Some people find it helpful to document incidents, speak with a trusted authority figure such as a manager or school counselor, or take steps to limit contact with the person causing harm where possible. Following their lead matters — respecting their pace and choices helps preserve their sense of control during a time when they may feel they have very little.
+It also helps to gently encourage the person to think about what they need. Some people want practical help, such as assistance documenting incidents or navigating a formal complaints process. Others may need emotional support first. Following their lead, rather than taking over, helps preserve their sense of agency during a time when they may feel powerless. Many people also find it helpful to maintain routines and connections with trusted friends or family, as these can provide stability and a reminder that their world extends beyond the bullying situation.
 
-It's also worth keeping an eye on how they're doing over time. Bullying can have a lasting impact on mental health, and some people may begin to experience [[Understanding anxiety|anxiety]], [[Understanding low mood|low mood]], or withdrawal. Checking in regularly — not just in the immediate aftermath — shows that your support is genuine and ongoing.
-
-No one should have to navigate this kind of experience alone. If you or someone you care about is struggling, speaking with a mental health professional can provide additional tools and support. Things can and do get better.
+Finally, consider encouraging the person to speak with a mental health professional if they're struggling. Bullying can contribute to [[Understanding anxiety|anxiety]], [[Understanding low mood|low mood]], and other challenges that benefit from dedicated support. Reaching out for help is a sign of strength, not weakness — and no one has to work through these experiences alone. With the right support around them, people can move through difficult periods and rebuild their confidence and sense of self.
 
 ---
 

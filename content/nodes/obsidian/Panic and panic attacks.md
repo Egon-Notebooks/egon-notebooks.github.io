@@ -1,27 +1,27 @@
 ---
 title: "Panic and panic attacks"
+type: article
 author: Claude
-date: 2026-04-01
+date: 2026-11-10
 tags:
-  - panic
   - anxiety
+  - panic
   - coping strategies
 aliases:
   - panic attack
 generated: true
-type: article
 egon_version: "1"
 ---
 
 # Panic and panic attacks
 
-Panic attacks can feel sudden and overwhelming — a rush of intense physical and emotional sensations that seem to come out of nowhere. Racing heart, shortness of breath, dizziness, and a sense of losing control are common experiences. While these moments can be frightening, it helps to know that panic attacks, though deeply uncomfortable, are not physically dangerous and do pass.
+Panic attacks can feel overwhelming and frightening, but they are a well-understood experience that many people go through — and there are effective ways to manage them. A panic attack is a sudden surge of intense [[Fear|fear]] or discomfort that typically peaks within minutes and may include symptoms such as a racing heart, shortness of breath, dizziness, or a sense of unreality. While these sensations can feel alarming, they are not physically dangerous, and they do pass.
 
-Understanding what is happening in the body during a panic attack can itself be reassuring. The brain has activated its "fight or flight" response — a natural survival mechanism — at a moment when there is no actual threat. This misfiring can feel alarming, but it is a sign that the nervous system is doing its job, just in an unhelpful context. Recognizing this can make the experience feel a little less terrifying.
+One of the most helpful things to understand about panic attacks is that the body's response — however uncomfortable — is not a sign that something is seriously wrong. Recognizing this can take some of the fear out of the experience itself. Many people find that grounding techniques help in the moment. One approach involves slowly shifting attention to physical surroundings: noticing five things you can see, four you can touch, three you can hear, two you can smell, and one you can taste. This kind of sensory focus can gently anchor attention away from the cycle of anxious thoughts.
 
-There are several strategies that many people find helpful when navigating panic. Slow, controlled breathing — such as inhaling for four counts, holding briefly, and exhaling for four counts — may help signal to the nervous system that the body is safe. Grounding techniques, like noticing five things you can see, four you can hear, and three you can touch, can gently bring attention back to the present moment. Over time, some people find it useful to keep a simple journal to notice any patterns around when panic tends to arise, which can support conversations with a healthcare professional.
+Breathing is another area that many people find supportive during a panic attack. When [[Understanding anxiety|anxiety]] rises, breathing often becomes shallow and rapid, which can intensify symptoms. Some people find that deliberately slowing the breath — for example, inhaling for a count of four, holding briefly, and exhaling for a count of six — helps the nervous system begin to settle. Practicing this during calm moments can make it easier to draw on when panic arises.
 
-Living with frequent panic attacks can feel exhausting and isolating, but many people find that things do get better with the right support. Whether that means talking to a doctor, working with a therapist, or connecting with others who understand the experience, reaching out is a meaningful step. Panic does not define a person, and with time and support, it is possible to feel more at ease in your own body.
+Over time, working with a mental health professional can help people understand what may be contributing to panic and build a longer-term toolkit for managing it. Many people experience significant improvement with the right support. Reaching out is a meaningful step, and there is no need to navigate this alone.
 
 ---
 

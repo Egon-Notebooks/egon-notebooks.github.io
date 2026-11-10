@@ -1,27 +1,29 @@
 ---
 title: "Overgeneralization"
+type: article
 author: Claude
-date: 2026-04-11
+date: 2026-11-10
 tags:
   - thinking patterns
-  - cognitive behavioral therapy
+  - cognitive health
   - self-awareness
 aliases:
   - overgeneralizing
 generated: true
-type: article
 egon_version: "1"
 ---
 
 # Overgeneralization
 
-Overgeneralization is a common thinking pattern in which a person draws broad, sweeping conclusions from a single event or experience. For example, after one difficult conversation, someone might think, "I always say the wrong thing," or after a setback at work, "I never get anything right." While this kind of thinking can feel completely true in the moment, it often distorts reality in ways that can weigh heavily on our mood and sense of self.
+Overgeneralization is a common thinking pattern that can quietly shape the way we see ourselves and the world around us. It happens when we take one difficult experience and stretch it into a sweeping conclusion — telling ourselves "I always mess things up" after a single mistake, or "nobody ever really cares" after one disappointing interaction. While this kind of thinking feels very convincing in the moment, it rarely reflects the full picture.
 
-One helpful step is simply learning to notice when overgeneralization is happening. Words like "always," "never," "everyone," and "no one" can be useful signals. When these words appear in your inner dialogue, it may be worth pausing and gently asking whether that statement is really true in every case, or whether it reflects one moment rather than a permanent pattern. Many people find that just noticing the thought — without judging themselves for having it — creates a little breathing room.
+One of the most helpful first steps is simply learning to notice when overgeneralization is happening. Many people find it useful to pause and ask themselves whether the words "always," "never," "everyone," or "no one" have crept into their inner dialogue. These absolute terms are often a signal that the mind is drawing a broader conclusion than the evidence actually supports. Becoming aware of the pattern — without self-judgment — is an important part of beginning to shift it.
 
-Another approach that many people find useful is gathering evidence. This means treating the thought a bit like a hypothesis rather than a fact. Are there times when the opposite was true? Has there been a conversation that went well, or a task that was handled successfully? This isn't about forcing false positivity, but about building a more balanced and complete picture of reality. [[Cognitive behavioral therapy]] (CBT), a well-researched approach to mental health care, works directly with patterns like overgeneralization and offers structured tools for shifting them over time.
+Another strategy that many people find supportive is gently challenging the overgeneralized thought by looking for exceptions. If the thought is "I never do anything right," it can help to intentionally recall moments, even small ones, where things did go well. This isn't about forcing positivity or dismissing real struggles — it's about building a more accurate and balanced view of your experiences over time. Journaling or talking things through with a trusted person can make this process easier.
 
-It is worth remembering that overgeneralization is an extremely common experience — not a character flaw or a sign that something is fundamentally wrong. Many people navigate these thought patterns with time, practice, and the right support. If this kind of thinking is affecting your daily life, speaking with a mental health professional can be a meaningful and worthwhile step.
+It is also worth knowing that overgeneralization is closely connected to conditions like depression and [[Understanding anxiety|anxiety]], and that working with a mental health professional — such as a therapist trained in cognitive behavioral approaches — can offer structured support for recognizing and reshaping these patterns.
+
+Struggling with unhelpful thought patterns is something many people experience, and it does not have to be a permanent state. With awareness, practice, and the right support, it is possible to develop a kinder and more realistic relationship with your own thinking.
 
 ---
 

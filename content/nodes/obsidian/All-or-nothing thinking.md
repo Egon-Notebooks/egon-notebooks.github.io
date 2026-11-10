@@ -1,25 +1,28 @@
 ---
 title: "All-or-nothing thinking"
+type: article
 author: Claude
-date: 2026-04-01
+date: 2026-11-10
 tags:
   - thinking patterns
-  - anxiety
   - self-awareness
+  - cognitive health
+aliases:
+  - black-and-white thinking
+  - splitting
 generated: true
-type: article
 egon_version: "1"
 ---
 
 # All-or-nothing thinking
 
-All-or-nothing thinking — sometimes called black-and-white thinking — is a common thought pattern where situations, people, or even ourselves get sorted into extremes. Something is either perfect or a total failure. A person is either completely trustworthy or not at all. There is no middle ground. While this kind of thinking can feel very convincing in the moment, it often makes emotional distress harder to manage and can get in the way of seeing situations clearly.
+All-or-nothing thinking — sometimes called black-and-white thinking — is a common thought pattern where situations, people, or even ourselves get sorted into extreme categories. Something is either a total success or a complete failure. A day is either perfect or ruined. A person is either trustworthy or not. This kind of thinking can feel very convincing in the moment, but it rarely reflects the full picture of reality, and it can quietly contribute to feelings of [[Understanding stress|stress]], [[Understanding low mood|low mood]], and self-criticism.
 
-One of the most helpful first steps is simply learning to notice the pattern. Many people find that paying attention to absolute language in their own thoughts — words like "always," "never," "everyone," or "nothing" — can be a useful signal. When those words show up, it may be worth gently asking: is this really all-or-nothing, or is there something in between? This kind of awareness is a core part of cognitive behavioral therapy (CBT), a well-researched approach that helps people examine and gradually shift unhelpful thought patterns.
+One strategy many people find helpful is learning to notice when all-or-nothing thinking is happening. Simply becoming aware of the pattern — catching thoughts that contain words like "always," "never," "everyone," or "completely" — can create a small but meaningful pause. That pause is an opportunity to ask: is there a middle ground here that I might be missing?
 
-Another strategy many people find useful is practicing what is sometimes called "gray-area thinking." This means actively looking for the nuance in a situation — acknowledging that something can be partly good and partly disappointing, or that a person can have both strengths and flaws. Journaling about a difficult situation and writing down evidence on both sides of an extreme thought can be a practical way to build this habit over time.
+From there, some people find it useful to deliberately look for evidence of the gray area. If a presentation at work didn't go perfectly, that doesn't mean it was a disaster — most audiences notice far less than we [[Fear|fear]] they did. Practicing what researchers sometimes call "cognitive flexibility," or the ability to hold more than one perspective at once, can gradually soften the pull of extreme thinking over time. Journaling, talking through situations with a trusted friend, or working with a therapist are all approaches that many people find supportive in building this skill.
 
-It is also worth knowing that all-or-nothing thinking is extremely common, especially during periods of [[Understanding stress|stress]], [[Understanding anxiety|anxiety]], or [[Understanding low mood|low mood]]. Noticing it in yourself is not a sign of weakness — it is actually a meaningful step toward thinking more flexibly. If these patterns feel persistent or are affecting your daily life, speaking with a mental health professional can make a real difference. Support is available, and change is possible.
+It is worth remembering that all-or-nothing thinking is incredibly common — it is not a character flaw or a sign that something is fundamentally wrong. Many people experience it, especially during periods of stress or low mood. With practice and support, thought patterns can shift. If this kind of thinking feels persistent or overwhelming, speaking with a mental health professional can be a genuinely helpful next step.
 
 ---
 

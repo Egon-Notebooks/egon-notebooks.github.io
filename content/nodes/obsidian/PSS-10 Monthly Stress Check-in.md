@@ -1,5 +1,6 @@
 ---
 title: "PSS-10 Monthly Stress Check-in"
+date: 2026-11-10
 type: questionnaire
 questionnaire: PSS-10
 measures: perceived stress
@@ -7,7 +8,6 @@ tags:
   - questionnaire
   - stress
   - self-assessment
-date: 2026-11-10
 egon_version: "1"
 ---
 

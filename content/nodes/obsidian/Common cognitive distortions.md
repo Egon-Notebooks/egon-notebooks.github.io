@@ -1,25 +1,27 @@
 ---
 title: "Common cognitive distortions"
-author: Claude
-date: 2026-04-01
-tags:
-  - cognitive distortions
-  - thoughts
-  - cbt
-generated: true
 type: article
+author: Claude
+date: 2026-11-10
+tags:
+  - thinking patterns
+  - anxiety
+  - emotions
+generated: true
 egon_version: "1"
 ---
 
 # Common cognitive distortions
 
-Thoughts are powerful — but they aren't always accurate. Cognitive distortions are patterns of thinking that can feel completely true in the moment, yet lead us away from a balanced view of ourselves, others, and the world around us. Recognizing these patterns is an important step in understanding how our minds can sometimes work against our well-being.
+Cognitive distortions are patterns of thinking that can quietly shape how we see ourselves, others, and the world around us. They are not signs of weakness or poor character — they are simply habits the mind can develop, often as a way of making sense of difficult experiences. Recognizing these patterns is a meaningful first step toward shifting them.
 
-One of the most common distortions is "[[All-or-nothing thinking|all-or-nothing thinking]]," where situations are seen in black-and-white terms with no middle ground. A person might feel that if something isn't perfect, it's a total failure. Another frequent pattern is "[[Catastrophizing|catastrophizing]]" — assuming the worst possible outcome will happen when facing uncertainty or difficulty. This kind of thinking can make everyday challenges feel overwhelming. A third pattern, sometimes called "mind reading," involves assuming we know what others are thinking, usually in a negative way, without any real evidence. Many people find that simply noticing these patterns, rather than automatically accepting them as facts, can create a small but meaningful shift in perspective.
+One of the most common distortions is all-or-nothing thinking, sometimes called [[All-or-nothing thinking|black-and-white thinking]]. This is when situations feel like they must be one extreme or the other — a total success or a complete failure, with no middle ground. Many people find it helpful to practice noticing the gray areas in a situation, gently asking whether there might be more nuance than the initial thought suggests.
 
-Some strategies that may help with cognitive distortions include practicing "thought checking" — pausing to ask whether there is actual evidence for a particular thought, or whether a trusted friend might see the situation differently. Journaling can also be a useful tool, as writing thoughts down often makes it easier to examine them with a bit more distance. Over time, many people find that approaches like cognitive behavioral therapy (CBT), which is a structured, evidence-based form of talk therapy focused on the connection between thoughts, feelings, and behaviors, can be especially effective in working through these patterns.
+Another frequent pattern is [[Catastrophizing|catastrophizing]], which involves the mind jumping to the worst possible outcome and treating it as likely or inevitable. When this happens, it can help to pause and consider: what are the realistic possibilities here? Grounding techniques, such as focusing on what is known and certain in the present moment, may reduce the intensity of catastrophic thinking over time.
 
-It is completely normal to experience distorted thinking from time to time — it is part of being human. If these thought patterns feel persistent or are affecting your daily life, reaching out to a mental health professional can make a real difference. Support is available, and change is possible.
+[[Mind reading]] is a third common distortion — assuming we know what others are thinking, usually in a negative way, without real evidence. Many people find that gently questioning these assumptions, or even checking in directly with others, can ease the discomfort that comes from filling in the blanks with worry.
+
+It is worth remembering that everyone experiences distorted thinking at times. These patterns tend to become more pronounced during periods of [[Understanding stress|stress]], [[Understanding low mood|low mood]], or [[Understanding anxiety|anxiety]], which means that addressing overall wellbeing can also soften their grip. Working with a mental health professional — such as through approaches like [[Cognitive behavioral therapy|cognitive behavioral therapy]] — can offer structured support in identifying and reshaping these thought patterns. Help is available, and change is genuinely possible.
 
 ---
 

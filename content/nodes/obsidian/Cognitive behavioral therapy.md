@@ -1,27 +1,27 @@
 ---
 title: "Cognitive behavioral therapy"
+type: article
 author: Claude
-date: 2026-04-11
+date: 2026-11-10
 tags:
   - therapy
-  - cognitive behavioral therapy
-  - mental health
+  - anxiety
+  - emotions
 generated: true
-type: article
 egon_version: "1"
 ---
 
 # Cognitive behavioral therapy
 
-Cognitive behavioral therapy, often referred to as CBT, is one of the most widely researched and used approaches in mental health care. At its core, CBT is based on the idea that our thoughts, feelings, and behaviors are closely connected — and that by gently shifting unhelpful thinking patterns, it's possible to change how we feel and act in meaningful ways.
+Cognitive behavioral therapy, often referred to as CBT, is one of the most widely studied and practiced forms of psychological therapy available today. It is based on the idea that our thoughts, feelings, and behaviors are interconnected — and that by learning to notice and gently shift unhelpful thinking patterns, people can experience meaningful change in how they feel and act.
 
-One of the foundational skills in CBT is learning to notice and examine automatic thoughts — the quick, often unconscious interpretations we make about ourselves, others, and the world around us. Many people find that when they begin paying attention to these thoughts, they start to recognize patterns, such as assuming the worst will happen or being overly self-critical. A therapist trained in CBT can help guide this process, though some people also find journaling or structured worksheets useful for practicing on their own.
+At the heart of CBT is the concept that we are not simply at the mercy of our emotions. Many people find that learning to identify automatic negative thoughts — the quick, often harsh judgments we make about ourselves or situations — can be a powerful first step. A CBT-informed approach encourages pausing to ask: is this thought based on fact, or is it one interpretation among several? This kind of gentle questioning, sometimes called cognitive restructuring, can help create a little space between a difficult feeling and an automatic reaction.
 
-CBT also places a strong emphasis on [[Behavioral activation|behavioral activation]] — the idea that taking small, intentional actions can help shift mood and motivation over time. For someone experiencing [[Understanding low mood|low mood]], this might look like gently reintroducing activities that once felt meaningful, even when motivation feels out of reach. Over time, these small steps can create a positive feedback loop between action and emotional wellbeing.
+CBT also emphasizes the role of behavior in maintaining or improving mood. Some people find that gradually re-engaging with activities they have withdrawn from — even in small ways — can help interrupt cycles of [[Understanding low mood|low mood]] or [[Understanding anxiety|anxiety]]. This strategy, known as [[Behavioral activation|behavioral activation]], is built on the understanding that action and emotion influence each other in both directions.
 
-Another key element is learning to challenge cognitive distortions — thinking habits that can skew our perception in unhelpful ways, such as [[All-or-nothing thinking|all-or-nothing thinking]] or [[Overgeneralization|overgeneralizing]] from a single event. With practice, many people develop a greater ability to approach difficult situations with more flexibility and [[Self-compassion|self-compassion]].
+Another key element of CBT is that it is typically skills-based and collaborative. Rather than simply talking through problems, people work with a therapist to build practical tools they can carry into everyday life. Many people also find that CBT-informed workbooks or structured self-help materials can be a useful complement to professional support.
 
-CBT is not a one-size-fits-all solution, and finding the right therapeutic approach is a personal journey. If you're curious about whether CBT might be helpful for you, speaking with a mental health professional is a great place to start. Support is available, and things can change.
+If you have been struggling with your thoughts or emotions, know that effective support is available. Many people find that working with a trained professional makes a real difference — and reaching out is a meaningful step toward feeling better.
 
 ---
 

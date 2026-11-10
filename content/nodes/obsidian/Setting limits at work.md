@@ -1,27 +1,25 @@
 ---
 title: "Setting limits at work"
+type: article
 author: Claude
-date: 2026-04-01
+date: 2026-11-10
 tags:
   - boundaries
+  - burnout
   - workplace
-  - stress
 generated: true
-type: article
 egon_version: "1"
 ---
 
 # Setting limits at work
 
-Maintaining a healthy relationship with work is something many people find challenging, especially when demands feel constant or hard to refuse. Learning to set limits — often called "[[Setting healthy boundaries|boundaries]]" — in a workplace setting is a skill that can support both well-being and long-term productivity. Like any skill, it takes practice, and it looks different for everyone.
+Knowing when and how to set limits at work is an important part of protecting your mental and emotional wellbeing. Many people find that consistently saying yes to every request — staying late, taking on extra projects, or always being available — can gradually lead to burnout, exhaustion, and feelings of resentment. Recognizing that it is both healthy and reasonable to have limits is a meaningful first step.
 
-One strategy many people find helpful is getting clear on personal priorities and capacity before responding to requests. Taking a moment to reflect — rather than automatically saying yes — can create space to make choices that better align with energy levels and workload. This might mean pausing before agreeing to a new project, or checking in with yourself about whether you are already stretched thin.
+One strategy many people find helpful is getting clear on their own priorities and capacity before responding to requests. Taking a moment to honestly assess your workload — rather than automatically agreeing — can help you make decisions that reflect what is actually sustainable for you. Practicing simple, direct phrases such as "I can take that on next week" or "I don't have the capacity for that right now" can make it easier to communicate limits without over-explaining or apologizing.
 
-Communicating limits clearly and respectfully is another important part of the process. This doesn't have to mean conflict or confrontation. Many people find that using calm, direct language — such as explaining that they can take on a task by a certain date rather than immediately — helps maintain professional relationships while still honoring personal needs. Written communication, like email, can sometimes make these conversations feel more manageable.
+It can also help to establish small, consistent practices that protect your time and energy. Many people find that setting a consistent end time for their workday, turning off work notifications during personal hours, or taking regular breaks throughout the day supports a greater sense of balance. These habits may feel uncomfortable at first, especially in workplaces where overworking is normalized, but many people find that maintaining them gradually becomes easier over time.
 
-It can also help to acknowledge that limits may shift over time. What feels sustainable during a quieter period may not be realistic during a busy one, and that's okay. Regularly checking in with yourself about how you're feeling at work, and adjusting where possible, is a form of ongoing self-awareness that many people find grounding.
-
-Setting limits at work is not a sign of weakness or lack of commitment — it is often a sign of self-knowledge and care. If workplace [[Understanding stress|stress]] feels overwhelming or persistent, speaking with a mental health professional can offer personalized support and guidance. Many people find that with the right tools, navigating work in a healthier way becomes more achievable over time.
+It is worth remembering that setting limits at work is not a sign of weakness or lack of dedication — it is an act of self-respect that can help sustain your performance and wellbeing in the long run. If you find that workplace pressures are significantly affecting your mental health, or that setting limits feels very difficult despite your efforts, speaking with a mental health professional can provide valuable support and guidance. You do not have to navigate this alone.
 
 ---
 

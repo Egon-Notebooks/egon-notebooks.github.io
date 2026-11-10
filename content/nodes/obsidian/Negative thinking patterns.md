@@ -1,27 +1,25 @@
 ---
 title: "Negative thinking patterns"
+type: article
 author: Claude
-date: 2026-04-01
+date: 2026-11-10
 tags:
   - negative thinking
-  - cognitive patterns
-  - self-care
+  - cognitive behavioral therapy
+  - self-awareness
 generated: true
-type: article
 egon_version: "1"
 ---
 
 # Negative thinking patterns
 
-Negative thinking patterns are something almost everyone experiences at some point. These are recurring thoughts that tend to be self-critical, pessimistic, or distorted in ways that don't fully reflect reality. While they can feel very convincing in the moment, it's important to know that these patterns are not facts — and they can change over time with awareness and practice.
+Negative thinking patterns are something almost everyone experiences at some point. These are recurring thoughts that tend to be critical, pessimistic, or distorted in ways that don't fully reflect reality. While it's natural for the mind to notice problems or potential threats, sometimes these thought patterns become habitual and can weigh heavily on a person's mood, [[Self-esteem and where it comes from|self-esteem]], and overall wellbeing.
 
-One approach that many people find helpful is simply learning to notice negative thoughts rather than automatically believing them. This is sometimes called "cognitive defusion" in therapeutic settings — the idea of stepping back and observing a thought as just a thought, rather than a truth about yourself or the world. Journaling can support this process by giving thoughts somewhere to land outside of your head, making them easier to examine with a little more distance.
+One of the most helpful steps is simply learning to notice these patterns as they arise. Common examples include "all-or-nothing" thinking — seeing situations as entirely good or entirely bad with nothing in between — or "[[Catastrophizing|catastrophizing]]," which means assuming the worst possible outcome will happen. When a person can begin to recognize these habits of mind, they create a little space between the thought and their reaction to it. Many people find that keeping a journal helps with this process, allowing them to track recurring thoughts and start to question whether those thoughts are accurate or helpful.
 
-Another strategy involves gently challenging the accuracy of a negative thought. When a difficult thought arises, some people find it useful to ask: "Is there evidence for this? Is there another way to look at this situation?" This isn't about forcing positivity, but about widening the lens so that one perspective isn't the only perspective. Over time, this kind of gentle questioning can help loosen the grip that unhelpful thought patterns can have.
+Another approach that many find valuable is gently challenging negative thoughts rather than accepting them as facts. This doesn't mean forcing false positivity, but rather asking honest questions: "Is there evidence for this thought? Is there another way to look at this situation?" Over time, this practice — often central to a therapeutic approach called [[Cognitive behavioral therapy|cognitive behavioral therapy]], or CBT — can help shift deeply ingrained patterns toward more balanced, realistic thinking.
 
-It may also help to pay attention to the body. Negative thinking often shows up alongside physical tension or fatigue. Some people find that grounding practices — such as slow breathing or a short walk — can interrupt the cycle and create a small moment of calm that makes thoughts easier to work with.
-
-Recognizing negative thinking patterns is a meaningful first step, and many people find that things genuinely do shift with time and support. If these patterns are persistent or feel overwhelming, speaking with a mental health professional can make a real difference.
+It's also worth remembering that changing thought patterns takes time and patience. Progress is rarely linear, and setbacks are a normal part of the process. If negative thinking feels persistent or overwhelming, speaking with a mental health professional can make a meaningful difference. Support is available, and many people find that with the right tools and guidance, they are able to develop a healthier, more compassionate relationship with their own minds.
 
 ---
 

@@ -1,5 +1,6 @@
 ---
 title: "PHQ-9 Monthly Depression Check-in"
+date: 2026-11-10
 type: questionnaire
 questionnaire: PHQ-9
 measures: depression
@@ -7,7 +8,6 @@ tags:
   - questionnaire
   - depression
   - self-assessment
-date: 2026-11-10
 egon_version: "1"
 ---
 

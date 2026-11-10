@@ -1,5 +1,6 @@
 ---
 title: "Rosenberg Self-Esteem Scale Check-in"
+date: 2026-11-10
 type: questionnaire
 questionnaire: RSES
 measures: global self-esteem
@@ -7,7 +8,6 @@ tags:
   - questionnaire
   - self-esteem
   - self-assessment
-date: 2026-11-10
 egon_version: "1"
 ---
 

@@ -1,27 +1,27 @@
 ---
 title: "Mental filter"
+type: article
 author: Claude
-date: 2026-04-11
+date: 2026-11-10
 tags:
-  - anxiety
+  - thinking patterns
+  - self-awareness
   - cognitive behavioral therapy
-  - thoughts
 aliases:
   - selective abstraction
 generated: true
-type: article
 egon_version: "1"
 ---
 
 # Mental filter
 
-[[Understanding anxiety|Anxiety]] and [[Understanding low mood|low mood]] can sometimes change the way we process the world around us — not because reality has shifted, but because our attention has. One common thinking pattern that can quietly affect our wellbeing is called "mental filter." This is when the mind focuses almost entirely on a single negative detail, while filtering out the broader picture. Understanding this pattern is a meaningful first step toward loosening its hold.
+Noticing only the negative in an otherwise balanced experience is something many people are familiar with — even if they have never heard it described by name. Mental filter is a thinking pattern in which a person focuses intensely on one difficult or upsetting detail while filtering out the broader picture. Like a drop of ink in a glass of water, that single negative thought can color everything else, making it hard to see the full reality of a situation.
 
-Mental filter is a concept drawn from [[Cognitive behavioral therapy|cognitive behavioral therapy]] (CBT), an evidence-based approach to understanding how thoughts, feelings, and behaviors connect. When this pattern is active, a person might receive overwhelmingly positive feedback on a project but find their attention locked on one small criticism. Or they might spend a wonderful day with friends yet ruminate on one awkward moment long after it has passed. The experience can feel very convincing — as though the negative detail is the truest or most important part of the picture.
+This pattern is common and can show up in many areas of life. Someone might receive genuinely positive feedback at work alongside one small criticism, yet find their mind returning again and again only to that criticism. Or a social event that went largely well might feel like a failure because of one awkward moment. Recognizing when mental filter is at work is an important first step — not to dismiss real difficulties, but to gently widen the lens.
 
-Some strategies that may help include practicing what therapists call "broadening the lens." This involves gently asking yourself: what else is true here? Writing down evidence that both supports and challenges a negative thought can help create a more balanced view. Many people also find that naming the pattern — simply noticing "I may be using a mental filter right now" — creates a small but useful distance from it. Mindfulness practices, which involve observing thoughts without judgment, can support this kind of noticing over time.
+One approach many people find helpful is to actively look for evidence that challenges the filtered thought. This is a core idea in [[Cognitive behavioral therapy|cognitive behavioral therapy]] (CBT), a well-researched form of talk therapy. Asking yourself, "What else happened that I might be overlooking?" can begin to restore a more balanced view. Some people find it useful to keep a brief journal where they record both what felt hard and what went well, helping to build a fuller picture over time. Practicing [[Self-compassion|self-compassion]] — treating yourself with the same kindness you would offer a friend — can also soften the grip of overly [[Negative thinking patterns|negative thinking patterns]].
 
-It is worth remembering that this thinking pattern is not a personal flaw — it is something many people experience, particularly during periods of [[Understanding stress|stress]], anxiety, or low mood. With practice and support, it is possible to develop a more balanced and compassionate relationship with your own thoughts. If you find this pattern is affecting your daily life, speaking with a mental health professional can make a real difference.
+These habits take time to develop, and it is completely normal to find them challenging at first. Mental filter is a very human tendency, not a personal failing. Many people work through these patterns with the support of a mental health professional, and that kind of support can make a meaningful difference.
 
 ---
 
