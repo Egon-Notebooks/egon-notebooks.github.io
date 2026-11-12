@@ -6,7 +6,7 @@ import { buildMetadata } from '@/lib/metadata'
 export const metadata: Metadata = buildMetadata({
   title: 'Reports',
   description:
-    'Private, interactive reports on your mood, stress, personality, sleep and activity — generated on your own device from your journal and Apple Health data.',
+    'Private, interactive reports on your mood, stress, personality, sleep and activity, generated on your own device from your journal and Apple Health data.',
   path: '/reports',
 })
 
@@ -87,22 +87,22 @@ const REPORTS: {
     items: [
       {
         name: 'Word count',
-        description: 'Words per entry with a 7-day trend — a quiet signal of how engaged you are with writing, and of changes in rhythm.',
-        command: 'uv run egon report word-count',
+        description: 'Words per entry with a 7-day trend: a quiet signal of how engaged you are with writing, and of changes in rhythm.',
+        command: 'egon report word-count',
       },
       {
         name: 'Frequent words',
-        description: 'The most frequent meaningful words across a period, ranked — what kept coming up. Opt-in: set wordcloud = true in egon.toml.',
-        command: 'uv run egon report wordcloud',
+        description: 'The most frequent meaningful words across a period, ranked: what kept coming up. Opt-in: set wordcloud = true in egon.toml.',
+        command: 'egon report wordcloud',
       },
       {
         name: 'Self-focus in language',
-        description: 'The share of first-person pronouns (I, me, my) in your writing. A sustained rise can reflect turning inward — healthy reflection or rumination.',
+        description: 'The share of first-person pronouns (I, me, my) in your writing. A sustained rise can reflect turning inward, healthy reflection or rumination.',
       },
       {
         name: 'Topics',
         description: 'Recurring themes discovered with BERTopic, ranked by size, and how they shift from month to month.',
-        command: 'uv run egon report topics',
+        command: 'egon report topics',
         extra: 'topics',
       },
     ],
@@ -113,42 +113,42 @@ const REPORTS: {
       {
         name: 'Sentiment',
         description: 'Daily tone of your writing (VADER, −1 to +1) as positive and negative bars around a neutral band, with a 7-day trend. Fast and fully local.',
-        command: 'uv run egon report sentiment',
+        command: 'egon report sentiment',
       },
       {
         name: 'Stress',
         description: 'Daily probability that your writing reads as stressed (DistilBERT fine-tuned on the Dreaddit dataset), with a 7-day trend.',
-        command: 'uv run egon report stress',
+        command: 'egon report stress',
         extra: 'limbic',
       },
       {
         name: 'Loneliness',
         description: 'Daily probability that your writing expresses loneliness (MentalBERT), with a 7-day trend.',
-        command: 'uv run egon report loneliness',
+        command: 'egon report loneliness',
         extra: 'limbic',
       },
       {
         name: 'Emotional tone',
         description: 'The balance of seven emotions in your writing (DistilRoBERTa): positive affect above a neutral band, negative below, plus a period profile. Click an emotion to isolate it.',
-        command: 'uv run egon report emotion',
+        command: 'egon report emotion',
         extra: 'limbic',
       },
       {
         name: 'Thinking traps',
         description: 'Cognitive distortions such as catastrophizing and should statements (BERT-tiny classifier): a daily distortion signal and a week-by-week heatmap of which traps appear most.',
-        command: 'uv run egon report cognitive-bias',
+        command: 'egon report cognitive-bias',
         extra: 'limbic',
       },
       {
         name: 'Big Five traits',
         description: 'Openness, Conscientiousness, Extraversion, Agreeableness and Neuroticism as reflected in your writing (DistilBERT), with period averages compared to the population.',
-        command: 'uv run egon report bigfive',
+        command: 'egon report bigfive',
         extra: 'limbic',
       },
       {
         name: 'MBTI type',
         description: 'Your type for the period (e.g. INFJ) and the daily lean on each of the four dimensions. A playful lens rather than a measurement.',
-        command: 'uv run egon report mbti',
+        command: 'egon report mbti',
         extra: 'limbic',
       },
     ],
@@ -159,43 +159,43 @@ const REPORTS: {
       {
         name: 'Weight',
         description: 'Daily body weight (and lean body mass, if recorded) with a 7-day trend and an optional personal target.',
-        command: 'uv run egon report weight',
+        command: 'egon report weight',
         appleHealth: true,
       },
       {
         name: 'Resting heart rate',
         description: 'Daily resting heart rate with a 7-day trend. A sustained rise above your baseline is an early sign of strain.',
-        command: 'uv run egon report resting-heart-rate',
+        command: 'egon report resting-heart-rate',
         appleHealth: true,
       },
       {
         name: 'Heart rate variability',
-        description: 'Daily HRV (SDNN) with a 7-day trend — a mirror of stress and recovery.',
-        command: 'uv run egon report hrv',
+        description: 'Daily HRV (SDNN) with a 7-day trend, a mirror of stress and recovery.',
+        command: 'egon report hrv',
         appleHealth: true,
       },
       {
         name: 'Sleep',
-        description: 'Nightly time asleep with 7 h and 9 h reference lines, and when you fell asleep — the narrower the band, the more regular your bedtime.',
-        command: 'uv run egon report sleep',
+        description: 'Nightly time asleep with 7 h and 9 h reference lines, and when you fell asleep. The narrower the band, the more regular your bedtime.',
+        command: 'egon report sleep',
         appleHealth: true,
       },
       {
         name: 'Steps',
-        description: 'Daily steps with a 7-day trend and a 7,000-step reference line — the range where benefits for mood show up in research.',
-        command: 'uv run egon report step-count',
+        description: 'Daily steps with a 7-day trend and a 7,000-step reference line, the range where benefits for mood show up in research.',
+        command: 'egon report step-count',
         appleHealth: true,
       },
       {
         name: 'Exercise',
         description: 'Daily Apple Exercise Time with the WHO guideline of 30 minutes a day, or your own target.',
-        command: 'uv run egon report exercise',
+        command: 'egon report exercise',
         appleHealth: true,
       },
       {
         name: 'VO₂ max',
-        description: 'Cardiorespiratory fitness estimates over time — best read over months.',
-        command: 'uv run egon report vo2max',
+        description: 'Cardiorespiratory fitness estimates over time, best read over months.',
+        command: 'egon report vo2max',
         appleHealth: true,
       },
     ],
@@ -206,7 +206,7 @@ const REPORTS: {
       {
         name: 'Correlations',
         description: 'How your journal and health signals move together: an interactive heatmap (click a cell to see that pair day by day), the ten strongest pairs, and four pairs with known links to mental health, such as sleep and next-day mood.',
-        command: 'uv run egon report correlations',
+        command: 'egon report correlations',
         appleHealth: true,
       },
     ],
@@ -232,15 +232,16 @@ export default function ReportsPage() {
           Reports
         </h1>
         <p style={{ ...bodyText, fontSize: '1rem', marginBottom: '1rem' }}>
-          Patterns in how you feel are hard to see day to day. Egon reports bring your journal and
-          your Apple Health data together over a week, a month, a quarter or a year — mood, stress,
-          personality, sleep, activity, and how they relate.
+          From one day to the next, it is hard to tell whether you are actually doing better.
+          A report puts your journal and your Apple Health data side by side over a week, a month,
+          a quarter or a year, so you can see how your mood, stress and sleep have moved and
+          whether they move together.
         </p>
         <p style={{ ...bodyText, fontSize: '1rem', marginBottom: '3.5rem' }}>
           Every report is generated on your own device and saved as a single HTML file that works
           offline and never makes a network request. Each chart explains why it matters for your
-          wellbeing and how to read it. Use reports for self-reflection, or choose to share one with
-          someone you trust — print it or save it as a PDF from your browser.
+          wellbeing and how to read it. Most people keep their reports to themselves. If you want to
+          share one with someone you trust, you can print it or save it as a PDF.
         </p>
 
         {/* Example */}
@@ -249,8 +250,8 @@ export default function ReportsPage() {
           <p style={{ ...bodyText, marginBottom: '1rem' }}>
             A full quarterly report for <em>David Osei</em>, a fictional 58-year-old who retired
             early after a heart scare and is finding his feet again. He represents our{' '}
-            <em>Self-Directed Individual</em> persona. His journal and health data are synthetic —
-            no real person&apos;s data — and the report was made with the same command you would use
+            <em>Self-Directed Individual</em> persona. His journal and health data are synthetic
+            (no real person&apos;s data), and the report was made with the same command you would use
             yourself. Hover, zoom, and click around. Its journal summary was written by a cloud
             model (Claude) from those synthetic entries, to show a best case. In your own reports a
             local model writes it on your computer and nothing leaves it; a small local model gives
@@ -306,11 +307,11 @@ EGON_APPLE_HEALTH_XML=/path/to/apple_health_export/export.xml`}</div>
           <p style={{ ...bodyText, marginBottom: '0.75rem' }}>
             Generate every chart for a period plus one combined report:
           </p>
-          <div style={codeBlock}>{`uv run egon report --for 2026-Q1 --full     # a specific quarter
-uv run egon report --period month --full    # the last complete month`}</div>
+          <div style={codeBlock}>{`egon report --for 2026-Q1 --full     # a specific quarter
+egon report --period month --full    # the last complete month`}</div>
           <p style={{ ...bodyText, marginTop: '0.75rem', marginBottom: '1.25rem' }}>
             The terminal shows one line per chart and where the combined report was saved
-            (<code>reports/full_report/</code> by default — set <code>EGON_REPORTS_DIR</code> in{' '}
+            (<code>reports/full_report/</code> by default, or set <code>EGON_REPORTS_DIR</code> in{' '}
             <code>.env</code> to keep reports in another folder). Periods can be weeks (<code>2026-W14</code>), months
             (<code>2026-02</code>), quarters (<code>2026-Q1</code>) or years (<code>2026</code>). Which
             analyses are included is set in <code>egon.toml</code>.
@@ -318,7 +319,7 @@ uv run egon report --period month --full    # the last complete month`}</div>
           <p style={{ ...bodyText, marginBottom: '0.75rem' }}>
             To give something shorter to a therapist, counselor or doctor:
           </p>
-          <div style={codeBlock}>{`uv run egon report --for 2026-Q1 --share`}</div>
+          <div style={codeBlock}>{`egon report --for 2026-Q1 --share`}</div>
           <p style={{ ...bodyText, marginTop: '0.75rem', marginBottom: '1.25rem' }}>
             It leaves out personality estimates, word lists and correlations by default, and you
             choose what goes in under <code>[report.share]</code> in <code>egon.toml</code>. Egon
@@ -338,19 +339,19 @@ uv run egon report --period month --full    # the last complete month`}</div>
 
           <h3 style={subsectionHeading}>Optional extras</h3>
           <p style={{ ...bodyText, marginBottom: '0.75rem' }}>
-            Charts marked below need an optional install. Everything runs locally; models are
-            downloaded once on first use.
+            Some charts use language models, which are an optional install. They run on your own
+            computer and are downloaded once, the first time you use them. Install the extras you
+            want:
           </p>
-          <div style={codeBlock}>{`uv sync --extra limbic        # language models: stress, emotion, personality …
-uv sync --extra topics        # topic discovery (BERTopic)
-uv sync --extra local-llm     # AI journal and health summaries — also needs the Ollama app running
-                              # (larger models give better summaries on newer computers)
+          <div style={codeBlock}>{`uv tool install --force "egon-journal[limbic,local-llm] @ git+https://github.com/Egon-Notebooks/egon-journal"
 
-# combine them, e.g.
-uv sync --extra limbic --extra local-llm`}</div>
+# limbic     stress, emotion and personality estimates
+# topics     topic discovery (BERTopic)
+# local-llm  AI journal and health summaries, with the Ollama app running`}</div>
           <p style={{ ...bodyText, marginTop: '0.75rem' }}>
-            On an Intel Mac, run <code>bash scripts/setup_limbic.sh</code> once instead of the{' '}
-            <code>limbic</code> extra.
+            Larger models give better summaries on newer computers. On an Intel Mac, the language
+            models need a one-off setup from a clone of the repository
+            (<code>bash scripts/setup_limbic.sh</code>).
           </p>
         </section>
 
@@ -426,7 +427,7 @@ uv sync --extra limbic --extra local-llm`}</div>
           <h2 style={sectionHeading}>Private by design</h2>
           <ul style={{ ...bodyText, listStyle: 'disc', paddingLeft: '1.25rem', lineHeight: 1.85 }}>
             <li>Your journal and health data are read from local files and analyzed on your device.</li>
-            <li>Reports contain your data and are marked confidential — share them only if you mean to.</li>
+            <li>Reports contain your data and are marked confidential. Share one only if you mean to.</li>
             <li>Model scores are estimates from language, not a diagnosis. If something in a report worries you, talk to someone you trust or a professional.</li>
           </ul>
         </section>

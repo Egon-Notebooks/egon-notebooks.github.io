@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     default: 'Egon Notebooks',
     template: '%s | Egon Notebooks',
   },
-  description: 'A curated, downloadable graph of structured knowledge about the inner life — for Logseq and Obsidian.',
+  description: 'A private journal in plain files, with a library of psychology to read alongside it. Everything stays on your own computer.',
   metadataBase: new URL('https://egon-notebooks.github.io'),
   openGraph: {
     siteName: 'Egon Notebooks',

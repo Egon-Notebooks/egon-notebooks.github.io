@@ -6,7 +6,7 @@ import RegistryClient from '@/components/RegistryClient'
 
 export const metadata: Metadata = buildMetadata({
   title: 'The Registry',
-  description: 'Browse and download curated psychological knowledge packs for Obsidian and Logseq. 15 packs, 107 nodes.',
+  description: 'Short articles about the inner life, in packs you can download into Obsidian or Logseq: emotions, anxiety, low mood, grief, relationships and more.',
   path: '/registry',
 })
 
@@ -52,8 +52,9 @@ export default function RegistryPage() {
               margin: 0,
             }}
           >
-            {packs.length} curated packs · {nodes.length} nodes. Browse packs to download a complete
-            topic as a Markdown vault, or explore the full node inventory below.
+            {nodes.length} short articles in {packs.length} packs. Each pack covers one topic and
+            downloads as a folder of Markdown files for your notes app. Every article was written by
+            AI and has not yet been reviewed by a professional.
           </p>
         </div>
 
