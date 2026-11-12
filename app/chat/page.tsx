@@ -105,7 +105,7 @@ const localPanel = (
     </p>
     <ProsCons
       pros={[
-        'Nothing you say leaves your machine — no account, no provider, no terms of service.',
+        'Nothing you say leaves your machine: no account, no provider, no terms of service.',
         'Works offline and costs nothing to run.',
         'Your graph can be read in full, because there is no one to share it with.',
       ]}
@@ -131,7 +131,7 @@ const cloudPanel = (
     >
       <p style={{ ...bodyText, color: 'var(--color-ink)', margin: 0 }}>
         <strong>This means sharing your personal data.</strong> Whatever you upload or type into a
-        cloud chatbot — journal entries, feelings, names of people in your life — is sent to that
+        cloud chatbot (journal entries, feelings, names of people in your life) is sent to that
         company&apos;s servers and handled under its terms. Depending on the provider and your
         settings, it may be stored, reviewed or used to train future models, and once it is shared
         you cannot fully take it back. That can still be a reasonable choice. It should be a
@@ -145,7 +145,7 @@ const cloudPanel = (
       service. Instead, Egon writes a context file on your computer, and you decide whether to take
       it to Claude, ChatGPT or any other chatbot. You can already do this today:
     </p>
-    <div style={codeBlock}>{`uv run egon export-context --months 3 --output context.md`}</div>
+    <div style={codeBlock}>{`egon export-context --months 3 --output context.md`}</div>
     <p style={{ ...bodyText, marginTop: '0.75rem', marginBottom: '0.75rem' }}>
       Upload <code>context.md</code> to the chatbot and talk. At the end, ask it for a short summary
       and paste that into a journal entry for the day, so what you took from the conversation lives
@@ -189,8 +189,8 @@ export default function ChatPage() {
         </h1>
         <p style={{ ...bodyText, fontSize: '1rem', marginBottom: '1rem' }}>
           Some days a blank page is exactly right. On others you don&apos;t know where to start, or you
-          keep circling the same thought. A good question — <em>what happened just before you felt
-          that?</em> — can help you explore it, notice what sits underneath and see it from another
+          keep circling the same thought. A good question, such as <em>what happened just before you felt
+          that?</em>, can help you explore it, notice what sits underneath and see it from another
           angle. That is what a conversation offers that writing alone sometimes doesn&apos;t.
         </p>
         <p style={{ ...bodyText, fontSize: '1rem', marginBottom: '1rem' }}>
@@ -227,8 +227,8 @@ export default function ChatPage() {
           </p>
           <p style={{ ...bodyText, marginBottom: '1.25rem' }}>
             Choosing that well is called <em>context engineering</em>: deciding what is worth bringing
-            into a conversation and what is better left out. It is also where most chatbots are weakest
-            — they either forget you between sessions or keep a hidden memory you can&apos;t read. This
+            into a conversation and what is better left out. It is also where most chatbots are weakest:
+            they either forget you between sessions or keep a hidden memory you can&apos;t read. This
             is what Egon is designed around.
           </p>
 
@@ -245,9 +245,9 @@ export default function ChatPage() {
               <h3 style={subsectionHeading}>Structured, not just a pile of text</h3>
               <p style={bodyText}>
                 Entries are dated and linked to topics, and content nodes describe what they are
-                about. That structure lets a conversation start from what is relevant — the anxiety
+                about. That structure lets a conversation start from what is relevant (the anxiety
                 article when you want to talk about anxiety, or the last few entries that mention
-                sleep — instead of everything at once.
+                sleep) instead of everything at once.
               </p>
             </div>
             <div style={card}>

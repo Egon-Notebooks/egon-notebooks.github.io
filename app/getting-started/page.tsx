@@ -1,15 +1,89 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
-import { getBaseGraphFiles } from '@/lib/content'
-import InstallGuide from '@/components/InstallGuide'
+import { BASE_GRAPH_PACKS, getBaseGraphFiles } from '@/lib/content'
 import BaseGraphDownload from '@/components/BaseGraphDownload'
 import { buildMetadata } from '@/lib/metadata'
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Getting Started',
-  description: 'Install Egon Notebooks into Obsidian or Logseq and start building your mental health knowledge graph.',
+  title: 'Getting started',
+  description:
+    'Start a private journal in Obsidian or Logseq in a few minutes, add some reading, and go further with prompts and reports if you like.',
   path: '/getting-started',
 })
+
+const TOOLS = [
+  {
+    name: 'Obsidian',
+    url: 'https://obsidian.md',
+    body: 'Looks like a familiar notes app. A good choice if you are not sure.',
+  },
+  {
+    name: 'Logseq',
+    url: 'https://logseq.com',
+    body: 'Open source, and you write in bullet points, which some people find easier to start with.',
+  },
+]
+
+const QUESTIONS = [
+  'What stayed with you from today?',
+  'Describe one moment from today as if you were telling a friend.',
+  'What did you notice about your energy today?',
+]
+
+const h2: React.CSSProperties = {
+  fontFamily: 'var(--font-display)',
+  fontSize: '1.6rem',
+  fontWeight: 600,
+  color: 'var(--color-ink)',
+  marginBottom: '0.75rem',
+}
+
+const body: React.CSSProperties = {
+  fontSize: '0.95rem',
+  color: 'var(--color-ink-muted)',
+  lineHeight: 1.7,
+  marginBottom: '1rem',
+}
+
+const partLabel: React.CSSProperties = {
+  fontSize: '0.75rem',
+  fontWeight: 600,
+  letterSpacing: '0.08em',
+  textTransform: 'uppercase',
+  color: 'var(--color-accent)',
+  marginBottom: '0.5rem',
+}
+
+const card: React.CSSProperties = {
+  backgroundColor: 'var(--color-surface)',
+  border: '1px solid var(--color-border)',
+  borderRadius: '4px',
+  padding: '1.25rem',
+}
+
+const codeBlock: React.CSSProperties = {
+  fontFamily: 'var(--font-mono)',
+  fontSize: '0.82rem',
+  backgroundColor: 'var(--color-surface)',
+  border: '1px solid var(--color-border)',
+  borderRadius: '4px',
+  padding: '1rem 1.25rem',
+  whiteSpace: 'pre',
+  overflowX: 'auto',
+  marginBottom: '1rem',
+}
+
+function Step({ n, title, children }: { n: number; title: string; children: React.ReactNode }) {
+  return (
+    <section style={{ marginBottom: '3rem' }}>
+      <h2 style={h2}>
+        <span style={{ color: 'var(--color-accent)', marginRight: '0.6rem' }}>{n}</span>
+        {title}
+      </h2>
+      {children}
+    </section>
+  )
+}
 
 export default function GettingStartedPage() {
   const obsidianFiles = getBaseGraphFiles('obsidian')
@@ -28,235 +102,94 @@ export default function GettingStartedPage() {
             letterSpacing: '-0.01em',
           }}
         >
-          Getting Started
+          Getting started
         </h1>
-        <p style={{ fontSize: '1rem', color: 'var(--color-ink-muted)', lineHeight: 1.65, marginBottom: '1.5rem' }}>
-          Let&apos;s get started on your self-discovery journey!
-        </p>
-        <p style={{ fontSize: '1rem', color: 'var(--color-ink-muted)', lineHeight: 1.65, marginBottom: '3.5rem' }}>
-          Egon Notebooks packs are plain Markdown files.
-          They work with any tool that opens a folder of <code>.md</code> files — but they are optimized for Obsidian and Logseq.
+        <p style={{ ...body, fontSize: '1.05rem', marginBottom: '3.5rem' }}>
+          You can start in a few minutes, without installing anything technical. All you need is
+          a notes app and a little time to write.
         </p>
 
-        {/* Step 1: Choose tool */}
-        <section style={{ marginBottom: '3.5rem' }}>
-          <h2
-            style={{
-              fontFamily: 'var(--font-display)',
-              fontSize: '1.6rem',
-              fontWeight: 600,
-              color: 'var(--color-ink)',
-              marginBottom: '1.25rem',
-            }}
-          >
-            1. Choose your tool
-          </h2>
-          <div
-            style={{
-              display: 'grid',
-              gridTemplateColumns: 'repeat(auto-fill, minmax(240px, 1fr))',
-              gap: '1rem',
-            }}
-          >
-            {[
-              {
-                id: 'obsidian',
-                name: 'Obsidian',
-                description: 'A local-first knowledge base with a rich plugin ecosystem. Download at obsidian.md.',
-                url: 'https://obsidian.md',
-              },
-              {
-                id: 'logseq',
-                name: 'Logseq',
-                description: 'An open-source, outliner-based knowledge graph. Download at logseq.com.',
-                url: 'https://logseq.com',
-              },
-            ].map(tool => (
-              <div
-                key={tool.id}
-                style={{
-                  backgroundColor: 'var(--color-surface)',
-                  border: '1px solid var(--color-border)',
-                  borderRadius: '4px',
-                  padding: '1.25rem',
-                }}
-              >
-                <h3
-                  style={{
-                    fontFamily: 'var(--font-display)',
-                    fontSize: '1.15rem',
-                    fontWeight: 600,
-                    color: 'var(--color-ink)',
-                    marginBottom: '0.375rem',
-                  }}
-                >
+        <p style={partLabel}>Start writing</p>
+
+        <Step n={1} title="Pick a notes app">
+          <p style={body}>
+            Both are free and keep your notes as plain files on your own computer, so you can
+            switch later without losing anything.
+          </p>
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(240px, 1fr))', gap: '1rem' }}>
+            {TOOLS.map(tool => (
+              <div key={tool.name} style={card}>
+                <h3 style={{ fontFamily: 'var(--font-display)', fontSize: '1.2rem', fontWeight: 600, marginBottom: '0.35rem' }}>
                   {tool.name}
                 </h3>
-                <p style={{ fontSize: '0.83rem', color: 'var(--color-ink-muted)', lineHeight: 1.6, marginBottom: '1rem' }}>
-                  {tool.description}
-                </p>
-                <a
-                  href={tool.url}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="btn-secondary"
-                  style={{ fontSize: '0.8rem' }}
-                >
-                  Download {tool.name} ↗
+                <p style={{ ...body, fontSize: '0.85rem' }}>{tool.body}</p>
+                <a href={tool.url} target="_blank" rel="noopener noreferrer" className="btn-secondary" style={{ fontSize: '0.8rem' }}>
+                  Get {tool.name} ↗
                 </a>
               </div>
             ))}
           </div>
-        </section>
+        </Step>
 
-        {/* Step 2: Download */}
-        <section
-          style={{
-            marginBottom: '3.5rem',
-            paddingTop: '2.5rem',
-            borderTop: '1px solid var(--color-border)',
-          }}
-        >
-          <h2
-            style={{
-              fontFamily: 'var(--font-display)',
-              fontSize: '1.6rem',
-              fontWeight: 600,
-              color: 'var(--color-ink)',
-              marginBottom: '0.75rem',
-            }}
-          >
-            2. Download a Pack
-          </h2>
-          <p style={{ fontSize: '0.875rem', color: 'var(--color-ink-muted)', lineHeight: 1.65, marginBottom: '1.25rem' }}>
-            Head to the Registry, pick a pack that interests you, and click the Download button.
-            Use the tool toggle to switch between Obsidian and Logseq formats.
+        <Step n={2} title="Write your first entry">
+          <p style={body}>
+            The most important step is to start writing. It doesn&apos;t matter what, and it
+            doesn&apos;t have to be good. One note for each day is enough, and both apps will make
+            it for you. In Obsidian, turn on <em>Daily notes</em> in the settings and click the
+            calendar icon. In Logseq, the <em>Journals</em> page already has today waiting.
           </p>
-          <div style={{ display: 'flex', flexDirection: 'column', gap: '0.75rem' }}>
-            <Link href="/registry" className="btn-primary" style={{ alignSelf: 'flex-start' }}>
-              Browse the Registry →
-            </Link>
-            <BaseGraphDownload obsidianFiles={obsidianFiles} logseqFiles={logseqFiles} />
-          </div>
-        </section>
-
-        {/* Step 3: Install */}
-        <section
-          style={{
-            marginBottom: '3.5rem',
-            paddingTop: '2.5rem',
-            borderTop: '1px solid var(--color-border)',
-          }}
-        >
-          <h2
-            style={{
-              fontFamily: 'var(--font-display)',
-              fontSize: '1.6rem',
-              fontWeight: 600,
-              color: 'var(--color-ink)',
-              marginBottom: '1.25rem',
-            }}
-          >
-            3. Install
-          </h2>
-          <InstallGuide />
-        </section>
-
-        {/* What's in a pack */}
-        <section
-          style={{
-            marginBottom: '3.5rem',
-            paddingTop: '2.5rem',
-            borderTop: '1px solid var(--color-border)',
-          }}
-        >
-          <h2
-            style={{
-              fontFamily: 'var(--font-display)',
-              fontSize: '1.6rem',
-              fontWeight: 600,
-              color: 'var(--color-ink)',
-              marginBottom: '0.75rem',
-            }}
-          >
-            What&apos;s in a Pack?
-          </h2>
-          <p style={{ fontSize: '0.875rem', color: 'var(--color-ink-muted)', lineHeight: 1.65, marginBottom: '1rem' }}>
-            Each pack is a flat folder of <code>.md</code> files — one per concept. Nodes contain:
+          <p style={body}>
+            Sometimes you don&apos;t know what to write about. You could start from one of these,
+            or ignore them completely:
           </p>
-          <ul
-            style={{
-              fontSize: '0.875rem',
-              color: 'var(--color-ink-muted)',
-              lineHeight: 1.75,
-              paddingLeft: '1.25rem',
-              marginBottom: '1.5rem',
-            }}
-          >
-            <li>A frontmatter block (YAML for Obsidian, <code>property::</code> for Logseq)</li>
-            <li>3–5 paragraphs of structured, readable prose</li>
-            <li>Wiki-links to related concepts within the pack</li>
-            <li>A disclaimer noting AI authorship and that it has not yet been professionally reviewed</li>
+          <ul style={{ ...card, listStyle: 'none', margin: '0 0 1rem' }}>
+            {QUESTIONS.map(q => (
+              <li key={q} style={{ fontFamily: 'var(--font-display)', fontSize: '1.15rem', color: 'var(--color-ink)', padding: '0.3rem 0' }}>
+                {q}
+              </li>
+            ))}
           </ul>
-          <div
-            style={{
-              backgroundColor: 'var(--color-surface)',
-              border: '1px solid var(--color-border)',
-              borderRadius: '4px',
-              padding: '1.25rem 1.5rem',
-              fontFamily: 'var(--font-mono)',
-              fontSize: '0.78rem',
-              color: 'var(--color-ink-muted)',
-              lineHeight: 1.7,
-              whiteSpace: 'pre',
-              overflowX: 'auto',
-            }}
-            aria-label="Example node file (Logseq format)"
-          >
-{`author:: Claude
-date:: 2026-03-23
-tags:: mental-health
+          <p style={body}>
+            The more you write, the more there is to look back on. A few lines on most days will
+            tell you more after a month than a long entry once in a while.
+          </p>
+        </Step>
 
-- Anger is a natural human emotion...
-- One of the most helpful things to understand...
+        <Step n={3} title="Add some reading">
+          <p style={body}>
+            When something keeps coming up, you can read about it in the same app. Pick a pack in
+            the <Link href="/registry">registry</Link>, or take the base graph below. Unzip it and
+            put the files in your Obsidian vault, or in the <code>pages</code> folder of your
+            Logseq graph.
+          </p>
+          <p style={body}>
+            The articles link to each other, and you can link your own entries to them by typing
+            the title in double square brackets, like <code>[[Sleep and mental health]]</code>.
+          </p>
+          <BaseGraphDownload obsidianFiles={obsidianFiles} logseqFiles={logseqFiles} packCount={BASE_GRAPH_PACKS.size} />
+        </Step>
 
-- _This article was generated by Claude (Anthropic)..._`}
-          </div>
-        </section>
+        <p style={{ ...body, fontStyle: 'italic', marginBottom: '4rem' }}>
+          That is enough to begin. Many people never need more.
+        </p>
 
-        {/* Next steps */}
-        <section
-          style={{
-            paddingTop: '2.5rem',
-            borderTop: '1px solid var(--color-border)',
-          }}
-        >
-          <h2
-            style={{
-              fontFamily: 'var(--font-display)',
-              fontSize: '1.6rem',
-              fontWeight: 600,
-              color: 'var(--color-ink)',
-              marginBottom: '0.75rem',
-            }}
-          >
-            Next steps
-          </h2>
-          <ul
-            style={{
-              fontSize: '0.875rem',
-              color: 'var(--color-ink-muted)',
-              lineHeight: 1.75,
-              paddingLeft: '1.25rem',
-            }}
-          >
-            <li>Explore the nodes and add your own annotations alongside them</li>
-            <li>Start journaling in the daily notes - the more you journal the better the AI will understand you</li>
-            <li>Explore the journaling support tools on the <Link href="/journal">Journaling page</Link></li>
-            <li>Create links from your personal notes to nodes in the pack</li>
-            <li>Return to <Link href="/registry">the Egon Registry</Link> to download more packs</li>
-            <li>Read the <Link href="/about">About page</Link> to understand the longer vision</li>
-          </ul>
+        <p style={partLabel}>Going further, if you like</p>
+        <section style={{ marginBottom: '1rem' }}>
+          <h2 style={h2}>Prompts, summaries and reports</h2>
+          <p style={body}>
+            If you are comfortable with a terminal, <code>egon-journal</code> adds writing prompts,
+            weekly summaries and private reports on your mood, stress and sleep. It runs on your
+            own computer and needs <a href="https://docs.astral.sh/uv/" target="_blank" rel="noopener noreferrer">uv</a>.
+          </p>
+          <div style={codeBlock}>{`uv tool install git+https://github.com/Egon-Notebooks/egon-journal
+egon new-entry
+egon report --period month --full`}</div>
+          <p style={body}>
+            Tell it where your journal lives in a <code>.env</code> file, and set{' '}
+            <code>app = &quot;logseq&quot;</code> in <code>egon.toml</code> if you use Logseq. The{' '}
+            <Link href="/journal">Journal</Link> and <Link href="/reports">Reports</Link> pages
+            explain each part.
+          </p>
         </section>
       </div>
     </div>

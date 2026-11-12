@@ -1,6 +1,6 @@
 'use client'
 
-import { useState, useSyncExternalStore } from 'react'
+import { useEffect, useState, useSyncExternalStore } from 'react'
 import { useRouter, useSearchParams } from 'next/navigation'
 import type { Pack, NodeMeta } from '@/lib/content'
 import PackCard from './PackCard'
@@ -48,6 +48,12 @@ export default function RegistryClient({ packs, nodes, packFiles, nodeFiles }: R
   )
   const [chosen, setTool] = useState<Tool | null>(null)
   const tool: Tool = chosen ?? (saved === 'logseq' ? 'logseq' : 'obsidian')
+
+  // Packs render on the client, after the browser has tried the #pack link; scroll to it now.
+  useEffect(() => {
+    const target = window.location.hash && document.getElementById(window.location.hash.slice(1))
+    if (target) target.scrollIntoView({ block: 'start' })
+  }, [])
 
   const handleViewChange = (v: View) => {
     const params = new URLSearchParams(searchParams.toString())

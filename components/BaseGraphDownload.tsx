@@ -8,9 +8,10 @@ type Tool = 'obsidian' | 'logseq'
 interface BaseGraphDownloadProps {
   obsidianFiles: Record<string, string>
   logseqFiles: Record<string, string>
+  packCount: number
 }
 
-export default function BaseGraphDownload({ obsidianFiles, logseqFiles }: BaseGraphDownloadProps) {
+export default function BaseGraphDownload({ obsidianFiles, logseqFiles, packCount }: BaseGraphDownloadProps) {
   const [tool, setTool] = useState<Tool>('obsidian')
 
   return (
@@ -27,10 +28,10 @@ export default function BaseGraphDownload({ obsidianFiles, logseqFiles }: BaseGr
     >
       <div>
         <p style={{ fontSize: '0.875rem', fontWeight: 600, color: 'var(--color-ink)', margin: '0 0 0.25rem' }}>
-          Or download everything at once
+          Or start with the base graph
         </p>
         <p style={{ fontSize: '0.8rem', color: 'var(--color-ink-muted)', margin: 0, lineHeight: 1.55 }}>
-          The Base Graph contains 100 nodes across the 14 core packs — a complete starting collection for your vault.
+          {Object.keys(obsidianFiles).length} articles from the {packCount} core packs, in one download.
         </p>
       </div>
 

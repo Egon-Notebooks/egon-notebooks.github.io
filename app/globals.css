@@ -152,7 +152,18 @@ a:hover {
   text-transform: uppercase;
 }
 
+.notice-card {
+  transition: background-color 0.15s ease;
+}
+.notice-card:hover {
+  background-color: var(--color-surface) !important;
+}
+.notice-card:hover h3 {
+  color: var(--color-accent);
+}
+
 .pack-card {
+  scroll-margin-top: 6rem;
   transition: box-shadow 0.2s ease, transform 0.2s ease;
 }
 

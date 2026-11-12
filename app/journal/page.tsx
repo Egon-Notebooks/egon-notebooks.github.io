@@ -5,7 +5,7 @@ import { buildMetadata } from '@/lib/metadata'
 export const metadata: Metadata = buildMetadata({
   title: 'Journal',
   description:
-    'Structured journaling for your Egon graph. Write daily entries, use prompts and write summaries — all as plain Markdown on your own device.',
+    'egon-journal helps you keep a private journal in Obsidian or Logseq: daily entries, prompts when you are stuck, summaries and reports, all on your own computer.',
   path: '/journal',
 })
 
@@ -47,8 +47,6 @@ export default function JournalPage() {
   return (
     <div style={{ paddingBlock: '3rem 5rem' }}>
       <div className="container" style={{ maxWidth: '760px' }}>
-
-        {/* Header */}
         <h1
           style={{
             fontFamily: 'var(--font-display)',
@@ -59,125 +57,95 @@ export default function JournalPage() {
             letterSpacing: '-0.01em',
           }}
         >
-          The Egon Journal
+          The journal
         </h1>
+        <p style={{ ...bodyText, fontSize: '1rem', marginBottom: '1rem' }}>
+          Writing things down helps. It slows a thought down enough to look at it, and over weeks
+          it leaves a record you can learn from. Research suggests the benefit is real but modest (Sohal et al., 2022),
+          and that it works best alongside the people and care in your life rather than instead
+          of them.
+        </p>
         <p style={{ ...bodyText, fontSize: '1rem', marginBottom: '3.5rem' }}>
-          Egon Notebooks does not aim to be an &quot;AI therapist&quot;.
-          Rather, we believe that journaling, in combination with human connection and support, is a more sustainable long-term self-help approach that also doesn&apos;t risk developing parasocial relationships with AI.
-          The <code>egon-journal</code> CLI adds structured journaling to your Egon graph.
-          Write daily entries linked to the content you already have — without any data leaving your device.
-          When you have a few weeks of entries, turn them into private <Link href="/reports">reports</Link>.
+          You can keep your journal in Obsidian or Logseq with nothing else installed (see{' '}
+          <Link href="/getting-started">Getting started</Link>). <code>egon-journal</code> is an
+          optional command-line tool that adds a few things on top. Nothing it does leaves your
+          computer.
         </p>
 
-        {/* Getting started */}
-        <section style={{ marginBottom: '3.5rem' }}>
-          <h2 style={sectionHeading}>Getting started</h2>
-          <p style={{ ...bodyText, marginBottom: '1.25rem' }}>
-            For now, the Egon journal is a suite of CLI commands.
-            You need Python 3.13+ and <a href="https://docs.astral.sh/uv/" target="_blank" rel="noopener noreferrer">uv</a>.
-            Clone the repository and install:
-          </p>
-          <div style={codeBlock}>{`git clone https://github.com/egon-notebooks/egon-journal
-cd egon-journal
-uv sync`}</div>
-
-          <p style={{ ...bodyText, marginTop: '1.5rem', marginBottom: '0.75rem' }}>
-            Configure your local graph directories by copying the example env file:
-          </p>
-          <div style={codeBlock}>{`cp .env.example .env`}</div>
-          <p style={{ ...bodyText, marginTop: '0.75rem', marginBottom: '1.25rem' }}>
-            Open <code>.env</code> and set the three paths:
-          </p>
-          <div style={codeBlock}>{`EGON_JOURNAL_DIR=/path/to/your/graph/journal
-EGON_SUMMARIES_DIR=/path/to/your/graph/summaries
-EGON_GRAPH_DIR=/path/to/your/graph`}</div>
-
-          <p style={{ ...bodyText, marginTop: '1.5rem', marginBottom: '0.75rem' }}>
-            You can create new daily entries directly in Logseq or Obsidian.
-            Logseq even creates a new daily entry every day automatically.
-            Or you can create your first journal entry yourself:
-          </p>
-          <div style={codeBlock}>{`uv run egon new-entry        # today
-uv run egon new-entry --open  # open immediately in $EDITOR`}</div>
-
-          <p style={{ ...bodyText, marginTop: '1.25rem' }}>
-            Entries are named <code>Journal — YYYY-MM-DD.md</code> and written as plain Markdown with YAML frontmatter.
-            They land in <code>EGON_JOURNAL_DIR</code> and sit alongside your content nodes in Obsidian or Logseq.
-            The more journal entries you have, the better Egon Notebooks will understand you.
-          </p>
-        </section>
-
-        {/* Prompts */}
         <section style={section}>
-          <h2 style={sectionHeading}>Prompts</h2>
-          <p style={{ ...bodyText, marginBottom: '1.25rem' }}>
-            Journaling prompts are short, topic-linked questions that sit as nodes in your graph
-            alongside the content they refer to.
-          </p>
-          <div style={codeBlock}>{`# Generate all prompt nodes
-uv run egon generate-prompts`}</div>
-        </section>
-
-        {/* Summaries */}
-        <section style={section}>
-          <h2 style={sectionHeading}>Weekly and monthly summaries</h2>
-          <p style={{ ...bodyText, marginBottom: '1.25rem' }}>
-            Summary nodes give each week or month a structured reflection: overall tone, recurring
-            themes, one thing noticed, and what to carry forward. Fill them in by hand or use a
-            local AI tool to draft them from your entries.
-          </p>
-          <div style={codeBlock}>{`uv run egon new-summary --period week
-uv run egon new-summary --period month`}</div>
-        </section>
-
-        {/* Export context */}
-        <section style={section}>
-          <h2 style={sectionHeading}>Exporting entries as LLM context</h2>
-          <p style={{ ...bodyText, marginBottom: '1.25rem' }}>
-            The export command aggregates your recent journal entries into a single Markdown
-            document, ordered by date. This is useful when you want to feed your journal into the
-            LLM of your choice to do some self-reflection — paste the file into a conversation and
-            ask it to surface recurring themes, blind spots, or questions worth journaling about
-            next. <code>uv run egon report</code> writes the same kind of file for a whole report
-            period (see <Link href="/reports">Reports</Link>).
-          </p>
-          <div style={codeBlock}>{`uv run egon export-context                          # last 3 months, printed to stdout
-uv run egon export-context --months 6
-uv run egon export-context --output context.md`}</div>
-          <p style={{ ...bodyText, marginTop: '1.25rem' }}>
-            The export is a plain local file — nothing is sent anywhere by Egon itself. Keep in
-            mind that whatever you paste into a hosted LLM leaves your device, so prefer a local
-            model if your entries are sensitive.
-          </p>
-        </section>
-
-        {/* Reports */}
-        <section style={section}>
-          <h2 style={sectionHeading}>Reports</h2>
+          <h2 style={sectionHeading}>Install</h2>
           <p style={bodyText}>
-            Your entries — together with your Apple Health data, if you like — can be turned into
-            private, interactive reports on mood, stress, personality, sleep and activity. See the{' '}
-            <Link href="/reports">Reports</Link> page for what&apos;s included, an example report and
-            how to generate your own.
+            You need <a href="https://docs.astral.sh/uv/" target="_blank" rel="noopener noreferrer">uv</a>.
+            Then one command installs <code>egon</code>:
+          </p>
+          <div style={codeBlock}>{`uv tool install git+https://github.com/Egon-Notebooks/egon-journal`}</div>
+          <p style={{ ...bodyText, marginTop: '1rem' }}>
+            In the folder you run <code>egon</code> from, create a <code>.env</code> file that says
+            where your journal lives. If you use Logseq, add an <code>egon.toml</code> too, so new
+            entries become Logseq&apos;s own daily pages:
+          </p>
+          <div style={codeBlock}>{`# .env
+EGON_JOURNAL_DIR=/path/to/your/graph/journal
+
+# egon.toml (Logseq only)
+[graph]
+app = "logseq"`}</div>
+        </section>
+
+        <section style={section}>
+          <h2 style={sectionHeading}>A new entry</h2>
+          <p style={bodyText}>
+            Obsidian and Logseq can both make a daily note for you, and Egon reads those. If you
+            prefer the terminal, this makes today&apos;s entry and never overwrites one you have
+            already started:
+          </p>
+          <div style={codeBlock}>{`egon new-entry          # today
+egon new-entry --open   # and open it in your editor`}</div>
+        </section>
+
+        <section style={section}>
+          <h2 style={sectionHeading}>When you don&apos;t know what to write</h2>
+          <p style={bodyText}>
+            Sometimes you sit down and nothing comes. A prompt gives you one question to start
+            from, linked to an article about the topic. Take it or leave it.
+          </p>
+          <div style={codeBlock}>{`egon generate-prompts`}</div>
+          <p style={{ ...bodyText, marginTop: '1rem' }}>
+            With <a href="https://ollama.com" target="_blank" rel="noopener noreferrer">Ollama</a>{' '}
+            installed, a model on your own computer can also suggest one question based on your
+            recent entries:
+          </p>
+          <div style={codeBlock}>{`egon suggest-prompt`}</div>
+        </section>
+
+        <section style={section}>
+          <h2 style={sectionHeading}>Looking back on a week or a month</h2>
+          <p style={bodyText}>
+            It is easy to forget how a month actually went. A summary page gives you a few short
+            questions to answer at the end of a week or month: how it felt, what came up, and what
+            you want to carry forward.
+          </p>
+          <div style={codeBlock}>{`egon new-summary --period week
+egon new-summary --period month`}</div>
+          <p style={{ ...bodyText, marginTop: '1rem' }}>
+            For charts of your mood, stress and sleep over time, see{' '}
+            <Link href="/reports">Reports</Link>.
           </p>
         </section>
 
-        {/* Next steps */}
         <section style={section}>
-          <h2 style={sectionHeading}>Next steps</h2>
-          <ul style={{ ...bodyText, listStyle: 'disc', paddingLeft: '1.25rem', lineHeight: 1.85 }}>
-            <li>See what your entries can tell you on the <Link href="/reports">Reports</Link> page</li>
-            <li>Browse the <Link href="/registry">Registry</Link> to download content packs to read alongside your entries</li>
-            <li>Follow the <Link href="/getting-started">Getting Started guide</Link> to set up your Obsidian or Logseq vault</li>
-            <li>
-              View the full source on{' '}
-              <a href="https://github.com/egon-notebooks/egon-journal" target="_blank" rel="noopener noreferrer">
-                GitHub
-              </a>
-            </li>
-          </ul>
+          <h2 style={sectionHeading}>Talking it through with a chatbot</h2>
+          <p style={bodyText}>
+            If you want to talk a few months over with a chatbot, this gathers your entries into
+            one file. Egon only writes the file. Whatever you upload to a cloud chatbot leaves your
+            computer, so decide what you are comfortable sharing first.
+          </p>
+          <div style={codeBlock}>{`egon export-context --months 3 --output context.md`}</div>
+          <p style={{ ...bodyText, marginTop: '1rem' }}>
+            The <Link href="/chat">Chat</Link> page explains the trade-off between local and cloud
+            models.
+          </p>
         </section>
-
       </div>
     </div>
   )

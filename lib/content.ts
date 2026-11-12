@@ -39,7 +39,7 @@ const PACK_ORDER = [
   'self-assessment-tools',
 ]
 
-const BASE_GRAPH_PACKS = new Set([
+export const BASE_GRAPH_PACKS = new Set([
   'understanding-emotions',
   'anxiety-and-worry',
   'low-mood-and-depression',
