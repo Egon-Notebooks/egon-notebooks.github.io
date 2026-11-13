@@ -6,9 +6,10 @@ interface NodeRowProps {
   tool: 'obsidian' | 'logseq'
   obsidianContent: string
   logseqContent: string
+  onOpen: () => void
 }
 
-export default function NodeRow({ node, tool, obsidianContent, logseqContent }: NodeRowProps) {
+export default function NodeRow({ node, tool, obsidianContent, logseqContent, onOpen }: NodeRowProps) {
   return (
     <tr
       style={{
@@ -26,7 +27,9 @@ export default function NodeRow({ node, tool, obsidianContent, logseqContent }: 
           minWidth: '180px',
         }}
       >
-        {node.title}
+        <button type="button" className="node-title-button" onClick={onOpen}>
+          {node.title}
+        </button>
       </td>
       <td
         style={{

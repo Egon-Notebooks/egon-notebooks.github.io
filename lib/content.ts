@@ -160,6 +160,12 @@ export function getBaseGraphFiles(tool: 'obsidian' | 'logseq'): Record<string, s
   return files
 }
 
+// The node's own title from its Obsidian frontmatter, e.g. "PHQ-9 Monthly Depression Check-in".
+function nodeTitle(slug: string): string {
+  const match = getNodeFile(slug, 'obsidian').match(/^title: "?(.*?)"?$/m)
+  return match ? match[1].replace(/\\"/g, '"') : titleFromSlug(slug)
+}
+
 export function getAllNodes(): NodeMeta[] {
   const packs = getAllPacks()
   const seen = new Set<string>()
@@ -172,7 +178,7 @@ export function getAllNodes(): NodeMeta[] {
       nodes.push({
         slug: nodeSlug,
         filename: logseqPath ? path.basename(logseqPath) : `${nodeSlug}.md`,
-        title: titleFromSlug(nodeSlug),
+        title: nodeTitle(nodeSlug),
         description: getNodeFirstLine(nodeSlug),
         pack: pack.slug,
         packName: pack.name,
