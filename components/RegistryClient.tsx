@@ -5,6 +5,7 @@ import { useRouter, useSearchParams } from 'next/navigation'
 import type { Pack, NodeMeta } from '@/lib/content'
 import PackCard from './PackCard'
 import NodeRow from './NodeRow'
+import NodePreview from './NodePreview'
 
 interface PackFiles {
   obsidian: Record<string, string>
@@ -55,8 +56,21 @@ export default function RegistryClient({ packs, nodes, packFiles, nodeFiles }: R
     if (target) target.scrollIntoView({ block: 'start' })
   }, [])
 
+  // The open node lives in the URL (?view=nodes&node=slug), so a preview can be shared.
+  const openSlug = searchParams.get('node')
+  const openNode = nodes.find(n => n.slug === openSlug)
+  const knownSlugs = new Set(nodes.map(n => n.slug))
+
+  const setOpenNode = (slug: string | null) => {
+    const params = new URLSearchParams(searchParams.toString())
+    if (slug) params.set('node', slug)
+    else params.delete('node')
+    router.replace(`/registry${params.toString() ? '?' + params.toString() : ''}`, { scroll: false })
+  }
+
   const handleViewChange = (v: View) => {
     const params = new URLSearchParams(searchParams.toString())
+    params.delete('node')
     if (v === 'nodes') {
       params.set('view', 'nodes')
     } else {
@@ -193,6 +207,7 @@ export default function RegistryClient({ packs, nodes, packFiles, nodeFiles }: R
                   tool={tool}
                   obsidianContent={nodeFiles[node.slug]?.obsidian ?? ''}
                   logseqContent={nodeFiles[node.slug]?.logseq ?? ''}
+                  onOpen={() => setOpenNode(node.slug)}
                 />
               ))}
             </tbody>
@@ -204,6 +219,18 @@ export default function RegistryClient({ packs, nodes, packFiles, nodeFiles }: R
             }
           `}</style>
         </div>
+      )}
+
+      {openNode && (
+        <NodePreview
+          node={openNode}
+          tool={tool}
+          obsidianContent={nodeFiles[openNode.slug]?.obsidian ?? ''}
+          logseqContent={nodeFiles[openNode.slug]?.logseq ?? ''}
+          knownSlugs={knownSlugs}
+          onOpenNode={setOpenNode}
+          onClose={() => setOpenNode(null)}
+        />
       )}
     </div>
   )
