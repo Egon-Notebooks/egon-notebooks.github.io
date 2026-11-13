@@ -104,9 +104,13 @@ export default function GettingStartedPage() {
         >
           Getting started
         </h1>
-        <p style={{ ...body, fontSize: '1.05rem', marginBottom: '3.5rem' }}>
+        <p style={{ ...body, fontSize: '1.05rem', marginBottom: '1rem' }}>
           You can start in a few minutes, without installing anything technical. All you need is
           a notes app and a little time to write.
+        </p>
+        <p style={{ ...body, marginBottom: '3.5rem' }}>
+          Curious what it looks like after a few months? The <Link href="/demo">demo</Link> shows
+          four made-up people and their reports.
         </p>
 
         <p style={partLabel}>Start writing</p>

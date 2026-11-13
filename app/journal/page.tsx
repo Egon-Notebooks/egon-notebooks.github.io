@@ -69,7 +69,8 @@ export default function JournalPage() {
           You can keep your journal in Obsidian or Logseq with nothing else installed (see{' '}
           <Link href="/getting-started">Getting started</Link>). <code>egon-journal</code> is an
           optional command-line tool that adds a few things on top. Nothing it does leaves your
-          computer.
+          computer. To see how different people use it, have a look at the{' '}
+          <Link href="/demo">demo</Link>.
         </p>
 
         <section style={section}>
