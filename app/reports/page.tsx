@@ -11,7 +11,6 @@ export const metadata: Metadata = buildMetadata({
 })
 
 const DEMO_REPORT = '/demo/report-david-osei-2025-Q1.html'
-const DEMO_SHARE_REPORT = '/demo/report-marcus-webb-2025-Q1-share.html'
 
 const sectionHeading: React.CSSProperties = {
   fontFamily: 'var(--font-display)',
@@ -280,11 +279,9 @@ export default function ReportsPage() {
             </a>
           </p>
           <p style={{ ...bodyText, marginTop: '0.75rem' }}>
-            There is also a shorter kind of report, prepared to share with someone involved in your
-            care. <em>Marcus Webb</em>, another fictional persona, sees a therapist every two weeks:{' '}
-            <a href={DEMO_SHARE_REPORT} target="_blank" rel="noopener noreferrer">
-              open his report to share →
-            </a>
+            David is one of four made-up people on the <Link href="/demo">demo</Link> page. Each
+            uses Egon differently and has a report of their own, including a shorter report to
+            share with a therapist.
           </p>
         </section>
 
