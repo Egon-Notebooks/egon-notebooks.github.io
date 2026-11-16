@@ -180,6 +180,18 @@ const REPORTS: {
         appleHealth: true,
       },
       {
+        name: 'Sleep regularity',
+        description: 'How much your bedtime and sleep length varied over the previous week. Irregular sleep is associated with lower mood.',
+        command: 'egon report sleep-regularity',
+        appleHealth: true,
+      },
+      {
+        name: 'Time in daylight',
+        description: 'Minutes outdoors in daylight each day, measured by Apple Watch. More daylight is associated with better mood and sleep.',
+        command: 'egon report daylight',
+        appleHealth: true,
+      },
+      {
         name: 'Steps',
         description: 'Daily steps with a 7-day trend and a 7,000-step reference line, the range where benefits for mood show up in research.',
         command: 'egon report step-count',
