@@ -1,0 +1,47 @@
+<!doctype html><html><head><meta charset="utf-8"><link rel="stylesheet" href="scene.css">
+<style>
+  .cmd { position: absolute; top: 108px; left: 120px; font-family: "Source Code Pro", Menlo, monospace; font-size: 26px; color: var(--ink); }
+  .cmd .typed { display: inline-block; overflow: hidden; white-space: nowrap; vertical-align: bottom; width: 0; animation: type 1.8s steps(26) 0.6s forwards; }
+  .cmd .done { display: block; margin-top: 10px; font-size: 19px; color: var(--muted); opacity: 0; animation: fade .6s ease-out 2.8s forwards; }
+  @keyframes type { to { width: 26ch; } }
+  .card { position: absolute; left: 120px; right: 120px; top: 215px; height: 360px; background: #fffdf9; border: 1px solid var(--rule); border-radius: 4px;
+    box-shadow: 0 26px 50px -30px rgba(28,25,23,.45); padding: 26px 34px; opacity: 0; animation: fade-up 1s ease-out 3.4s forwards; }
+  .fig { font-size: 15px; letter-spacing: .14em; color: var(--accent); }
+  .title { font-family: "Cormorant Garamond"; font-weight: 500; font-size: 40px; margin: 6px 0 2px; }
+  .sub { font-size: 18px; color: var(--muted); }
+  svg { position: absolute; left: 34px; right: 34px; bottom: 22px; width: calc(100% - 68px); height: 190px; }
+  .bar { transform-box: fill-box; transform: scaleY(0); }
+  .line { fill: none; stroke: var(--ink); stroke-width: 2.2; }
+  .avg { stroke: var(--muted); stroke-dasharray: 2 4; }
+  .avg-label { font-size: 12px; fill: var(--muted); }
+</style></head><body>
+<div class="brand">Egon <em>Notebooks</em></div>
+<div class="step">III. Look back</div>
+<div class="cmd">$ <span class="typed">egon report --for 2025-Q1</span><span class="done">Saved: reports/full_report/2025-Q1.html</span></div>
+<div class="card">
+  <div class="fig">FIG. 2.1</div>
+  <div class="title">Tone of your writing</div>
+  <div class="sub">Lena, January to March. Each bar is a day; the line is the 7-day average.</div>
+  <svg id="c" viewBox="0 0 1000 200" preserveAspectRatio="none"></svg>
+</div>
+<p class="caption" style="animation-delay: 4.6s">See how you have been.</p>
+<script>
+  fetch('tone-lena-2025-Q1.json').then(r => r.json()).then(rows => {
+    const svg = document.getElementById('c'), NS = 'http://www.w3.org/2000/svg', W = 1000, H = 200, mid = H / 2
+    const el = (t, a) => { const n = document.createElementNS(NS, t); for (const k in a) n.setAttribute(k, a[k]); svg.appendChild(n); return n }
+    const step = W / rows.length, y = v => mid - v * (mid - 8)
+    rows.forEach(([, v], i) => {
+      const b = el('rect', { class: 'bar', x: i * step + step * 0.2, width: step * 0.6, y: v >= 0 ? y(v) : mid, height: Math.abs(y(v) - mid),
+        fill: v >= 0 ? '#8fb0d8' : '#e2a68d' })
+      b.style.transformOrigin = v >= 0 ? 'bottom' : 'top'
+      b.style.animation = `grow .5s ease-out ${4.4 + i * 0.035}s forwards`
+    })
+    const avg = rows.reduce((s, r) => s + r[1], 0) / rows.length
+    el('line', { class: 'avg', x1: 0, x2: W, y1: y(avg), y2: y(avg) })
+    const d = rows.map(([, , a], i) => `${i ? 'L' : 'M'}${(i + 0.5) * step},${y(a)}`).join(' ')
+    const p = el('path', { class: 'line', d, 'vector-effect': 'non-scaling-stroke' })
+    const len = p.getTotalLength(); p.style.strokeDasharray = len; p.style.strokeDashoffset = len
+    p.style.animation = 'draw 3s ease-in-out 8.2s forwards'
+  })
+</script>
+</body></html>

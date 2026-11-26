@@ -1,0 +1,27 @@
+/* Shared look for the demo scenes: the website's paper, type and colors. 1280x720. */
+@font-face { font-family: "Cormorant Garamond"; font-weight: 400; src: url("../../node_modules/@fontsource/cormorant-garamond/files/cormorant-garamond-latin-400-normal.woff2"); }
+@font-face { font-family: "Cormorant Garamond"; font-weight: 400; font-style: italic; src: url("../../node_modules/@fontsource/cormorant-garamond/files/cormorant-garamond-latin-400-italic.woff2"); }
+@font-face { font-family: "Cormorant Garamond"; font-weight: 500; src: url("../../node_modules/@fontsource/cormorant-garamond/files/cormorant-garamond-latin-500-normal.woff2"); }
+@font-face { font-family: "DM Sans"; font-weight: 400; src: url("../../node_modules/@fontsource/dm-sans/files/dm-sans-latin-400-normal.woff2"); }
+@font-face { font-family: "DM Sans"; font-weight: 500; src: url("../../node_modules/@fontsource/dm-sans/files/dm-sans-latin-500-normal.woff2"); }
+@font-face { font-family: "La Belle Aurore"; src: url("../../node_modules/@fontsource/la-belle-aurore/files/la-belle-aurore-latin-400-normal.woff2"); }
+
+:root { --base: #f7f4ef; --ink: #1c1917; --muted: #6b6560; --accent: #8b1a1a; --rule: #ddd8d0; --blue: #2a66a8; --terra: #c0582f; }
+* { box-sizing: border-box; margin: 0; }
+html, body { width: 1280px; height: 720px; overflow: hidden; background: var(--base); color: var(--ink); font-family: "DM Sans", sans-serif; }
+body::before { content: ""; position: fixed; inset: 0; opacity: 0.05; pointer-events: none;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='300' height='300'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='300' height='300' filter='url(%23n)'/%3E%3C/svg%3E"); }
+
+.brand { position: absolute; top: 40px; left: 56px; font-family: "Cormorant Garamond"; font-size: 30px; letter-spacing: -0.01em; }
+.brand em { color: var(--accent); }
+.step { position: absolute; top: 48px; right: 56px; font-size: 16px; letter-spacing: 0.16em; text-transform: uppercase; color: var(--muted); }
+.caption { position: absolute; left: 0; right: 0; bottom: 52px; text-align: center; font-family: "Cormorant Garamond"; font-style: italic; font-size: 56px; letter-spacing: -0.01em;
+  opacity: 0; animation: fade-up 1.2s ease-out forwards; }
+.hand { font-family: "La Belle Aurore", cursive; }
+
+@keyframes fade-up { from { opacity: 0; transform: translateY(14px); } to { opacity: 1; transform: none; } }
+@keyframes fade { from { opacity: 0; } to { opacity: 1; } }
+@keyframes write { from { clip-path: inset(0 100% 0 0); } to { clip-path: inset(0 0 0 0); } }
+@keyframes draw { to { stroke-dashoffset: 0; } }
+@keyframes pop { from { opacity: 0; transform: scale(0.4); } to { opacity: 1; transform: scale(1); } }
+@keyframes grow { from { transform: scaleY(0); } to { transform: scaleY(1); } }

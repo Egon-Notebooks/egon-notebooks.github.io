@@ -3,6 +3,8 @@ import { Suspense } from 'react'
 import { getAllPacks, getAllNodes, getPackFiles, getNodeFile } from '@/lib/content'
 import { buildMetadata } from '@/lib/metadata'
 import RegistryClient from '@/components/RegistryClient'
+import Ink from '@/components/Ink'
+import PageTitle from '@/components/PageTitle'
 
 export const metadata: Metadata = buildMetadata({
   title: 'The Registry',
@@ -31,18 +33,7 @@ export default function RegistryPage() {
       <div className="container">
         {/* Page header */}
         <div style={{ marginBottom: '2.5rem' }}>
-          <h1
-            style={{
-              fontFamily: 'var(--font-display)',
-              fontSize: 'clamp(2rem, 4vw, 3rem)',
-              fontWeight: 600,
-              color: 'var(--color-ink)',
-              marginBottom: '0.75rem',
-              letterSpacing: '-0.01em',
-            }}
-          >
-            The Registry
-          </h1>
+          <PageTitle eyebrow="The library">The <Ink>Registry</Ink></PageTitle>
           <p
             style={{
               fontSize: '1rem',

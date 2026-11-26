@@ -2,6 +2,8 @@ import Image from 'next/image'
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import { buildMetadata } from '@/lib/metadata'
+import Ink from '@/components/Ink'
+import PageTitle from '@/components/PageTitle'
 
 export const metadata: Metadata = buildMetadata({
   title: 'Demo',
@@ -74,18 +76,7 @@ export default function DemoPage() {
     <div style={{ paddingBlock: '3rem 5rem' }}>
       <div className="container">
         <div style={{ maxWidth: '680px', marginBottom: '3rem' }}>
-          <h1
-            style={{
-              fontFamily: 'var(--font-display)',
-              fontSize: 'clamp(2rem, 4vw, 3rem)',
-              fontWeight: 600,
-              color: 'var(--color-ink)',
-              marginBottom: '0.75rem',
-              letterSpacing: '-0.01em',
-            }}
-          >
-            Four people, four ways in
-          </h1>
+          <PageTitle eyebrow="Demo">Four people, four <Ink>ways in</Ink></PageTitle>
           <p style={{ ...body, fontSize: '1.02rem' }}>
             It is easier to understand Egon by seeing it used. These four people are made up, and
             so are their journals and health data, but their reports were made with the same
@@ -119,7 +110,7 @@ export default function DemoPage() {
                 style={{ width: '100%', height: 'auto', aspectRatio: '1 / 1', objectFit: 'cover', borderBottom: '1px solid var(--color-border)' }}
               />
               <div style={{ padding: '1.5rem', display: 'flex', flexDirection: 'column', flex: 1 }}>
-                <h2 style={{ fontFamily: 'var(--font-display)', fontSize: '1.5rem', fontWeight: 600, color: 'var(--color-ink)', margin: 0 }}>
+                <h2 style={{ fontFamily: 'var(--font-display)', fontSize: '1.7rem', fontWeight: 400, color: 'var(--color-ink)', margin: 0 }}>
                   {p.name}
                 </h2>
                 <p style={{ fontSize: '0.8rem', color: 'var(--color-accent)', margin: '0.25rem 0 1rem' }}>{p.line}</p>

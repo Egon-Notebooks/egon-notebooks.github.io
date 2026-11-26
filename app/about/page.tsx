@@ -2,6 +2,8 @@ import Image from 'next/image'
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import { buildMetadata } from '@/lib/metadata'
+import Ink from '@/components/Ink'
+import PageTitle from '@/components/PageTitle'
 
 export const metadata: Metadata = buildMetadata({
   title: 'About',
@@ -12,10 +14,12 @@ export const metadata: Metadata = buildMetadata({
 
 const h2: React.CSSProperties = {
   fontFamily: 'var(--font-display)',
-  fontSize: '1.55rem',
-  fontWeight: 600,
+  fontSize: 'clamp(1.8rem, 3vw, 2.4rem)',
+  fontWeight: 400,
+  lineHeight: 1.1,
+  letterSpacing: '-0.01em',
   color: 'var(--color-ink)',
-  marginBottom: '0.875rem',
+  marginBottom: '1rem',
 }
 
 const p: React.CSSProperties = {
@@ -34,19 +38,8 @@ const section: React.CSSProperties = {
 export default function AboutPage() {
   return (
     <div style={{ paddingBlock: '3rem 5rem' }}>
-      <div className="container" style={{ maxWidth: '680px' }}>
-        <h1
-          style={{
-            fontFamily: 'var(--font-display)',
-            fontSize: 'clamp(2rem, 4vw, 3rem)',
-            fontWeight: 600,
-            color: 'var(--color-ink)',
-            marginBottom: '0.75rem',
-            letterSpacing: '-0.01em',
-          }}
-        >
-          About
-        </h1>
+      <div className="container chapters" style={{ maxWidth: '680px' }}>
+        <PageTitle eyebrow="Why this exists"><Ink>About</Ink></PageTitle>
         <p style={{ ...p, fontSize: '1.05rem', marginBottom: '3rem' }}>
           Egon Notebooks is an open, private place to understand yourself: a library of
           psychology, tools for journaling, and reports that run on your own computer. We think

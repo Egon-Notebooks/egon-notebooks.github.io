@@ -33,3 +33,7 @@ npx serve out      # preview the production build
   the CLI or reports change, and regenerate the demo report when the report design changes.
 - Never put real user data on the site. Demo reports must come from synthetic
   persona data.
+- Demo videos are animated scenes in `scripts/demo-scenes/` (HTML in the site's style,
+  synthetic text only). To re-record: `npx serve .` in the repo, then
+  `node scripts/demo-scenes/record.mjs http://localhost:3000 /tmp/scenes`, and encode each
+  `.webm` to `public/videos/<name>.mp4` plus a `-poster.webp` still with ffmpeg.
