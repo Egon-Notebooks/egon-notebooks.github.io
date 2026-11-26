@@ -1,0 +1,45 @@
+<!doctype html><html><head><meta charset="utf-8"><link rel="stylesheet" href="scene.css">
+<style>
+  svg { position: absolute; inset: 0; }
+  .edge { fill: none; stroke: var(--ink); stroke-opacity: .55; stroke-width: 2; stroke-linecap: round; }
+  .node circle { fill: var(--base); stroke: var(--ink); stroke-width: 1.6; }
+  .node text { font-family: "Cormorant Garamond"; font-size: 34px; fill: var(--ink); }
+  .entry circle { fill: var(--accent); }
+  .entry text { font-family: "La Belle Aurore", cursive; font-size: 30px; fill: var(--accent); }
+  .node, .entry { opacity: 0; transform-box: fill-box; transform-origin: center; animation: pop .7s cubic-bezier(.2,.8,.3,1.2) forwards; }
+  .new circle { stroke: var(--accent); stroke-width: 2; }
+</style></head><body>
+<div class="brand">Egon <em>Notebooks</em></div>
+<div class="step">II. Read</div>
+<svg viewBox="0 0 1280 720" id="g"></svg>
+<p class="caption" style="animation-delay: 1.4s">Link what you read to what you wrote.</p>
+<script>
+  const A = { sleep: [430, 190, 'Sleep and mental health', 'end'], mood: [850, 190, 'Understanding low mood', 'start'],
+              mind: [400, 470, 'What is mindfulness', 'end'], lonely: [830, 470, 'Loneliness and connection', 'start'],
+              nature: [640, 520, 'Time in nature', 'middle'] }
+  const E = { e1: [600, 260, '3 March'], e2: [720, 340, '9 March'], e3: [560, 410, '16 March'] }
+  const svg = document.getElementById('g'); const NS = 'http://www.w3.org/2000/svg'
+  const el = (tag, attrs, parent = svg) => { const n = document.createElementNS(NS, tag); for (const k in attrs) n.setAttribute(k, attrs[k]); parent.appendChild(n); return n }
+  const edges = el('g', {})
+  function node(key, delay, isNew) {
+    const [x, y, label, anchor] = A[key]; const g = el('g', { class: 'node' + (isNew ? ' new' : ''), style: `animation-delay:${delay}s` })
+    el('circle', { cx: x, cy: y, r: 11 }, g)
+    const dx = anchor === 'end' ? -18 : anchor === 'start' ? 18 : 0, dy = anchor === 'middle' ? 38 : 8
+    el('text', { x: x + dx, y: y + dy, 'text-anchor': anchor }, g).textContent = label
+  }
+  function entry(key, delay) {
+    const [x, y, label] = E[key]; const g = el('g', { class: 'entry', style: `animation-delay:${delay}s` })
+    el('circle', { cx: x, cy: y, r: 8 }, g); el('text', { x: x + 16, y: y - 14 }, g).textContent = label
+  }
+  function edge(a, b, delay) {
+    const [x1, y1] = E[a], [x2, y2] = A[b]; const mx = (x1 + x2) / 2 + (y2 - y1) * 0.12, my = (y1 + y2) / 2 - (x2 - x1) * 0.12
+    const p = el('path', { class: 'edge', d: `M${x1},${y1} Q${mx},${my} ${x2},${y2}` }, edges)
+    const len = p.getTotalLength(); p.style.strokeDasharray = len; p.style.strokeDashoffset = len
+    p.style.animation = `draw 1.1s ease-in-out ${delay}s forwards`
+  }
+  node('sleep', 0.5); node('mood', 0.8); node('mind', 1.1); node('lonely', 1.4)
+  entry('e1', 3.0); edge('e1', 'sleep', 3.6); edge('e1', 'mood', 4.3)
+  entry('e2', 6.0); edge('e2', 'lonely', 6.6)
+  entry('e3', 8.6); edge('e3', 'mind', 9.2); node('nature', 10.6, true); edge('e3', 'nature', 11.4)
+</script>
+</body></html>
