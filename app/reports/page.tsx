@@ -2,6 +2,9 @@ import type { Metadata } from 'next'
 import Image from 'next/image'
 import Link from 'next/link'
 import { buildMetadata } from '@/lib/metadata'
+import Ink from '@/components/Ink'
+import PageTitle from '@/components/PageTitle'
+import DemoVideo from '@/components/DemoVideo'
 
 export const metadata: Metadata = buildMetadata({
   title: 'Reports',
@@ -14,10 +17,12 @@ const DEMO_REPORT = '/demo/report-david-osei-2025-Q1.html'
 
 const sectionHeading: React.CSSProperties = {
   fontFamily: 'var(--font-display)',
-  fontSize: '1.6rem',
-  fontWeight: 600,
+  fontSize: 'clamp(1.8rem, 3vw, 2.4rem)',
+  fontWeight: 400,
+  lineHeight: 1.1,
+  letterSpacing: '-0.01em',
   color: 'var(--color-ink)',
-  marginBottom: '0.75rem',
+  marginBottom: '1rem',
 }
 
 const subsectionHeading: React.CSSProperties = {
@@ -227,21 +232,10 @@ const REPORTS: {
 export default function ReportsPage() {
   return (
     <div style={{ paddingBlock: '3rem 5rem' }}>
-      <div className="container" style={{ maxWidth: '760px' }}>
+      <div className="container chapters" style={{ maxWidth: '760px' }}>
 
         {/* Header */}
-        <h1
-          style={{
-            fontFamily: 'var(--font-display)',
-            fontSize: 'clamp(2rem, 4vw, 3rem)',
-            fontWeight: 600,
-            color: 'var(--color-ink)',
-            marginBottom: '0.75rem',
-            letterSpacing: '-0.01em',
-          }}
-        >
-          Reports
-        </h1>
+        <PageTitle eyebrow="Looking back"><Ink>Reports</Ink></PageTitle>
         <p style={{ ...bodyText, fontSize: '1rem', marginBottom: '1rem' }}>
           From one day to the next, it is hard to tell whether you are actually doing better.
           A report puts your journal and your Apple Health data side by side over a week, a month,
@@ -254,6 +248,13 @@ export default function ReportsPage() {
           wellbeing and how to read it. Most people keep their reports to themselves. If you want to
           share one with someone you trust, you can print it or save it as a PDF.
         </p>
+
+        <div style={{ margin: '0 0 3.5rem' }}>
+          <DemoVideo
+            name="report"
+            description="A report command runs, and a chart of the tone of three months of writing draws itself in."
+          />
+        </div>
 
         {/* Example */}
         <section style={{ marginBottom: '3.5rem' }}>

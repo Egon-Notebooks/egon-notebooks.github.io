@@ -3,6 +3,9 @@ import Link from 'next/link'
 import { BASE_GRAPH_PACKS, getBaseGraphFiles } from '@/lib/content'
 import BaseGraphDownload from '@/components/BaseGraphDownload'
 import { buildMetadata } from '@/lib/metadata'
+import Ink from '@/components/Ink'
+import PageTitle from '@/components/PageTitle'
+import JournalPage from '@/components/JournalPage'
 
 export const metadata: Metadata = buildMetadata({
   title: 'Getting started',
@@ -32,10 +35,12 @@ const QUESTIONS = [
 
 const h2: React.CSSProperties = {
   fontFamily: 'var(--font-display)',
-  fontSize: '1.6rem',
-  fontWeight: 600,
+  fontSize: 'clamp(1.8rem, 3vw, 2.4rem)',
+  fontWeight: 400,
+  lineHeight: 1.1,
+  letterSpacing: '-0.01em',
   color: 'var(--color-ink)',
-  marginBottom: '0.75rem',
+  marginBottom: '1rem',
 }
 
 const body: React.CSSProperties = {
@@ -77,7 +82,7 @@ function Step({ n, title, children }: { n: number; title: string; children: Reac
   return (
     <section style={{ marginBottom: '3rem' }}>
       <h2 style={h2}>
-        <span style={{ color: 'var(--color-accent)', marginRight: '0.6rem' }}>{n}</span>
+        <span className="numeral" style={{ marginRight: '0.7rem' }}>{n}</span>
         {title}
       </h2>
       {children}
@@ -92,18 +97,7 @@ export default function GettingStartedPage() {
   return (
     <div style={{ paddingBlock: '3rem 5rem' }}>
       <div className="container" style={{ maxWidth: '760px' }}>
-        <h1
-          style={{
-            fontFamily: 'var(--font-display)',
-            fontSize: 'clamp(2rem, 4vw, 3rem)',
-            fontWeight: 600,
-            color: 'var(--color-ink)',
-            marginBottom: '0.75rem',
-            letterSpacing: '-0.01em',
-          }}
-        >
-          Getting started
-        </h1>
+        <PageTitle eyebrow="Begin here">Getting <Ink>started</Ink></PageTitle>
         <p style={{ ...body, fontSize: '1.05rem', marginBottom: '1rem' }}>
           You can start in a few minutes, without installing anything technical. All you need is
           a notes app and a little time to write.
@@ -146,13 +140,9 @@ export default function GettingStartedPage() {
             Sometimes you don&apos;t know what to write about. You could start from one of these,
             or ignore them completely:
           </p>
-          <ul style={{ ...card, listStyle: 'none', margin: '0 0 1rem' }}>
-            {QUESTIONS.map(q => (
-              <li key={q} style={{ fontFamily: 'var(--font-display)', fontSize: '1.15rem', color: 'var(--color-ink)', padding: '0.3rem 0' }}>
-                {q}
-              </li>
-            ))}
-          </ul>
+          <div style={{ maxWidth: '520px', margin: '1.5rem 0 2.25rem' }}>
+            <JournalPage date="Something to start from" lines={QUESTIONS} />
+          </div>
           <p style={body}>
             The more you write, the more there is to look back on. A few lines on most days will
             tell you more after a month than a long entry once in a while.
@@ -173,11 +163,7 @@ export default function GettingStartedPage() {
           <BaseGraphDownload obsidianFiles={obsidianFiles} logseqFiles={logseqFiles} packCount={BASE_GRAPH_PACKS.size} />
         </Step>
 
-        <p style={{ ...body, fontStyle: 'italic', marginBottom: '4rem' }}>
-          That is enough to begin. Many people never need more.
-        </p>
-
-        <p style={partLabel}>Going further, if you like</p>
+        <p style={{ ...partLabel, marginTop: '4rem' }}>Going further, if you like</p>
         <section style={{ marginBottom: '1rem' }}>
           <h2 style={h2}>Prompts, summaries and reports</h2>
           <p style={body}>
@@ -186,11 +172,9 @@ export default function GettingStartedPage() {
             own computer and needs <a href="https://docs.astral.sh/uv/" target="_blank" rel="noopener noreferrer">uv</a>.
           </p>
           <div style={codeBlock}>{`uv tool install git+https://github.com/Egon-Notebooks/egon-journal
-egon new-entry
 egon report --period month --full`}</div>
           <p style={body}>
-            Tell it where your journal lives in a <code>.env</code> file, and set{' '}
-            <code>app = &quot;logseq&quot;</code> in <code>egon.toml</code> if you use Logseq. The{' '}
+            Tell it where your journal entries are saved in a <code>.env</code> file. The{' '}
             <Link href="/journal">Journal</Link> and <Link href="/reports">Reports</Link> pages
             explain each part.
           </p>

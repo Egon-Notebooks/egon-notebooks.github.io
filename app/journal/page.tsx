@@ -1,6 +1,8 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import { buildMetadata } from '@/lib/metadata'
+import Ink from '@/components/Ink'
+import PageTitle from '@/components/PageTitle'
 
 export const metadata: Metadata = buildMetadata({
   title: 'Journal',
@@ -11,10 +13,12 @@ export const metadata: Metadata = buildMetadata({
 
 const sectionHeading: React.CSSProperties = {
   fontFamily: 'var(--font-display)',
-  fontSize: '1.6rem',
-  fontWeight: 600,
+  fontSize: 'clamp(1.8rem, 3vw, 2.4rem)',
+  fontWeight: 400,
+  lineHeight: 1.1,
+  letterSpacing: '-0.01em',
   color: 'var(--color-ink)',
-  marginBottom: '0.75rem',
+  marginBottom: '1rem',
 }
 
 const bodyText: React.CSSProperties = {
@@ -46,19 +50,8 @@ const codeBlock: React.CSSProperties = {
 export default function JournalPage() {
   return (
     <div style={{ paddingBlock: '3rem 5rem' }}>
-      <div className="container" style={{ maxWidth: '760px' }}>
-        <h1
-          style={{
-            fontFamily: 'var(--font-display)',
-            fontSize: 'clamp(2rem, 4vw, 3rem)',
-            fontWeight: 600,
-            color: 'var(--color-ink)',
-            marginBottom: '0.75rem',
-            letterSpacing: '-0.01em',
-          }}
-        >
-          The journal
-        </h1>
+      <div className="container chapters" style={{ maxWidth: '760px' }}>
+        <PageTitle eyebrow="Writing">The <Ink>journal</Ink></PageTitle>
         <p style={{ ...bodyText, fontSize: '1rem', marginBottom: '1rem' }}>
           Writing things down helps. It slows a thought down enough to look at it, and over weeks
           it leaves a record you can learn from. Research suggests the benefit is real but modest (Sohal et al., 2022),
@@ -81,34 +74,19 @@ export default function JournalPage() {
           </p>
           <div style={codeBlock}>{`uv tool install git+https://github.com/Egon-Notebooks/egon-journal`}</div>
           <p style={{ ...bodyText, marginTop: '1rem' }}>
-            In the folder you run <code>egon</code> from, create a <code>.env</code> file that says
-            where your journal lives. If you use Logseq, add an <code>egon.toml</code> too, so new
-            entries become Logseq&apos;s own daily pages:
+            You write your entries in Obsidian or Logseq, as daily notes. In the folder you run{' '}
+            <code>egon</code> from, create a <code>.env</code> file that says where those notes are
+            saved:
           </p>
           <div style={codeBlock}>{`# .env
-EGON_JOURNAL_DIR=/path/to/your/graph/journal
-
-# egon.toml (Logseq only)
-[graph]
-app = "logseq"`}</div>
-        </section>
-
-        <section style={section}>
-          <h2 style={sectionHeading}>A new entry</h2>
-          <p style={bodyText}>
-            Obsidian and Logseq can both make a daily note for you, and Egon reads those. If you
-            prefer the terminal, this makes today&apos;s entry and never overwrites one you have
-            already started:
-          </p>
-          <div style={codeBlock}>{`egon new-entry          # today
-egon new-entry --open   # and open it in your editor`}</div>
+EGON_JOURNAL_DIR=/path/to/your/graph/journal`}</div>
         </section>
 
         <section style={section}>
           <h2 style={sectionHeading}>When you don&apos;t know what to write</h2>
           <p style={bodyText}>
             Sometimes you sit down and nothing comes. A prompt gives you one question to start
-            from, linked to an article about the topic. Take it or leave it.
+            from.
           </p>
           <div style={codeBlock}>{`egon generate-prompts`}</div>
           <p style={{ ...bodyText, marginTop: '1rem' }}>

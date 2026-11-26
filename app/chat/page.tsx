@@ -2,6 +2,8 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import { buildMetadata } from '@/lib/metadata'
 import ChatModeTabs from '@/components/ChatModeTabs'
+import Ink from '@/components/Ink'
+import PageTitle from '@/components/PageTitle'
 
 export const metadata: Metadata = buildMetadata({
   title: 'Chat',
@@ -12,10 +14,12 @@ export const metadata: Metadata = buildMetadata({
 
 const sectionHeading: React.CSSProperties = {
   fontFamily: 'var(--font-display)',
-  fontSize: '1.6rem',
-  fontWeight: 600,
+  fontSize: 'clamp(1.8rem, 3vw, 2.4rem)',
+  fontWeight: 400,
+  lineHeight: 1.1,
+  letterSpacing: '-0.01em',
   color: 'var(--color-ink)',
-  marginBottom: '0.75rem',
+  marginBottom: '1rem',
 }
 
 const subsectionHeading: React.CSSProperties = {
@@ -171,22 +175,11 @@ const cloudPanel = (
 export default function ChatPage() {
   return (
     <div style={{ paddingBlock: '3rem 5rem' }}>
-      <div className="container" style={{ maxWidth: '760px' }}>
+      <div className="container chapters" style={{ maxWidth: '760px' }}>
 
         {/* Header */}
         <span style={tag}>Planned for v0.5</span>
-        <h1
-          style={{
-            fontFamily: 'var(--font-display)',
-            fontSize: 'clamp(2rem, 4vw, 3rem)',
-            fontWeight: 600,
-            color: 'var(--color-ink)',
-            marginBottom: '0.75rem',
-            letterSpacing: '-0.01em',
-          }}
-        >
-          Chat
-        </h1>
+        <PageTitle eyebrow="Talking it through"><Ink>Chat</Ink></PageTitle>
         <p style={{ ...bodyText, fontSize: '1rem', marginBottom: '1rem' }}>
           Some days a blank page is exactly right. On others you don&apos;t know where to start, or you
           keep circling the same thought. A good question, such as <em>what happened just before you felt

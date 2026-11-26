@@ -39,7 +39,9 @@ export default function Nav() {
       <header
         style={{
           borderBottom: '1px solid var(--color-border)',
-          backgroundColor: 'var(--color-base)',
+          backgroundColor: 'rgba(247, 244, 239, 0.86)',
+          backdropFilter: 'blur(8px)',
+          WebkitBackdropFilter: 'blur(8px)',
           position: 'sticky',
           top: 0,
           zIndex: 50,
@@ -81,15 +83,12 @@ export default function Nav() {
               <Link
                 key={link.href}
                 href={link.href}
+                className="link-draw"
+                aria-current={isActive(link.href) ? 'page' : undefined}
                 style={{
                   fontFamily: 'var(--font-body)',
                   fontSize: '0.875rem',
                   fontWeight: 500,
-                  color: isActive(link.href) ? 'var(--color-accent)' : 'var(--color-ink-muted)',
-                  textDecoration: 'none',
-                  borderBottom: isActive(link.href) ? '1px solid var(--color-accent)' : '1px solid transparent',
-                  paddingBottom: '1px',
-                  transition: 'color 0.15s ease, border-color 0.15s ease',
                 }}
               >
                 {link.label}
